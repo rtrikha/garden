@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="301px" height="491px" viewBox="0 0 301 491" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Mobile/Calendar/with Range</title>
+    <desc>Created with Sketch.</desc>
+    <g id="garden" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-895.000000, -558.000000)">
+            <g id="hero" transform="translate(258.000000, 333.000000)">
+                <g id="Mobile/Calendar/with-Range" transform="translate(637.600000, 225.600000)">
+                    <rect id="Container" fill="#FAFAFA" x="0" y="57.6" width="300" height="416"></rect>
+                    <g id="Dates" transform="translate(0.000000, 132.000000)">
+                        <g id="31" transform="translate(23.000000, 292.800000)">
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="5.6112" y="13">31</tspan>
+                            </text>
+                            <text id="₹2100" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="1.0036" y="24.8">₹</tspan>
+                                <tspan x="5.3236" y="24.8" font-family="Metropolis-SemiBold, Metropolis">2100</tspan>
+                            </text>
+                        </g>
+                        <g id="30" transform="translate(246.400000, 230.400000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="10.5568" y="17.8">30</tspan>
+                            </text>
+                            <text id="₹2000" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="6.8984" y="29.6">₹</tspan>
+                                <tspan x="11.2184" y="29.6" font-family="Metropolis-SemiBold, Metropolis">2000</tspan>
+                            </text>
+                        </g>
+                        <g id="29" transform="translate(0.000000, 230.400000)">
+                            <path d="M0,0 L243.2,0 C244.967311,-7.6873901e-16 246.4,1.4326888 246.4,3.2 L246.4,35.2 C246.4,36.9673112 244.967311,38.4 243.2,38.4 L0,38.4 L0,38.4 L0,0 Z" id="Container" fill="#0D0D0D"></path>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#FFFFFF">
+                                <tspan x="218.9536" y="17.8">29</tspan>
+                            </text>
+                            <text id="₹450" opacity="0.900000036" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#DFDFDF">
+                                <tspan x="217.6128" y="29.6">₹</tspan>
+                                <tspan x="221.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="28" transform="translate(169.600000, 230.400000)">
+                            <rect id="Container" fill="#FFFFFF" opacity="0" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#FFFFFF">
+                                <tspan x="11.0688" y="17.8">28</tspan>
+                            </text>
+                            <text id="₹899" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#DFDFDF">
+                                <tspan x="9.836" y="29.6">₹</tspan>
+                                <tspan x="14.156" y="29.6" font-family="Metropolis-SemiBold, Metropolis">899</tspan>
+                            </text>
+                        </g>
+                        <g id="27" transform="translate(131.200000, 230.400000)">
+                            <rect id="Container" fill="#FFFFFF" opacity="0" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#FFFFFF">
+                                <tspan x="11.1392" y="17.8">27</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#DFDFDF">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="26" transform="translate(101.400000, 235.200000)">
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#FFFFFF">
+                                <tspan x="2.3536" y="13">26</tspan>
+                            </text>
+                            <text id="₹450" opacity="0.900000036" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#DFDFDF">
+                                <tspan x="1.0128" y="24.8">₹</tspan>
+                                <tspan x="5.3328" y="24.8" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="25" transform="translate(63.000000, 235.200000)">
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#FFFFFF">
+                                <tspan x="2.5136" y="13">25</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#DFDFDF">
+                                <tspan x="1.0128" y="24.8">₹</tspan>
+                                <tspan x="5.3328" y="24.8" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="24" transform="translate(23.200000, 235.200000)">
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#FFFFFF">
+                                <tspan x="3.7472" y="13">24</tspan>
+                            </text>
+                            <text id="₹1900" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#DFDFDF">
+                                <tspan x="0.6848" y="24.8">₹</tspan>
+                                <tspan x="5.0048" y="24.8" font-family="Metropolis-SemiBold, Metropolis">1900</tspan>
+                            </text>
+                        </g>
+                        <g id="23" transform="translate(246.400000, 172.800000)">
+                            <path d="M3.2,0 L53.6,0 L53.6,0 L53.6,38.4 L3.2,38.4 C1.4326888,38.4 -4.2244589e-15,36.9673112 0,35.2 L0,3.2 C-2.164332e-16,1.4326888 1.4326888,-5.63528619e-16 3.2,0 Z" id="Container" fill="#0D0D0D"></path>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#FFFFFF">
+                                <tspan x="11.1904" y="17.8">23</tspan>
+                            </text>
+                            <text id="₹670" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#DFDFDF">
+                                <tspan x="9.6596" y="29.6">₹</tspan>
+                                <tspan x="13.9796" y="29.6" font-family="Metropolis-SemiBold, Metropolis">670</tspan>
+                            </text>
+                        </g>
+                        <g id="22" transform="translate(208.000000, 172.800000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="11.1712" y="17.8">22</tspan>
+                            </text>
+                            <text id="₹800" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.368" y="29.6">₹</tspan>
+                                <tspan x="13.688" y="29.6" font-family="Metropolis-SemiBold, Metropolis">800</tspan>
+                            </text>
+                        </g>
+                        <g id="21" transform="translate(169.600000, 172.800000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="12.592" y="17.8">21</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="20" transform="translate(131.200000, 172.800000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="10.5376" y="17.8">20</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="19" transform="translate(92.800000, 172.800000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="12.3744" y="17.8">19</tspan>
+                            </text>
+                            <text id="₹458" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.9116" y="29.6">₹</tspan>
+                                <tspan x="14.2316" y="29.6" font-family="Metropolis-SemiBold, Metropolis">458</tspan>
+                            </text>
+                        </g>
+                        <g id="18" transform="translate(54.400000, 172.800000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="12.4896" y="17.8">18</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="17" transform="translate(16.000000, 172.800000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="12.56" y="17.8">17</tspan>
+                            </text>
+                            <text id="₹1200" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="8.0036" y="29.6">₹</tspan>
+                                <tspan x="12.3236" y="29.6" font-family="Metropolis-SemiBold, Metropolis">1200</tspan>
+                            </text>
+                        </g>
+                        <g id="16" transform="translate(246.400000, 115.200000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="12.3744" y="17.8">16</tspan>
+                            </text>
+                            <text id="₹1400" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="7.8704" y="29.6">₹</tspan>
+                                <tspan x="12.1904" y="29.6" font-family="Metropolis-SemiBold, Metropolis">1400</tspan>
+                            </text>
+                        </g>
+                        <g id="15" transform="translate(208.000000, 115.200000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="12.5344" y="17.8">15</tspan>
+                            </text>
+                            <text id="₹340" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.656" y="29.6">₹</tspan>
+                                <tspan x="13.976" y="29.6" font-family="Metropolis-SemiBold, Metropolis">340</tspan>
+                            </text>
+                        </g>
+                        <g id="14" opacity="0.200000003" transform="translate(169.600000, 115.200000)">
+                            <rect id="Container" fill="#FFFFFF" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="12.368" y="17.8">14</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="13" opacity="0.200000003" transform="translate(131.200000, 115.200000)">
+                            <rect id="Container" fill="#FFFFFF" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="12.6112" y="17.8">13</tspan>
+                            </text>
+                            <text id="₹990" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.5372" y="29.6">₹</tspan>
+                                <tspan x="13.8572" y="29.6" font-family="Metropolis-SemiBold, Metropolis">990</tspan>
+                            </text>
+                        </g>
+                        <g id="12" opacity="0.200000003" transform="translate(92.800000, 115.200000)">
+                            <rect id="Container" fill="#FFFFFF" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="12.592" y="17.8">12</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="11" opacity="0.200000003" transform="translate(54.400000, 115.200000)">
+                            <rect id="Container" fill="#FFFFFF" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="14.0128" y="17.8">11</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="10" transform="translate(16.000000, 115.200000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="11.9584" y="17.8">10</tspan>
+                            </text>
+                            <text id="₹1080" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="7.9496" y="29.6">₹</tspan>
+                                <tspan x="12.2696" y="29.6" font-family="Metropolis-SemiBold, Metropolis">1080</tspan>
+                            </text>
+                        </g>
+                        <g id="9" transform="translate(246.400000, 57.600000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="14.768" y="17.8">9</tspan>
+                            </text>
+                            <text id="₹1200" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="8.0036" y="29.6">₹</tspan>
+                                <tspan x="12.3236" y="29.6" font-family="Metropolis-SemiBold, Metropolis">1200</tspan>
+                            </text>
+                        </g>
+                        <g id="8" transform="translate(208.000000, 57.600000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="14.8832" y="17.8">8</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="7" transform="translate(169.600000, 57.600000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="14.9536" y="17.8">7</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="6" transform="translate(131.200000, 57.600000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="14.768" y="17.8">6</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="5" transform="translate(92.800000, 57.600000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="14.928" y="17.8">5</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="4" transform="translate(54.400000, 57.600000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="14.7616" y="17.8">4</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                        <g id="3" transform="translate(16.000000, 57.600000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="15.0048" y="17.8">3</tspan>
+                            </text>
+                            <text id="₹1080" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="8.3496" y="29.6">₹</tspan>
+                                <tspan x="12.6696" y="29.6" font-family="Metropolis-SemiBold, Metropolis">1080</tspan>
+                            </text>
+                        </g>
+                        <g id="2" transform="translate(246.400000, 0.000000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="14.4" font-weight="400" fill="#2E2E2E">
+                                <tspan x="14.5088" y="17.2">2</tspan>
+                            </text>
+                            <text id="₹980" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.602" y="29.6">₹</tspan>
+                                <tspan x="13.922" y="29.6" font-family="Metropolis-SemiBold, Metropolis">980</tspan>
+                            </text>
+                        </g>
+                        <g id="1" transform="translate(208.000000, 0.000000)">
+                            <rect id="Container" fill="#FAFAFA" x="0" y="0" width="38.4" height="38.4"></rect>
+                            <text font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" fill="#2E2E2E">
+                                <tspan x="16.4064" y="17.8">1</tspan>
+                            </text>
+                            <text id="₹450" font-family="PingFangSC-Semibold, PingFang SC" font-size="7.2" font-weight="500" fill="#5E5E5E">
+                                <tspan x="9.6128" y="29.6">₹</tspan>
+                                <tspan x="13.9328" y="29.6" font-family="Metropolis-SemiBold, Metropolis">450</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Bottom-Bar" transform="translate(0.000000, 424.000000)">
+                        <path d="M0,1.6 L300,1.6 L300,59.2 C300,62.7346224 297.134622,65.6 293.6,65.6 L6.4,65.6 C2.8653776,65.6 5.76193692e-15,62.7346224 0,59.2 L0,1.6 L0,1.6 Z" id="Rectangle" fill="#00BA8C"></path>
+                        <line x1="0" y1="0.8" x2="300" y2="0.8" id="Line-2" stroke="#FAFAFA" stroke-width="0.8" stroke-linecap="square"></line>
+                        <g id="Mobile/Controls/Buttons/iOS/Solid/Large" transform="translate(164.800000, 14.400000)">
+                            <g id="Padding">
+                                <rect id="Background" fill="#FFFFFF" x="0" y="0" width="116" height="37.6" rx="3.2"></rect>
+                                <text id="0" font-family="Metropolis-SemiBold, Metropolis" font-size="11.2" font-weight="500" line-spacing="16.8" letter-spacing="-0.375999999" fill="#2E2E2E">
+                                    <tspan x="32.288" y="21.4">Book now</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Heading-5" transform="translate(19.200000, 15.200000)" font-weight="400">
+                            <text id="Subheading" opacity="0.699999988" font-family="Metropolis-Medium, Metropolis" font-size="9.6" line-spacing="12.8" fill="#FAFAFA">
+                                <tspan x="0" y="33.2">Book this villa with </tspan>
+                                <tspan x="89.2608" y="33.2" font-family="Helvetica" font-weight="normal">₹</tspan>
+                                <tspan x="94.2483" y="33.2">1</tspan>
+                            </text>
+                            <text id="Heading" font-family="PingFangSC-Medium, PingFang SC" font-size="12.8" line-spacing="19.2" letter-spacing="-0.423999977" fill="#FFFFFF">
+                                <tspan x="0" y="14">₹</tspan>
+                                <tspan x="7.25600002" y="14" font-family="Metropolis-Medium, Metropolis">4,829</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="Month" font-family="Metropolis-Regular, Metropolis" font-size="16.8" font-weight="normal" fill="#2E2E2E">
+                        <tspan x="16" y="121.6">MARCH</tspan>
+                    </text>
+                    <g id="Days" transform="translate(16.000000, 70.400000)" fill="#BBBBBB" font-family="Metropolis-Medium, Metropolis" font-size="11.2" font-weight="400">
+                        <text id="S">
+                            <tspan x="0" y="11">S</tspan>
+                        </text>
+                        <text id="M">
+                            <tspan x="42.4" y="11">M</tspan>
+                        </text>
+                        <text id="T">
+                            <tspan x="87.2" y="11">T</tspan>
+                        </text>
+                        <text id="W">
+                            <tspan x="129.6" y="11">W</tspan>
+                        </text>
+                        <text id="T">
+                            <tspan x="177.6" y="11">T</tspan>
+                        </text>
+                        <text id="F">
+                            <tspan x="219.2" y="11">F</tspan>
+                        </text>
+                        <text id="S">
+                            <tspan x="261.6" y="11">S</tspan>
+                        </text>
+                    </g>
+                    <g id="Header">
+                        <path d="M6.4,0 L293.6,0 C297.134622,2.38878819e-16 300,2.8653776 300,6.4 L300,57.6 L300,57.6 L0,57.6 L0,6.4 C4.55312019e-16,2.8653776 2.8653776,5.97837012e-15 6.4,0 Z" id="Rectangle" fill="#FAFAFA"></path>
+                        <rect id="Rectangle" fill="#D8D8D8" opacity="0.300000012" x="0" y="58.4" width="300" height="1"></rect>
+                        <g id="Dates" transform="translate(12.800000, 19.200000)" fill="#0D0D0D">
+                            <text id="23rd-March" font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" line-spacing="19.2" letter-spacing="-0.423999977">
+                                <tspan x="0" y="13">23rd March</tspan>
+                            </text>
+                            <g id="Mobile/Icon/Small/Arrow/Right" transform="translate(78.200000, 3.200000)" fill-rule="nonzero">
+                                <g id="Mask" transform="translate(7.300000, 6.500000) scale(-1, 1) translate(-7.300000, -6.500000) translate(0.800000, 0.000000)">
+                                    <polygon id="Path" points="12.8 5.6 3.064 5.6 7.536 1.128 6.4 0 0 6.4 6.4 12.8 7.528 11.672 3.064 7.2 12.8 7.2"></polygon>
+                                </g>
+                            </g>
+                            <text id="29th-March" font-family="Metropolis-Medium, Metropolis" font-size="12.8" font-weight="400" line-spacing="19.2" letter-spacing="-0.423999977">
+                                <tspan x="104.8" y="13">29th March</tspan>
+                            </text>
+                        </g>
+                        <text id="3-NIGHTS" font-family="Metropolis-SemiBold, Metropolis" font-size="8.8" font-weight="500" line-spacing="13.6" letter-spacing="-0.296000004" fill="#00BA8C">
+                            <tspan x="245.6" y="30.6">3 NIGHTS</tspan>
+                        </text>
+                        <line x1="0" y1="57.6" x2="300" y2="57.6" id="Line-2" stroke="#FAFAFA" stroke-width="0.8" stroke-linecap="square"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

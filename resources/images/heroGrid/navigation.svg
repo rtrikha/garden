@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="301px" height="61px" viewBox="0 0 301 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>navigation</title>
+    <desc>Created with Sketch.</desc>
+    <g id="garden" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-582.000000, -333.000000)">
+            <g id="hero" transform="translate(582.000000, 333.000000)">
+                <g id="navigation" transform="translate(0.800000, 0.000000)">
+                    <rect id="Rectangle" fill="#FAFAFA" x="0" y="0" width="300" height="60.8" rx="6.4"></rect>
+                    <g id="Group-5" transform="translate(33.600000, 17.600000)">
+                        <g id="bell" transform="translate(166.400000, 0.000000)">
+                            <path d="M12,9.6 C12,6.9490332 9.8509668,4.8 7.2,4.8 C4.5490332,4.8 2.4,6.9490332 2.4,9.6 C2.4,15.2 0,16.8 0,16.8 L14.4,16.8 C14.4,16.8 12,15.2 12,9.6" id="Path" stroke="#A6A6A6" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <circle id="Oval" fill="#D32F2F" cx="16" cy="2.4" r="2.4"></circle>
+                            <path d="M8.584,20 C8.29776179,20.4934435 7.77045489,20.797165 7.2,20.797165 C6.62954511,20.797165 6.10223821,20.4934435 5.816,20" id="Path" stroke="#A6A6A6" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                        <g id="heart" transform="translate(108.800000, 5.600000)" stroke="#A6A6A6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.92">
+                            <path d="M15.872,1.288 C15.0467806,0.462393174 13.9273104,-0.00146049696 12.76,-0.00146049696 C11.5926896,-0.00146049696 10.4732194,0.462393174 9.648,1.288 L8.8,2.136 L7.952,1.288 C6.23328985,-0.430710098 3.44671017,-0.430710077 1.72800005,1.28800005 C0.00928992301,3.00671017 0.00928990225,5.79328985 1.728,7.512 L2.576,8.36 L8.8,14.584 L15.024,8.36 L15.872,7.512 C16.6976068,6.68678064 17.1614605,5.56731042 17.1614605,4.4 C17.1614605,3.23268958 16.6976068,2.11321936 15.872,1.288 Z" id="Path"></path>
+                        </g>
+                        <g id="user" transform="translate(220.800000, 5.600000)" stroke="#A6A6A6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.92">
+                            <path d="M12.8,14.4 L12.8,12.8 C12.8,11.0326888 11.3673112,9.6 9.6,9.6 L3.2,9.6 C1.4326888,9.6 0,11.0326888 0,12.8 L0,14.4" id="Path"></path>
+                            <circle id="Oval" cx="6.4" cy="3.2" r="3.2"></circle>
+                        </g>
+                        <g id="search" transform="translate(54.400000, 5.600000)" stroke="#A6A6A6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.92">
+                            <circle id="Oval" cx="6.4" cy="6.4" r="6.4"></circle>
+                            <line x1="14.4" y1="14.4" x2="10.92" y2="10.92" id="Path"></line>
+                        </g>
+                        <g id="home" transform="translate(0.000000, 4.800000)" stroke="#0D0D0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.92">
+                            <path d="M0,5.6 L7.2,0 L14.4,5.6 L14.4,14.4 C14.4,15.2836556 13.6836556,16 12.8,16 L1.6,16 C0.7163444,16 0,15.2836556 0,14.4 L0,5.6 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="301px" height="313px" viewBox="0 0 301 313" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Dark Mode</title>
+    <desc>Created with Sketch.</desc>
+    <g id="garden" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-258.000000, -628.000000)">
+            <g id="hero" transform="translate(258.000000, 333.000000)">
+                <g id="Dark-Mode" transform="translate(0.000000, 295.000000)">
+                    <rect id="Rectangle" fill="#0D0D0D" x="0" y="0" width="300.8" height="312.8" rx="6.4"></rect>
+                    <g id="Flight" transform="translate(31.200000, 173.600000)" font-family="Metropolis-Medium, Metropolis" font-weight="400">
+                        <g id="Mobile/Label-Pair/Body1Caption/Medium">
+                            <g id="Group">
+                                <text id="GuestHouser-app-now" font-size="11.2" line-spacing="16.8" letter-spacing="-0.373333335" fill="#A6A6A6">
+                                    <tspan x="7.89200003" y="33">GuestHouser app now supports dark mode, </tspan>
+                                    <tspan x="2.30693337" y="49.8">enhancing accessibility and easier to the eyes.</tspan>
+                                </text>
+                                <text id="Dark-Mode" font-size="14.4" line-spacing="19.2" letter-spacing="-0.476999998" fill="#FFFFFF">
+                                    <tspan x="83" y="14">Dark Mode</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Garden/mSite/Controls/Primary/Large/Enabled" transform="translate(104.800000, 248.000000)">
+                        <g id="Button">
+                            <rect id="Background" fill="#00BA8C" x="0" y="0" width="91.2" height="32.8" rx="3.2"></rect>
+                            <text id="0" font-family="Metropolis-SemiBold, Metropolis" font-size="11.2" font-weight="500" line-spacing="16.8" letter-spacing="-0.375999999" fill="#FFFFFF">
+                                <tspan x="25.804" y="19">Turn on</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="icons8-moon_and_stars" transform="translate(92.000000, 59.200000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M23.52,0 L20.39808,8.40192 L12,11.52 L20.39808,14.64192 L23.52,23.04 L26.63808,14.64192 L35.04,11.52 L26.63808,8.40192 L23.52,0 Z M62.2272,7.68 C61.0368,15.7824 63.5712,24.3072 69.792,30.528 C76.0128,36.7488 84.5376,39.2832 92.64,38.0928 C92.7168,46.0416 89.7216,54.0288 83.6544,60.1344 C71.6352,72.1152 52.2048,72.1152 40.1856,60.1344 C28.2048,48.1152 28.2048,28.6848 40.1856,16.6656 C46.2912,10.5984 54.2784,7.6032 62.2272,7.68 Z M6.4,14.4 L8.13226667,19.0677333 L12.8,20.8 L8.13226667,22.5344 L6.4,27.2 L4.6656,22.5344 L0,20.8 L4.6656,19.0677333 L6.4,14.4 Z" id="Shape-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

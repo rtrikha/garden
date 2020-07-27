@@ -49,5 +49,9 @@
         "stylelint": "^9.4.0",
         "uglify-es": "^3.3.10"
     },
-    "main": ".eslintrc.js"
+    "main": ".eslintrc.js",
+    "dependencies": {
+        "tilt.js": "^1.2.1",
+        "vanilla-tilt": "^1.7.0"
+    }
 }
