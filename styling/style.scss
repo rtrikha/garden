@@ -27,6 +27,12 @@ $gray-000: #ffffff;
 	font-family: aktiv;
 	font-weight: 800;
 }
+@font-face {
+	src: url(/resources/fonts/Metropolis-Medium.otf);
+	font-family: metro;
+	font-weight: 600;
+}
+
 * {
 	margin: 0;
 	user-select: none;
@@ -34,6 +40,122 @@ $gray-000: #ffffff;
 body {
 	background-color: white;
 	-webkit-font-smoothing: antialiased;
+}
+
+@mixin bottom-nav {
+	background-color: $gray-100;
+	height: max-content;
+	border-radius: 8px;
+	width: 20vw;
+	min-width: max-content;
+
+	.icons {
+		display: flex;
+		// gap: 3vw;
+		padding: 20px;
+		justify-content: space-between;
+		.tab {
+			img {
+				filter: opacity(0.3);
+			}
+			[type='radio'] {
+				position: absolute;
+				z-index: 999;
+				opacity: 0;
+				cursor: pointer;
+				width: 1.4vw;
+				height: 1.4vw;
+
+				&:checked ~ img {
+					opacity: 1;
+					filter: opacity(1);
+				}
+			}
+			cursor: pointer;
+		}
+	}
+}
+
+@mixin reach-card {
+	height: max-content;
+	width: 20vw;
+	display: flex;
+	flex-direction: column;
+	img {
+		margin-right: 1vw;
+	}
+	.content {
+		display: flex;
+		background-color: $gray-100;
+		padding: 20px;
+		border-radius: 8px;
+		.heading-pair {
+			margin-top: 0;
+
+			.heading {
+				font-size: 12px;
+				font-family: metro;
+			}
+
+			.subheading {
+				margin-top: 0.6vh;
+				font-size: 10px;
+				font-family: metro;
+				color: $gray-300;
+				line-height: 14px;
+			}
+		}
+	}
+	.card1 {
+		z-index: 999;
+		animation: moveCard1 0.6s ease-in-out infinite;
+		animation-delay: 2s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+
+		@keyframes moveCard1 {
+			25% {
+				transform: translateY(0px);
+			}
+			50% {
+				transform: translateY(-10px) scale(0.9);
+			}
+			75% {
+				transform: translateY(0px) scale(0.9);
+			}
+			100% {
+				transform: translateY(10px) scale(0.9);
+				opacity: 0.6;
+			}
+		}
+	}
+	.card2 {
+		opacity: 0.6;
+		transform: scale(0.9);
+		margin-top: -78px;
+		animation: moveCard2 0.6s ease-in-out 2.2s 1 forwards;
+
+		@keyframes moveCard2 {
+			25% {
+				transform: translateY(0px);
+			}
+			50% {
+				transform: translateY(-6px) scale(1);
+				opacity: 1;
+				z-index: 9999;
+			}
+			75% {
+				transform: translateY(-6px) scale(1);
+				opacity: 1;
+				z-index: 9999;
+			}
+			100% {
+				transform: translateY(-6px) scale(1);
+				opacity: 1;
+				z-index: 9999;
+			}
+		}
+	}
 }
 
 .hero {
@@ -44,7 +166,7 @@ body {
 	height: 100vh;
 	.heading-pair {
 		margin-top: 32vh;
-        width: 32vw;
+		width: 32vw;
 		.heading {
 			.context {
 				font-family: aktiv;
@@ -69,52 +191,56 @@ body {
 			line-height: 22px;
 		}
 	}
-	.image {
-        display: flex;
-        margin-top: 6vh;
-        transform: scale(0.94);
-        .col-1{
-            display: flex;
-            flex-direction: column;
-            margin-right: 1.4vh;
-        }
-        .col-2{
-            display: flex;
-            flex-direction: column;
-        }
+	.components {
+		display: flex;
+		margin-top: 6vh;
+		.col-1 {
+			display: flex;
+			gap: 1vh;
+			flex-direction: column;
+			.bottom-nav {
+				@include bottom-nav;
+			}
+			.reach-card {
+				@include reach-card;
+			}
+		}
+		.col-2 {
+			display: flex;
+			flex-direction: column;
+		}
 	}
 }
 
-.problem{
-    margin-top: 10vh;
-    .heading-pair {
+.problem {
+	margin-top: 10vh;
+	.heading-pair {
 		margin-left: 10vw;
-        margin-right: 10vw;
-        width: 32vw;
+		margin-right: 10vw;
+		width: 32vw;
 
 		.heading {
 			font-family: aktiv;
 			font-weight: 200;
-			font-size: 22px;
+			font-size: 24px;
 			color: $gray-500;
 		}
 		.subheading {
 			margin-top: 4vh;
 			font-family: aktiv;
 			font-size: 13px;
-            color: $gray-300;
-            line-height: 22px;
-
+			color: $gray-300;
+			line-height: 22px;
 		}
-    }
-    .platform{
-        margin-top: 3vh;
-        margin-left: 10vw;
-    }
+	}
+	.platform {
+		margin-top: 3vh;
+		margin-left: 10vw;
+	}
 }
 
 .principles {
-    margin-top: 10vh;
+	margin-top: 10vh;
 	background-color: $gray-700;
 	width: 100vw;
 	padding-top: 10vh;
@@ -126,7 +252,7 @@ body {
 		.heading {
 			font-family: aktiv;
 			font-weight: 200;
-			font-size: 22px;
+			font-size: 24px;
 			color: $gray-100;
 		}
 		.subheading {

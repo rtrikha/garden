@@ -22,6 +22,12 @@
   font-weight: 800;
 }
 
+@font-face {
+  src: url(/resources/fonts/Metropolis-Medium.otf);
+  font-family: metro;
+  font-weight: 600;
+}
+
 * {
   margin: 0;
   -webkit-user-select: none;
@@ -76,16 +82,75 @@ body {
   line-height: 22px;
 }
 
-.hero .image {
+.hero .components {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 6vh;
-  -webkit-transform: scale(0.94);
-          transform: scale(0.94);
 }
 
-.hero .image .col-1 {
+.hero .components .col-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .components .col-1 .bottom-nav {
+  background-color: #fafafa;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 8px;
+  width: 20vw;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+
+.hero .components .col-1 .bottom-nav .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .components .col-1 .bottom-nav .icons .tab {
+  cursor: pointer;
+}
+
+.hero .components .col-1 .bottom-nav .icons .tab img {
+  -webkit-filter: opacity(0.3);
+          filter: opacity(0.3);
+}
+
+.hero .components .col-1 .bottom-nav .icons .tab [type='radio'] {
+  position: absolute;
+  z-index: 999;
+  opacity: 0;
+  cursor: pointer;
+  width: 1.4vw;
+  height: 1.4vw;
+}
+
+.hero .components .col-1 .bottom-nav .icons .tab [type='radio']:checked ~ img {
+  opacity: 1;
+  -webkit-filter: opacity(1);
+          filter: opacity(1);
+}
+
+.hero .components .col-1 .reach-card {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 20vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,10 +158,150 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: 1.4vh;
 }
 
-.hero .image .col-2 {
+.hero .components .col-1 .reach-card img {
+  margin-right: 1vw;
+}
+
+.hero .components .col-1 .reach-card .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.hero .components .col-1 .reach-card .content .heading-pair {
+  margin-top: 0;
+}
+
+.hero .components .col-1 .reach-card .content .heading-pair .heading {
+  font-size: 12px;
+  font-family: metro;
+}
+
+.hero .components .col-1 .reach-card .content .heading-pair .subheading {
+  margin-top: 0.6vh;
+  font-size: 10px;
+  font-family: metro;
+  color: #696969;
+  line-height: 14px;
+}
+
+.hero .components .col-1 .reach-card .card1 {
+  z-index: 999;
+  -webkit-animation: moveCard1 0.6s ease-in-out infinite;
+          animation: moveCard1 0.6s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes moveCard1 {
+  25% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-10px) scale(0.9);
+            transform: translateY(-10px) scale(0.9);
+  }
+  75% {
+    -webkit-transform: translateY(0px) scale(0.9);
+            transform: translateY(0px) scale(0.9);
+  }
+  100% {
+    -webkit-transform: translateY(10px) scale(0.9);
+            transform: translateY(10px) scale(0.9);
+    opacity: 0.6;
+  }
+}
+
+@keyframes moveCard1 {
+  25% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-10px) scale(0.9);
+            transform: translateY(-10px) scale(0.9);
+  }
+  75% {
+    -webkit-transform: translateY(0px) scale(0.9);
+            transform: translateY(0px) scale(0.9);
+  }
+  100% {
+    -webkit-transform: translateY(10px) scale(0.9);
+            transform: translateY(10px) scale(0.9);
+    opacity: 0.6;
+  }
+}
+
+.hero .components .col-1 .reach-card .card2 {
+  opacity: 0.6;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  margin-top: -78px;
+  -webkit-animation: moveCard2 0.6s ease-in-out 2.2s 1 forwards;
+          animation: moveCard2 0.6s ease-in-out 2.2s 1 forwards;
+}
+
+@-webkit-keyframes moveCard2 {
+  25% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-6px) scale(1);
+            transform: translateY(-6px) scale(1);
+    opacity: 1;
+    z-index: 9999;
+  }
+  75% {
+    -webkit-transform: translateY(-6px) scale(1);
+            transform: translateY(-6px) scale(1);
+    opacity: 1;
+    z-index: 9999;
+  }
+  100% {
+    -webkit-transform: translateY(-6px) scale(1);
+            transform: translateY(-6px) scale(1);
+    opacity: 1;
+    z-index: 9999;
+  }
+}
+
+@keyframes moveCard2 {
+  25% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-6px) scale(1);
+            transform: translateY(-6px) scale(1);
+    opacity: 1;
+    z-index: 9999;
+  }
+  75% {
+    -webkit-transform: translateY(-6px) scale(1);
+            transform: translateY(-6px) scale(1);
+    opacity: 1;
+    z-index: 9999;
+  }
+  100% {
+    -webkit-transform: translateY(-6px) scale(1);
+            transform: translateY(-6px) scale(1);
+    opacity: 1;
+    z-index: 9999;
+  }
+}
+
+.hero .components .col-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,7 +324,7 @@ body {
 .problem .heading-pair .heading {
   font-family: aktiv;
   font-weight: 200;
-  font-size: 22px;
+  font-size: 24px;
   color: #292929;
 }
 
@@ -152,7 +357,7 @@ body {
 .principles .heading-pair .heading {
   font-family: aktiv;
   font-weight: 200;
-  font-size: 22px;
+  font-size: 24px;
   color: #fafafa;
 }
 

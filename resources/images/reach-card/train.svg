@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>train</title>
+    <desc>Created with Sketch.</desc>
+    <g id="train" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(3.000000, 2.000000)" fill="#2E2E2E" fill-rule="nonzero" id="Shape">
+            <path d="M5,0 C3.9069372,0 3,0.9069372 3,2 L3,2.203125 C1.2936368,2.6594792 0,4.1564058 0,6 L0,15 C0,16.64497 1.3550302,18 3,18 L3,20 L5,20 L5,18 L13,18 L13,20 L15,20 L15,18 C16.64497,18 18,16.64497 18,15 L18,6 C18,4.1564058 16.706363,2.6594792 15,2.203125 L15,2 C15,0.9069372 14.093063,0 13,0 L5,0 Z M5,2 L13,2 L13,4 L14,4 C14.748564,4 15.385469,4.4019074 15.728516,5 L2.2714844,5 C2.6145314,4.4019074 3.2514357,4 4,4 L5,4 L5,2 Z M2,7 L16,7 L16,10 L2,10 L2,7 Z M2,12 L16,12 L16,15 C16,15.56503 15.56503,16 15,16 L3,16 C2.4349698,16 2,15.56503 2,15 L2,12 Z M9,13 C8.44771525,13 8,13.4477153 8,14 C8,14.5522847 8.44771525,15 9,15 C9.55228475,15 10,14.5522847 10,14 C10,13.4477153 9.55228475,13 9,13 Z"></path>
+        </g>
+    </g>
+</svg>

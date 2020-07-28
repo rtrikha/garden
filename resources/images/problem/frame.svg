@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="290px" height="65px" viewBox="0 0 290 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="308px" height="65px" viewBox="0 0 308 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>frame</title>
     <desc>Created with Sketch.</desc>
@@ -23,7 +23,7 @@
                         </g>
                     </g>
                 </g>
-                <g id="android" transform="translate(75.000000, 0.000000)">
+                <g id="android" transform="translate(81.000000, 0.000000)">
                     <mask id="mask-4" fill="white">
                         <use xlink:href="#path-3"></use>
                     </mask>
@@ -34,7 +34,7 @@
                         </g>
                     </g>
                 </g>
-                <g id="mobile" transform="translate(150.000000, 0.000000)">
+                <g id="mobile" transform="translate(162.000000, 0.000000)">
                     <mask id="mask-6" fill="white">
                         <use xlink:href="#path-5"></use>
                     </mask>
@@ -46,14 +46,14 @@
                         </g>
                     </g>
                 </g>
-                <g id="desktop" transform="translate(225.000000, 0.000000)">
+                <g id="desktop" transform="translate(243.000000, 0.000000)">
                     <mask id="mask-8" fill="white">
                         <use xlink:href="#path-7"></use>
                     </mask>
                     <use id="Mask" fill="#00BA8C" xlink:href="#path-7"></use>
                     <g id="icons8-monitor" mask="url(#mask-8)" fill="#008363" fill-rule="nonzero">
                         <g transform="translate(18.144000, 23.328000)" id="Shape">
-                            <path d="M5.184,0 C2.31984,0 0,2.31984 0,5.184 L0,36.288 C0,39.15216 2.31984,41.472 5.184,41.472 L23.328,41.472 L23.328,46.656 L18.144,46.656 L18.144,51.84 L38.88,51.84 L38.88,46.656 L33.696,46.656 L33.696,41.472 L51.84,41.472 C54.70416,41.472 57.024,39.15216 57.024,36.288 L57.024,5.184 C57.024,2.31984 54.70416,0 51.84,0 L5.184,0 Z M5.184,5.184 L51.84,5.184 L51.84,36.288 L5.184,36.288 L5.184,5.184 Z"></path>
+                            <path d="M5.184,0 C2.31984,0 0,2.31984 0,5.184 L0,44.288 C0,47.15216 2.31984,49.472 5.184,49.472 L23.328,49.472 L23.328,54.656 L18.144,54.656 L18.144,59.84 L38.88,59.84 L38.88,54.656 L33.696,54.656 L33.696,49.472 L51.84,49.472 C54.70416,49.472 57.024,47.15216 57.024,44.288 L57.024,5.184 C57.024,2.31984 54.70416,0 51.84,0 L5.184,0 Z M5.184,5.184 L51.84,5.184 L51.84,44.288 L5.184,44.288 L5.184,5.184 Z"></path>
                         </g>
                     </g>
                 </g>

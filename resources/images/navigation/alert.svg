@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="6px" viewBox="0 0 6 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <g id="garden" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-796.000000, -350.000000)" fill="#D32F2F">
+            <g id="hero" transform="translate(582.000000, 333.000000)">
+                <g id="navigation" transform="translate(0.800000, 0.000000)">
+                    <g id="Group-5" transform="translate(33.600000, 17.600000)">
+                        <g id="bell" transform="translate(166.400000, 0.000000)">
+                            <circle id="Oval" cx="16" cy="2.4" r="2.4"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
