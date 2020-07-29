@@ -32,6 +32,11 @@ $gray-000: #ffffff;
 	font-family: metro;
 	font-weight: 600;
 }
+@font-face {
+	src: url(/resources/fonts/Metropolis-SemiBold.otf);
+	font-family: metro;
+	font-weight: 800;
+}
 
 * {
 	margin: 0;
@@ -109,7 +114,7 @@ body {
 	.card1 {
 		z-index: 999;
 		animation: moveCard1 0.6s ease-in-out infinite;
-		animation-delay: 2s;
+		animation-delay: 4s;
 		animation-iteration-count: 1;
 		animation-fill-mode: forwards;
 
@@ -133,7 +138,7 @@ body {
 		opacity: 0.6;
 		transform: scale(0.9);
 		margin-top: -78px;
-		animation: moveCard2 0.6s ease-in-out 2.2s 1 forwards;
+		animation: moveCard2 0.6s ease-in-out 4.2s 1 forwards;
 
 		@keyframes moveCard2 {
 			25% {
@@ -158,6 +163,245 @@ body {
 	}
 }
 
+@mixin night-mode-card {
+	background-color: $gray-700;
+	border-radius: 8px;
+	text-align: center;
+	width: 20vw;
+	height: max-content;
+
+	.content {
+		padding: 40px;
+		text-align: center;
+		.moon-icon {
+			margin: 0 auto;
+			width: max-content;
+			text-align: center;
+			display: flex;
+			.stars {
+				margin-right: 4px;
+				#big {
+					animation: rotateStar 16s linear forwards;
+					animation-iteration-count: infinite;
+					@keyframes rotateStar {
+						from {
+							transform: rotate(0deg);
+						}
+						to {
+							transform: rotate(360deg);
+						}
+					}
+				}
+				#small {
+					animation: rotateStar 10s linear forwards;
+					animation-iteration-count: infinite;
+					@keyframes rotateStar {
+						from {
+							transform: rotate(0deg);
+						}
+						to {
+							transform: rotate(360deg);
+						}
+					}
+				}
+			}
+			.moon {
+				img {
+				}
+			}
+		}
+
+		button {
+			background-color: #00ba8c;
+			font-size: 12px;
+			font-family: metro;
+			font-weight: 800;
+			color: white;
+			padding: 10px 24px;
+			border-radius: 4px;
+			border: none;
+			cursor: pointer;
+			margin-top: 2vh;
+
+			&:hover {
+				background-color: #008363;
+			}
+
+			&:focus {
+				outline: none;
+			}
+		}
+		.heading-pair {
+			margin: 0 auto;
+			margin-top: 4vh;
+			width: auto;
+			text-align: center;
+			.heading {
+				font-family: metro;
+				font-size: 14px;
+				color: white;
+			}
+			.subheading {
+				margin-top: 0;
+				font-family: metro;
+				font-size: 11px;
+				color: $gray-200;
+				margin-top: 0.8vh;
+				opacity: 0.8;
+				line-height: 16px;
+			}
+		}
+	}
+}
+
+@mixin review-card {
+	width: 20vw;
+	background-color: $gray-100;
+	border-radius: 8px;
+	.header {
+		display: flex;
+		padding: 20px;
+		align-items: center;
+		justify-content: space-between;
+		.left {
+			padding-bottom: 0;
+			margin: 0 auto;
+			display: flex;
+			gap: 8px;
+			align-items: center;
+			width: 20vw;
+
+			.heading {
+				font-family: metro;
+				font-size: 12px;
+				font-weight: 600;
+				color: $gray-600;
+			}
+
+			.subheading {
+				font-family: metro;
+				font-size: 9px;
+				font-weight: 600;
+				color: $gray-300;
+				opacity: 0.8;
+				margin-top: 0.6vh;
+			}
+		}
+		.right {
+			height: max-content;
+		}
+	}
+
+	.body {
+		padding: 20px;
+		padding-top: 0px;
+		font-family: metro;
+		font-size: 11px;
+		line-height: 17px;
+		letter-spacing: -0.3px;
+		color: $gray-600;
+		width: auto;
+	}
+}
+
+@mixin about-card {
+	width: 20vw;
+	background-color: $gray-100;
+	border-radius: 8px;
+	padding-right: 0;
+
+	.header {
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+		.left {
+			.heading {
+				font-family: metro;
+				font-size: 14px;
+				font-weight: 600;
+				color: $gray-600;
+			}
+			.subheading {
+				font-family: metro;
+				font-size: 9px;
+				font-weight: 600;
+				color: $gray-300;
+				opacity: 0.8;
+				margin-top: 0.6vh;
+			}
+		}
+		.right {
+			transform: scale(0.3);
+			height: auto;
+			padding-left: 5vw;
+			.cloud2 {
+				color: #fafafa;
+				background: #fafafa;
+				position: absolute;
+				width: 3.4875em;
+				height: 3.4875em;
+				border-radius: 50%;
+				box-shadow: 2.0625em 0.9375em 0 -0.9375em, 0 0 0 0.375em black, 2.0625em 0.9375em 0 -0.5625em black;
+			}
+
+			.rain {
+				transform: translate(1.3em, 2.2em);
+				width: 2.8em;
+				height: 2.5em;
+				background: #fafafa;
+				position: absolute;
+			}
+
+			.rain:after {
+				content: '';
+				position: absolute;
+				display: block;
+				z-index: 2;
+				color: black;
+				background: black;
+				width: 0.3em;
+				height: 1em;
+				border-radius: 0.15em;
+				transform: translate(0.4em, 0.2em) rotate(20deg);
+				animation: rain 2s infinite ease-in-out;
+				box-shadow: 0.6em 0.6em, 1.2em -0.2em, 1.2em 1.2em, 1.8em 0.2em;
+			}
+
+			@keyframes rain {
+				0% {
+					background-color: rgba(0, 0, 0, 0.2);
+					box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+				}
+				30% {
+					background-color: black;
+					box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em black, 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+				}
+				50% {
+					background-color: rgba(0, 0, 0, 0.2);
+					box-shadow: 0.6em 0.6em black, 1.2em -0.2em 0 rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em black;
+				}
+				80% {
+					background-color: rgba(0, 0, 0, 0.2);
+					box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em black, 1.8em 0.2em rgba(0, 0, 0, 0.2);
+				}
+				100% {
+					background-color: rgba(0, 0, 0, 0.2);
+					box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+				}
+			}
+		}
+	}
+	.body {
+		font-family: metro;
+		font-size: 11px;
+		padding: 20px;
+		padding-top: 0px;
+		line-height: 17px;
+		letter-spacing: -0.3px;
+		color: $gray-600;
+		width: auto;
+	}
+}
 .hero {
 	display: flex;
 	margin-left: 10vw;
@@ -194,9 +438,10 @@ body {
 	.components {
 		display: flex;
 		margin-top: 6vh;
+		gap: 16px;
 		.col-1 {
 			display: flex;
-			gap: 1vh;
+			gap: 16px;
 			flex-direction: column;
 			.bottom-nav {
 				@include bottom-nav;
@@ -204,10 +449,17 @@ body {
 			.reach-card {
 				@include reach-card;
 			}
+			.night-mode-card {
+				@include night-mode-card;
+			}
+			.review-card {
+				@include review-card;
+			}
 		}
 		.col-2 {
-			display: flex;
-			flex-direction: column;
+			.about-card {
+				@include about-card;
+			}
 		}
 	}
 }

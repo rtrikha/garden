@@ -28,6 +28,12 @@
   font-weight: 600;
 }
 
+@font-face {
+  src: url(/resources/fonts/Metropolis-SemiBold.otf);
+  font-family: metro;
+  font-weight: 800;
+}
+
 * {
   margin: 0;
   -webkit-user-select: none;
@@ -87,13 +93,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 6vh;
+  gap: 16px;
 }
 
 .hero .components .col-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 1vh;
+  gap: 16px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -194,8 +201,8 @@ body {
   z-index: 999;
   -webkit-animation: moveCard1 0.6s ease-in-out infinite;
           animation: moveCard1 0.6s ease-in-out infinite;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -247,8 +254,8 @@ body {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
   margin-top: -78px;
-  -webkit-animation: moveCard2 0.6s ease-in-out 2.2s 1 forwards;
-          animation: moveCard2 0.6s ease-in-out 2.2s 1 forwards;
+  -webkit-animation: moveCard2 0.6s ease-in-out 4.2s 1 forwards;
+          animation: moveCard2 0.6s ease-in-out 4.2s 1 forwards;
 }
 
 @-webkit-keyframes moveCard2 {
@@ -301,14 +308,335 @@ body {
   }
 }
 
-.hero .components .col-2 {
+.hero .components .col-1 .night-mode-card {
+  background-color: #090909;
+  border-radius: 8px;
+  text-align: center;
+  width: 20vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.hero .components .col-1 .night-mode-card .content {
+  padding: 40px;
+  text-align: center;
+}
+
+.hero .components .col-1 .night-mode-card .content .moon-icon {
+  margin: 0 auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+}
+
+.hero .components .col-1 .night-mode-card .content .moon-icon .stars {
+  margin-right: 4px;
+}
+
+.hero .components .col-1 .night-mode-card .content .moon-icon .stars #big {
+  -webkit-animation: rotateStar 16s linear forwards;
+          animation: rotateStar 16s linear forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rotateStar {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateStar {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.hero .components .col-1 .night-mode-card .content .moon-icon .stars #small {
+  -webkit-animation: rotateStar 10s linear forwards;
+          animation: rotateStar 10s linear forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@keyframes rotateStar {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.hero .components .col-1 .night-mode-card .content button {
+  background-color: #00ba8c;
+  font-size: 12px;
+  font-family: metro;
+  font-weight: 800;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 2vh;
+}
+
+.hero .components .col-1 .night-mode-card .content button:hover {
+  background-color: #008363;
+}
+
+.hero .components .col-1 .night-mode-card .content button:focus {
+  outline: none;
+}
+
+.hero .components .col-1 .night-mode-card .content .heading-pair {
+  margin: 0 auto;
+  margin-top: 4vh;
+  width: auto;
+  text-align: center;
+}
+
+.hero .components .col-1 .night-mode-card .content .heading-pair .heading {
+  font-family: metro;
+  font-size: 14px;
+  color: white;
+}
+
+.hero .components .col-1 .night-mode-card .content .heading-pair .subheading {
+  margin-top: 0;
+  font-family: metro;
+  font-size: 11px;
+  color: #cccccc;
+  margin-top: 0.8vh;
+  opacity: 0.8;
+  line-height: 16px;
+}
+
+.hero .components .col-1 .review-card {
+  width: 20vw;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.hero .components .col-1 .review-card .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .components .col-1 .review-card .header .left {
+  padding-bottom: 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20vw;
+}
+
+.hero .components .col-1 .review-card .header .left .heading {
+  font-family: metro;
+  font-size: 12px;
+  font-weight: 600;
+  color: #141414;
+}
+
+.hero .components .col-1 .review-card .header .left .subheading {
+  font-family: metro;
+  font-size: 9px;
+  font-weight: 600;
+  color: #696969;
+  opacity: 0.8;
+  margin-top: 0.6vh;
+}
+
+.hero .components .col-1 .review-card .header .right {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.hero .components .col-1 .review-card .body {
+  padding: 20px;
+  padding-top: 0px;
+  font-family: metro;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #141414;
+  width: auto;
+}
+
+.hero .components .col-2 .about-card {
+  width: 20vw;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding-right: 0;
+}
+
+.hero .components .col-2 .about-card .header {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .components .col-2 .about-card .header .left .heading {
+  font-family: metro;
+  font-size: 14px;
+  font-weight: 600;
+  color: #141414;
+}
+
+.hero .components .col-2 .about-card .header .left .subheading {
+  font-family: metro;
+  font-size: 9px;
+  font-weight: 600;
+  color: #696969;
+  opacity: 0.8;
+  margin-top: 0.6vh;
+}
+
+.hero .components .col-2 .about-card .header .right {
+  -webkit-transform: scale(0.3);
+          transform: scale(0.3);
+  height: auto;
+  padding-left: 5vw;
+}
+
+.hero .components .col-2 .about-card .header .right .cloud2 {
+  color: #fafafa;
+  background: #fafafa;
+  position: absolute;
+  width: 3.4875em;
+  height: 3.4875em;
+  border-radius: 50%;
+  -webkit-box-shadow: 2.0625em 0.9375em 0 -0.9375em, 0 0 0 0.375em black, 2.0625em 0.9375em 0 -0.5625em black;
+          box-shadow: 2.0625em 0.9375em 0 -0.9375em, 0 0 0 0.375em black, 2.0625em 0.9375em 0 -0.5625em black;
+}
+
+.hero .components .col-2 .about-card .header .right .rain {
+  -webkit-transform: translate(1.3em, 2.2em);
+          transform: translate(1.3em, 2.2em);
+  width: 2.8em;
+  height: 2.5em;
+  background: #fafafa;
+  position: absolute;
+}
+
+.hero .components .col-2 .about-card .header .right .rain:after {
+  content: '';
+  position: absolute;
+  display: block;
+  z-index: 2;
+  color: black;
+  background: black;
+  width: 0.3em;
+  height: 1em;
+  border-radius: 0.15em;
+  -webkit-transform: translate(0.4em, 0.2em) rotate(20deg);
+          transform: translate(0.4em, 0.2em) rotate(20deg);
+  -webkit-animation: rain 2s infinite ease-in-out;
+          animation: rain 2s infinite ease-in-out;
+  -webkit-box-shadow: 0.6em 0.6em, 1.2em -0.2em, 1.2em 1.2em, 1.8em 0.2em;
+          box-shadow: 0.6em 0.6em, 1.2em -0.2em, 1.2em 1.2em, 1.8em 0.2em;
+}
+
+@-webkit-keyframes rain {
+  0% {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+  }
+  30% {
+    background-color: black;
+    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em black, 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em black, 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0.6em 0.6em black, 1.2em -0.2em 0 rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em black;
+            box-shadow: 0.6em 0.6em black, 1.2em -0.2em 0 rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em black;
+  }
+  80% {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em black, 1.8em 0.2em rgba(0, 0, 0, 0.2);
+            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em black, 1.8em 0.2em rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes rain {
+  0% {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+  }
+  30% {
+    background-color: black;
+    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em black, 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em black, 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0.6em 0.6em black, 1.2em -0.2em 0 rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em black;
+            box-shadow: 0.6em 0.6em black, 1.2em -0.2em 0 rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em black;
+  }
+  80% {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em black, 1.8em 0.2em rgba(0, 0, 0, 0.2);
+            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em black, 1.8em 0.2em rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
+  }
+}
+
+.hero .components .col-2 .about-card .body {
+  font-family: metro;
+  font-size: 11px;
+  padding: 20px;
+  padding-top: 0px;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #141414;
+  width: auto;
 }
 
 .problem {

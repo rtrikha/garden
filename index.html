@@ -3,12 +3,13 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styling/style.css" />
+        <link rel="stylesheet" href="styling/style.css" />
+        <script src="js/index.js"></script>
 		<title>garden</title>
 	</head>
 	<body>
-		<section class="hero">
-			<div class="heading-pair">
+		<section class="hero" >
+			<div class="heading-pair" id="hero-heading-pair">
 				<div class="heading">
 					<div class="context">
 						Design Language System
@@ -24,9 +25,8 @@
 				</div>
 			</div>
 			<div class="components">
-
                 <div class="col-1">
-                    <div class="bottom-nav" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                    <div class="bottom-nav" id="bottom-nav" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
                         <div class="icons" >
                             <div class="tab">
                                 <input checked="checked" type="radio" name="bottom" id="">
@@ -45,8 +45,8 @@
                                 <img src="./resources/images/navigation/user.svg" alt=""></div>
                         </div>
                     </div>
-                    <div class="reach-card">
-                        <div class="card1" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                    <div class="reach-card" id="reach-card" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                        <div class="card1" >
                             <div class="content">
                                 <img src="./resources/images/reach-card/plain.svg" alt="">
                                 <div class="heading-pair">
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card2" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                        <div class="card2">
                             <div class="content">
                                 <img src="./resources/images/reach-card/train.svg" alt="">
                                 <div class="heading-pair">
@@ -65,27 +65,75 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card" data-tilt data-tilt-scale="1.03" data-tilt data-tilt-max="0" style="padding-bottom: 1vh;">
-                        <img src="./resources/images/heroGrid/Dark Mode.svg" alt="">
+                    <div class="night-mode-card" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                        <div class="content">
+                            <div class="moon-icon">
+                                <div class="stars">
+                                    <img src="./resources/images/night-mode card/small star.svg" alt="" id="small">
+                                    <img src="./resources/images/night-mode card/big star.svg" alt="" id="big">
+                                </div>
+                                <div class="moon" id="moon">
+                                    <img src="./resources/images/night-mode card/moon.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="heading-pair">
+                                <div class="heading">Dark Mode</div>
+                                <div class="subheading">Garden now supports dark mode, enhancing accessibility & easier to the eyes.</div>
+                            
+                            </div>
+                            <button id="darkModeToggle" onclick="darkMode()">Turn on</button>
+                        </div>
                     </div>
-                    <div class="card" data-tilt data-tilt-scale="1.03" data-tilt data-tilt-max="0" style="padding-bottom: 1vh;">
-                        <img src="./resources/images/heroGrid/Rating.svg" alt="">
+                    <div class="review-card" id="review-card" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                        <div class="header">
+                            <div class="left">
+                                <div class="avatar"><img src="./resources/images/rating-card/User 2.svg" alt="" id="avatar"></div>
+                                <div class="pair" id="review-card-pair">
+                                    <div class="heading">Rahul Sheoran</div>
+                                    <div class="subheading">2 months ago</div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <img src="./resources/images/rating-card/Rating.svg" alt="" id="stars">
+                            </div>
+                        </div>
+ 
+                        <div class="body">
+                            We recently stayed at this Farm house for 3 Nights, with my Family & Kid.. Property was sparkling clean with well mentained Lawns and clean swimming pool. We had an amazing and relaxing stay, everything was perfect for a weekend …<span id="read-more-1" style="color: #0099fa; font-weight: 800; cursor: pointer;">read more</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-2">
-                    <div class="card" data-tilt data-tilt-scale="1.03" data-tilt-max="0" style="padding-bottom: 1vh;">
-                        <img src="./resources/images/heroGrid/about car.svg" alt="">
+                    <div class="about-card" id="about-card" data-tilt data-tilt-scale="1.03" data-tilt data-tilt-max="0">
+                        <div class="header">
+                            <div class="left">
+                                <div class="heading">
+                                    17°C
+                                </div>
+                                <div class="subheading">
+                                    Light Rain
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="icon">
+                                    <div class="cloud2"></div>
+                                    <div class="rain"></div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="body">
+                            There are 10 villas in total, sprawling over 20 acres. The amenities include gymnasium, swimming pool, childrens play area, club house, rainwater harvesting, intercom, 24x7 security, power backup, landscaped gardens, indoor games …<span id="read-more-2" style="color: #0099fa; font-weight: 800; cursor: pointer;">read more</span>
+                        </div>
                     </div>
-                    <div class="card" data-tilt data-tilt-scale="1.03" data-tilt data-tilt-max="0" padding>
+                    <div class="card" data-tilt data-tilt-scale="1.03" data-tilt data-tilt-max="0" >
                         <img src="./resources/images/heroGrid/with Range.svg" alt="">
                     </div>
-
                     </div>
                 </div>
             </div>
         </section>
         <section class="problem">
-            <div class="heading-pair">
+            <div class="heading-pair" id="problem-heading-pair">
 				<div class="heading">
 					Understading the problem?
 				</div>
@@ -93,7 +141,7 @@
 					In order to cater millions of users with rapid changes and test the usability with A/B testing, a design system in inevitable. Garden was the third design system which I worked on, realizing and rectifying the problems I had with the previous two systems were. Making an ever-evolving system was practically the biggest challenge for Garden. <br><br> Another problem we faced was to create a holistic solution that serves the solution for all platforms and all screen sizes 
 				</div>
             </div>
-            <div class="platform">
+            <div class="platform" id="platform-icons">
                 <img src="./resources/images/problem/frame.svg" alt="">
             </div>
         </section>
@@ -137,5 +185,5 @@
 			</div>
 		</section>
 	</body>
-	<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
 </html>
