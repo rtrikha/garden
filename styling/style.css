@@ -494,6 +494,17 @@ body {
   width: auto;
 }
 
+.hero .components .col-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .hero .components .col-2 .about-card {
   width: 20vw;
   background-color: #fafafa;
@@ -639,6 +650,165 @@ body {
   width: auto;
 }
 
+.hero .components .col-2 .calendar-card {
+  width: 20vw;
+  height: auto;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.hero .components .col-2 .calendar-card .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .components .col-2 .calendar-card .header .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.2vw;
+  color: #141414;
+  font-size: 13px;
+  font-family: metro;
+}
+
+.hero .components .col-2 .calendar-card .header .right {
+  color: #141414;
+  font-size: 10px;
+  font-weight: 800;
+  font-family: metro;
+  color: #00ba8c;
+}
+
+.hero .components .col-2 .calendar-card .dates {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.hero .components .col-2 .calendar-card .dates .days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: metro;
+}
+
+.hero .components .col-2 .calendar-card .dates .days table {
+  width: 100%;
+  font-size: 10px;
+}
+
+.hero .components .col-2 .calendar-card .dates .days table td {
+  height: 4vh;
+  width: 14.2%;
+  text-align: center;
+  color: #696969;
+  vertical-align: middle;
+}
+
+.hero .components .col-2 .calendar-card .dates .month {
+  font-family: metro;
+  width: auto;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-transform: uppercase;
+  color: #292929;
+}
+
+.hero .components .col-2 .calendar-card .dates .dates-table {
+  font-family: metro;
+}
+
+.hero .components .col-2 .calendar-card .dates .dates-table table {
+  width: 100%;
+}
+
+.hero .components .col-2 .calendar-card .dates .dates-table table td {
+  cursor: pointer;
+  height: 6vh;
+  width: 14.2%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hero .components .col-2 .calendar-card .dates .dates-table table td .date {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.hero .components .col-2 .calendar-card .dates .dates-table table td .price {
+  font-size: 8px;
+  margin-top: 0.5vh;
+  font-weight: 800;
+  color: #696969;
+}
+
+.hero .components .col-2 .calendar-card .footer {
+  padding: 12px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #00ba8c;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.hero .components .col-2 .calendar-card .footer .left {
+  font-family: metro;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .components .col-2 .calendar-card .footer .left .heading {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.hero .components .col-2 .calendar-card .footer .left .subheading {
+  margin-top: 0.7vh;
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: 800;
+  opacity: 0.6;
+}
+
+.hero .components .col-2 .calendar-card .footer .right button {
+  background-color: white;
+  font-size: 12px;
+  font-family: metro;
+  font-weight: 800;
+  color: #141414;
+  padding: 14px 32px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero .components .col-2 .calendar-card .footer .right button:hover {
+  background-color: #ededed;
+}
+
+.hero .components .col-2 .calendar-card .footer .right button:focus {
+  outline: none;
+}
+
 .problem {
   margin-top: 10vh;
 }
@@ -703,7 +873,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 48vw;
+  width: 50%;
 }
 
 .principles .grid .grid-card {
@@ -735,5 +905,60 @@ body {
   -webkit-transform: translateZ(20px);
           transform: translateZ(20px);
   padding: 48px 24px 40px 24px;
+}
+
+.process {
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.process .heading-pair {
+  width: 32vw;
+}
+
+.process .heading-pair .heading {
+  font-family: aktiv;
+  font-weight: 200;
+  font-size: 24px;
+  color: #090909;
+}
+
+.process .heading-pair .subheading {
+  margin-top: 4vh;
+  font-family: aktiv;
+  font-size: 13px;
+  color: #696969;
+  line-height: 22px;
+}
+
+.process .points {
+  margin-top: 6vh;
+  width: 32vw;
+}
+
+.process .points .list-item {
+  margin-bottom: 4vh;
+}
+
+.process .points .list-item .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: aktiv;
+  font-size: 13px;
+  color: #141414;
+}
+
+.process .points .list-item .subheading {
+  font-family: aktiv;
+  font-size: 13px;
+  color: #696969;
+  margin-top: 1vh;
+  line-height: 22px;
 }
 /*# sourceMappingURL=style.css.map */

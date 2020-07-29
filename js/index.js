@@ -20,9 +20,15 @@ function darkMode() {
 		invertModeOn('read-more-1');
 		invertModeOn('about-card');
 		invertModeOn('read-more-2');
+		invertModeOn('calendar-card');
+		invertModeOn('nights');
+		invertModeOn('footer');
 
 		//problem
 		invertModeOn('problem-heading-pair');
+
+		//process
+		invertModeOn('process');
 
 		//body
 		document.getElementsByTagName('body')[0].style.backgroundColor = 'black';
@@ -40,9 +46,15 @@ function darkMode() {
 		invertModeOff('read-more-1');
 		invertModeOff('about-card');
 		invertModeOff('read-more-2');
+		invertModeOff('calendar-card');
+		invertModeOff('nights');
+		invertModeOff('footer');
 
 		//problem
 		invertModeOff('problem-heading-pair');
+
+		//process
+		invertModeOff('process');
 
 		//body
 		document.getElementsByTagName('body')[0].style.backgroundColor = 'white';

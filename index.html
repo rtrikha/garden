@@ -1,189 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styling/style.css" />
-        <script src="js/index.js"></script>
-		<title>garden</title>
-	</head>
-	<body>
-		<section class="hero" >
-			<div class="heading-pair" id="hero-heading-pair">
-				<div class="heading">
-					<div class="context">
-						Design Language System
-					</div>
-					<div class="name">
-						Garden
-					</div>
-				</div>
-				<div class="subheading">
-					Garden is a design language system which aims to deliver a consistent experiences across different verticals. Garden is an ever evolving system to solve the problems of component
-					based design. <br>Garden was made for GuestHouser to solve their need to ship features fast to millions of users. Built on needed a coherent system to achieve a less-code
-					fast-iteration framework
-				</div>
-			</div>
-			<div class="components">
-                <div class="col-1">
-                    <div class="bottom-nav" id="bottom-nav" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
-                        <div class="icons" >
-                            <div class="tab">
-                                <input checked="checked" type="radio" name="bottom" id="">
-                                <img src="./resources/images/navigation/home.svg" alt=""></div>
-                            <div class="tab">
-                                <input type="radio" name="bottom" id="">
-                                <img src="./resources/images/navigation/search.svg" alt=""></div>
-                            <div class="tab">
-                                <input type="radio" name="bottom" id="">
-                                <img src="./resources/images/navigation/heart.svg" alt=""></div>
-                            <div class="tab">
-                                <input type="radio" name="bottom" id="">
-                                <img src="./resources/images/navigation/bell.svg" alt=""></div>
-                            <div class="tab">
-                                <input type="radio" name="bottom" id="">
-                                <img src="./resources/images/navigation/user.svg" alt=""></div>
-                        </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling/style.css" />
+    <script src="js/index.js"></script>
+    <title>garden</title>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="heading-pair" id="hero-heading-pair">
+            <div class="heading">
+                <div class="context">
+                    Design Language System
+                </div>
+                <div class="name">
+                    Garden
+                </div>
+            </div>
+            <div class="subheading">
+                Garden is a design language system which aims to deliver a consistent experiences across different
+                verticals. Garden is an ever evolving system to solve the problems of component
+                based design. <br>Garden was made for GuestHouser to solve their need to ship features fast to millions
+                of users. Built on needed a coherent system to achieve a less-code
+                fast-iteration framework
+            </div>
+        </div>
+        <div class="components">
+            <div class="col-1">
+                <div class="bottom-nav" id="bottom-nav" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                    <div class="icons">
+                        <div class="tab">
+                            <input checked="checked" type="radio" name="bottom" id="">
+                            <img src="./resources/images/navigation/home.svg" alt=""></div>
+                        <div class="tab">
+                            <input type="radio" name="bottom" id="">
+                            <img src="./resources/images/navigation/search.svg" alt=""></div>
+                        <div class="tab">
+                            <input type="radio" name="bottom" id="">
+                            <img src="./resources/images/navigation/heart.svg" alt=""></div>
+                        <div class="tab">
+                            <input type="radio" name="bottom" id="">
+                            <img src="./resources/images/navigation/bell.svg" alt=""></div>
+                        <div class="tab">
+                            <input type="radio" name="bottom" id="">
+                            <img src="./resources/images/navigation/user.svg" alt=""></div>
                     </div>
-                    <div class="reach-card" id="reach-card" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
-                        <div class="card1" >
-                            <div class="content">
-                                <img src="./resources/images/reach-card/plain.svg" alt="">
-                                <div class="heading-pair">
-                                    <div class="heading">By Flight</div>
-                                    <div class="subheading">IGI, Delhi Airport is around 14.8 km from the villa. Easily accessible by cab</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <div class="content">
-                                <img src="./resources/images/reach-card/train.svg" alt="">
-                                <div class="heading-pair">
-                                    <div class="heading">By Train</div>
-                                    <div class="subheading">Nearest railway station from villa is of Gurugram which is 23 km</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="night-mode-card" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                </div>
+                <div class="reach-card" id="reach-card" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                    <div class="card1">
                         <div class="content">
-                            <div class="moon-icon">
-                                <div class="stars">
-                                    <img src="./resources/images/night-mode card/small star.svg" alt="" id="small">
-                                    <img src="./resources/images/night-mode card/big star.svg" alt="" id="big">
-                                </div>
-                                <div class="moon" id="moon">
-                                    <img src="./resources/images/night-mode card/moon.svg" alt="">
-                                </div>
-                            </div>
+                            <img src="./resources/images/reach-card/plain.svg" alt="">
                             <div class="heading-pair">
-                                <div class="heading">Dark Mode</div>
-                                <div class="subheading">Garden now supports dark mode, enhancing accessibility & easier to the eyes.</div>
-                            
+                                <div class="heading">By Flight</div>
+                                <div class="subheading">IGI, Delhi Airport is around 14.8 km from the villa. Easily
+                                    accessible by cab</div>
                             </div>
-                            <button id="darkModeToggle" onclick="darkMode()">Turn on</button>
                         </div>
                     </div>
-                    <div class="review-card" id="review-card" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
-                        <div class="header">
-                            <div class="left">
-                                <div class="avatar"><img src="./resources/images/rating-card/User 2.svg" alt="" id="avatar"></div>
-                                <div class="pair" id="review-card-pair">
-                                    <div class="heading">Rahul Sheoran</div>
-                                    <div class="subheading">2 months ago</div>
+                    <div class="card2">
+                        <div class="content">
+                            <img src="./resources/images/reach-card/train.svg" alt="">
+                            <div class="heading-pair">
+                                <div class="heading">By Train</div>
+                                <div class="subheading">Nearest railway station from villa is of Gurugram which is 23 km
                                 </div>
                             </div>
-                            <div class="right">
-                                <img src="./resources/images/rating-card/Rating.svg" alt="" id="stars">
-                            </div>
-                        </div>
- 
-                        <div class="body">
-                            We recently stayed at this Farm house for 3 Nights, with my Family & Kid.. Property was sparkling clean with well mentained Lawns and clean swimming pool. We had an amazing and relaxing stay, everything was perfect for a weekend …<span id="read-more-1" style="color: #0099fa; font-weight: 800; cursor: pointer;">read more</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="about-card" id="about-card" data-tilt data-tilt-scale="1.03" data-tilt data-tilt-max="0">
-                        <div class="header">
-                            <div class="left">
-                                <div class="heading">
-                                    17°C
-                                </div>
-                                <div class="subheading">
-                                    Light Rain
-                                </div>
+                <div class="night-mode-card" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                    <div class="content">
+                        <div class="moon-icon">
+                            <div class="stars">
+                                <img src="./resources/images/night-mode card/small star.svg" alt="" id="small">
+                                <img src="./resources/images/night-mode card/big star.svg" alt="" id="big">
                             </div>
-                            <div class="right">
-                                <div class="icon">
-                                    <div class="cloud2"></div>
-                                    <div class="rain"></div>
-                                  </div>
+                            <div class="moon" id="moon">
+                                <img src="./resources/images/night-mode card/moon.svg" alt="">
                             </div>
                         </div>
-                        <div class="body">
-                            There are 10 villas in total, sprawling over 20 acres. The amenities include gymnasium, swimming pool, childrens play area, club house, rainwater harvesting, intercom, 24x7 security, power backup, landscaped gardens, indoor games …<span id="read-more-2" style="color: #0099fa; font-weight: 800; cursor: pointer;">read more</span>
+                        <div class="heading-pair">
+                            <div class="heading">Dark Mode</div>
+                            <div class="subheading">Garden now supports dark mode, enhancing accessibility & easier to
+                                the eyes.</div>
+
+                        </div>
+                        <button id="darkModeToggle" onclick="darkMode()">Turn on</button>
+                    </div>
+                </div>
+                <div class="review-card" id="review-card" data-tilt data-tilt-scale="1.03" data-tilt-max="0">
+                    <div class="header">
+                        <div class="left">
+                            <div class="avatar"><img src="./resources/images/rating-card/User 2.svg" alt="" id="avatar">
+                            </div>
+                            <div class="pair" id="review-card-pair">
+                                <div class="heading">Rahul Sheoran</div>
+                                <div class="subheading">2 months ago</div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <img src="./resources/images/rating-card/Rating.svg" alt="" id="stars">
                         </div>
                     </div>
-                    <div class="card" data-tilt data-tilt-scale="1.03" data-tilt data-tilt-max="0" >
-                        <img src="./resources/images/heroGrid/with Range.svg" alt="">
-                    </div>
+
+                    <div class="body">
+                        We recently stayed at this Farm house for 3 Nights, with my Family & Kid.. Property was
+                        sparkling clean with well mentained Lawns and clean swimming pool. We had an amazing and
+                        relaxing stay, everything was perfect for a weekend …<span id="read-more-1"
+                            style="color: #0099fa; font-weight: 800; cursor: pointer;">read more</span>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="problem">
-            <div class="heading-pair" id="problem-heading-pair">
-				<div class="heading">
-					Understading the problem?
-				</div>
-				<div class="subheading">
-					In order to cater millions of users with rapid changes and test the usability with A/B testing, a design system in inevitable. Garden was the third design system which I worked on, realizing and rectifying the problems I had with the previous two systems were. Making an ever-evolving system was practically the biggest challenge for Garden. <br><br> Another problem we faced was to create a holistic solution that serves the solution for all platforms and all screen sizes 
-				</div>
+            <div class="col-2">
+                <div class="about-card" id="about-card" data-tilt data-tilt-scale="1.03" data-tilt data-tilt-max="0">
+                    <div class="header">
+                        <div class="left">
+                            <div class="heading">
+                                17°C
+                            </div>
+                            <div class="subheading">
+                                Light Rain
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="icon">
+                                <div class="cloud2"></div>
+                                <div class="rain"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        There are 10 villas in total, sprawling over 20 acres. The amenities include gymnasium, swimming
+                        pool, childrens play area, club house, rainwater harvesting, intercom, 24x7 security, power
+                        backup, landscaped gardens, indoor games …<span id="read-more-2"
+                            style="color: #0099fa; font-weight: 800; cursor: pointer;">read more</span>
+                    </div>
+                </div>
+                <div class="calendar-card" id="calendar-card">
+                    <div class="header">
+                        <div class="left">
+                            <div class="from">18th Feb</div>
+                            <img src="./resources/images/calendar-card/arrow.svg" alt="">
+                            <div class="to">21th Feb</div>
+                        </div>
+                        <div class="right" id="nights">
+                            3 nights
+                        </div>
+                    </div>
+                    <div class="dates">
+                        <div class="days">
+                            <table>
+                                <tr>
+                                    <td>S</td>
+                                    <td>M</td>
+                                    <td>T</td>
+                                    <td>W</td>
+                                    <td>T</td>
+                                    <td>F</td>
+                                    <td>S</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="month">February</div>
+                        <div class="dates-table">
+                            <table cellspacing="0">
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <div class="date">1</div>
+                                        <div class="price">₹1700</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">2</div>
+                                        <div class="price">₹2400</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="date">3</div>
+                                        <div class="price">₹2200</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">4</div>
+                                        <div class="price">₹2200</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">5</div>
+                                        <div class="price">₹3100</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">6</div>
+                                        <div class="price">₹1200</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">7</div>
+                                        <div class="price">₹1200</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">8</div>
+                                        <div class="price">₹1600</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">9</div>
+                                        <div class="price">₹1840</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="date">10</div>
+                                        <div class="price">₹1600</div>
+                                    </td>
+                                    <td style="opacity: 0.3;">
+                                        <div class="date">11</div>
+                                        <div class="price">₹1200</div>
+                                    </td>
+                                    <td style="opacity: 0.3;">
+                                        <div class="date">12</div>
+                                        <div class="price">₹2100</div>
+                                    </td>
+                                    <td style="opacity: 0.3;">
+                                        <div class="date">13</div>
+                                        <div class="price">₹2400</div>
+                                    </td>
+                                    <td style="opacity: 0.3;">
+                                        <div class="date">14</div>
+                                        <div class="price">₹2400</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">15</div>
+                                        <div class="price">₹2400</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">16</div>
+                                        <div class="price">₹1300</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="date">17</div>
+                                        <div class="price">₹2100</div>
+                                    </td>
+                                    <td style="background-color: black; color: white; border-radius: 4px 0px 0px 4px;">
+                                        <div class="date">18</div>
+                                        <div class="price">₹1000</div>
+                                    </td>
+                                    <td style="background-color: black; color: white;">
+                                        <div class="date">19</div>
+                                        <div class="price">₹1600</div>
+                                    </td>
+                                    <td style="background-color: black; color: white;">
+                                        <div class="date">20</div>
+                                        <div class="price">₹2500</div>
+                                    </td>
+                                    <td style="background-color: black; color: white; border-radius: 0px 4px 4px 0px;">
+                                        <div class="date">21</div>
+                                        <div class="price">₹1500</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">22</div>
+                                        <div class="price">₹1200</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">23</div>
+                                        <div class="price">₹4400</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="date">24</div>
+                                        <div class="price">₹2200</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">25</div>
+                                        <div class="price">₹2200</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">26</div>
+                                        <div class="price">₹1300</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">27</div>
+                                        <div class="price">₹1900</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">28</div>
+                                        <div class="price">₹1900</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">29</div>
+                                        <div class="price">₹2100</div>
+                                    </td>
+                                    <td>
+                                        <div class="date">30</div>
+                                        <div class="price">₹2900</div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="footer" id="footer">
+                        <div class="left">
+                            <div class="heading">₹6600</div>
+                            <div class="subheading">Book this for ₹1</div>
+                        </div>
+                        <div class="right" id="book-now">
+                            <button>Book now</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="platform" id="platform-icons">
-                <img src="./resources/images/problem/frame.svg" alt="">
+        </div>
+        </div>
+    </section>
+    <section class="problem">
+        <div class="heading-pair" id="problem-heading-pair">
+            <div class="heading">
+                Understading the problem?
             </div>
-        </section>
-		<section class="principles">
-			<div class="heading-pair">
-				<div class="heading">
-					Principles
-				</div>
-				<div class="subheading">
-					Like any other solution, Garden is built on three core principles.
-				</div>
-			</div>
-			<div class="grid">
-				<div class="grid-card" data-tilt data-tilt-scale="1.05">
-					<div class="inner">
-						<div class="img"><img src="./resources/images/clear.svg" alt="" /></div>
-						<div class="heading">Clear</div>
-						<div class="subheading">
-							Garden is designed and built to be accessible to all, regardless of ability or situation
-						</div>
-					</div>
-				</div>
-				<div class="grid-card" data-tilt data-tilt-scale="1.05">
-					<div class="inner">
-						<div class="img"><img src="./resources/images/consistent.svg" alt="" /></div>
-						<div class="heading">Consistent</div>
-						<div class="subheading">
-							Garden is designed elegantly to ensure consistent, cohesive user experiences.
-						</div>
-					</div>
-				</div>
-				<div class="grid-card" data-tilt data-tilt-scale="1.05">
-					<div class="inner">
-						<div class="img"><img src="./resources/images/modular.svg" alt="" /></div>
-						<div class="heading">Modular</div>
-						<div class="subheading">
-							Garden is made to ensures maximum flexibility in execution to fit the user
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</body>
-    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+            <div class="subheading">
+                In order to cater millions of users with rapid changes and test the usability with A/B testing, a design
+                system in inevitable. Garden was the third design system which I worked on, realizing and rectifying the
+                problems I had with the previous two systems were. Making an ever-evolving system was practically the
+                biggest challenge for Garden. <br><br> Another problem we faced was to create a holistic solution that
+                serves the solution for all platforms and all screen sizes
+            </div>
+        </div>
+        <div class="platform" id="platform-icons">
+            <img src="./resources/images/problem/frame.svg" alt="">
+        </div>
+    </section>
+    <section class="principles">
+        <div class="heading-pair">
+            <div class="heading">
+                Principles
+            </div>
+            <div class="subheading">
+                Like any other solution, Garden is built on three core principles.
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid-card" data-tilt data-tilt-scale="1.05">
+                <div class="inner">
+                    <div class="img"><img src="./resources/images/clear.svg" alt="" /></div>
+                    <div class="heading">Clear</div>
+                    <div class="subheading">
+                        Garden is designed and built to be accessible to all, regardless of ability or situation
+                    </div>
+                </div>
+            </div>
+            <div class="grid-card" data-tilt data-tilt-scale="1.05">
+                <div class="inner">
+                    <div class="img"><img src="./resources/images/consistent.svg" alt="" /></div>
+                    <div class="heading">Consistent</div>
+                    <div class="subheading">
+                        Garden is designed elegantly to ensure consistent, cohesive user experiences.
+                    </div>
+                </div>
+            </div>
+            <div class="grid-card" data-tilt data-tilt-scale="1.05">
+                <div class="inner">
+                    <div class="img"><img src="./resources/images/modular.svg" alt="" /></div>
+                    <div class="heading">Modular</div>
+                    <div class="subheading">
+                        Garden is made to ensures maximum flexibility in execution to fit the user
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process" id="process">
+            <div class="heading-pair">
+                <div class="heading">
+                    Process
+                </div>
+                <div class="subheading">
+                    I started off with a lot of research and understanding the actual problem. A lot of discussions with developers on selecting the right approach to create a component. A lot of overhauling happened during the initial phase of the system with difficulties keeping all platform teams on the same ground for approaching a problem.
+                </div>
+            </div>
+            <div class="points">
+                <div class="list-item">
+                    <div class="heading">Startegise
+                    </div>
+                    <div class="subheading">started with organizing and strategizing the life cycle of our design system</div>
+                </div>
+                <div class="list-item">
+                    <div class="heading">Research & Brain storming
+                    </div>
+                    <div class="subheading">Made sure every developer was looped in the weekly meetings we had. Approach was the key
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="heading">Design
+                    </div>
+                    <div class="subheading">time to show off visual design & interaction design skills</div>
+                </div>
+                <div class="list-item">
+                    <div class="heading">Develop
+                    </div>
+                    <div class="subheading">Each component we designed, straight away went to the developers to code</div>
+                </div>
+                <div class="list-item">
+                    <div class="heading">QA
+                    </div>
+                    <div class="subheading">Design and code review check by our QA engineers</div>
+                </div>
+                <div class="list-item">
+                    <div class="heading">Build Guidelines
+                    </div>
+                    <div class="subheading">Once component is set in place, write guidelines & how to use it in the system</div>
+                </div>
+                <div class="list-item">
+                    <div class="heading">Evolve
+                    </div>
+                    <div class="subheading">Ever evolving system that caters changes but with some fixed parameters</div>
+                </div>
+            </div>
+
+    </section>
+</body>
+<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+
 </html>

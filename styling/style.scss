@@ -402,6 +402,130 @@ body {
 		width: auto;
 	}
 }
+
+@mixin calendar-card {
+	width: 20vw;
+	height: auto;
+	background-color: $gray-100;
+	border-radius: 8px;
+	.header {
+		display: flex;
+		padding: 20px;
+		align-items: center;
+		justify-content: space-between;
+		.left {
+			display: flex;
+			align-items: center;
+			gap: 0.2vw;
+			color: $gray-600;
+			font-size: 13px;
+			font-family: metro;
+		}
+		.right {
+			color: $gray-600;
+			font-size: 10px;
+			font-weight: 800;
+			font-family: metro;
+			color: #00ba8c;
+		}
+	}
+	.dates {
+		padding: 20px;
+		padding-top: 0;
+		.days {
+			display: flex;
+			font-family: metro;
+			table {
+				width: 100%;
+				font-size: 10px;
+				td {
+					height: 4vh;
+					width: 14.2%;
+					text-align: center;
+					color: $gray-300;
+					vertical-align: middle;
+				}
+			}
+		}
+		.month {
+			font-family: metro;
+			width: auto;
+			padding-top: 1vh;
+			padding-bottom: 1vh;
+			text-transform: uppercase;
+			color: $gray-500;
+		}
+		.dates-table {
+			font-family: metro;
+			table {
+				width: 100%;
+
+				td {
+					cursor: pointer;
+					height: 6vh;
+					width: 14.2%;
+					text-align: center;
+					vertical-align: middle;
+					.date {
+						font-size: 12px;
+						font-weight: 800;
+					}
+					.price {
+						font-size: 8px;
+						margin-top: 0.5vh;
+						font-weight: 800;
+						color: $gray-300;
+					}
+				}
+			}
+		}
+	}
+	.footer {
+		padding: 12px 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #00ba8c;
+		border-radius: 0px 0px 8px 8px;
+
+		.left {
+			font-family: metro;
+			align-items: center;
+			.heading {
+				font-size: 14px;
+				color: $gray-000;
+				font-weight: 800;
+			}
+			.subheading {
+				margin-top: 0.7vh;
+				font-size: 10px;
+				color: $gray-000;
+				font-weight: 800;
+				opacity: 0.6;
+			}
+		}
+		.right {
+			button {
+				background-color: white;
+				font-size: 12px;
+				font-family: metro;
+				font-weight: 800;
+				color: $gray-600;
+				padding: 14px 32px;
+				border-radius: 4px;
+				border: none;
+				cursor: pointer;
+				&:hover {
+					background-color: #ededed;
+				}
+
+				&:focus {
+					outline: none;
+				}
+			}
+		}
+	}
+}
 .hero {
 	display: flex;
 	margin-left: 10vw;
@@ -457,8 +581,14 @@ body {
 			}
 		}
 		.col-2 {
+			display: flex;
+			gap: 16px;
+			flex-direction: column;
 			.about-card {
 				@include about-card;
+			}
+			.calendar-card {
+				@include calendar-card;
 			}
 		}
 	}
@@ -546,9 +676,55 @@ body {
 		margin-left: 10vw;
 		margin-right: 10vw;
 		display: flex;
-		width: 48vw;
+		width: 50%;
 		.grid-card {
 			@include grid-card;
+		}
+	}
+}
+
+.process {
+	padding-bottom: 10vh;
+	padding-top: 10vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	.heading-pair {
+		width: 32vw;
+
+		.heading {
+			font-family: aktiv;
+			font-weight: 200;
+			font-size: 24px;
+			color: $gray-700;
+		}
+		.subheading {
+			margin-top: 4vh;
+			font-family: aktiv;
+			font-size: 13px;
+			color: $gray-300;
+			line-height: 22px;
+		}
+	}
+
+	.points{
+		margin-top: 6vh;
+		width: 32vw;
+		.list-item{
+			margin-bottom: 4vh;
+			.heading{
+				display: flex;
+				align-items: center;
+				font-family: aktiv;
+				font-size: 13px;
+				color: $gray-600;
+			}
+			.subheading{
+				font-family: aktiv;
+				font-size: 13px;
+				color: $gray-300;
+				margin-top: 1vh;
+				line-height: 22px;
+			}
 		}
 	}
 }
