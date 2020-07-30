@@ -5,12 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styling/style.css" />
-    <script src="js/index.js"></script>
     <title>garden</title>
 </head>
 
 <body>
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="heading-pair" id="hero-heading-pair">
             <div class="heading">
                 <div class="context">
@@ -319,7 +318,7 @@
         </div>
         </div>
     </section>
-    <section class="problem">
+    <section class="problem" id="problem">
         <div class="heading-pair" id="problem-heading-pair">
             <div class="heading">
                 Understading the problem?
@@ -376,6 +375,7 @@
         </div>
     </section>
     <section class="process" id="process">
+        <div class="left">
             <div class="heading-pair">
                 <div class="heading">
                     Process
@@ -422,9 +422,57 @@
                     <div class="subheading">Ever evolving system that caters changes but with some fixed parameters</div>
                 </div>
             </div>
+        </div>
+            <div class="right">
+                <div class="anatomy" id="anatomy">
+                    <div class="stack" id="stack1">
+                        <img src="./resources/images/icons.svg" alt="">
+                    </div>
+                    <div class="stack" id="stack2">
+                        <img src="./resources/images/icons-container.svg" alt="">
+                    </div>
+                    <div class="stack">
+                        <img src="./resources/images/container.svg" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="iconography" id="iconography">
+        <div class="heading-pair">
+            <div class="heading">
+                Iconography
+            </div>
+            <div class="subheading">
+                Sketch Design System maintained via versioning in Abstract. Our Design System has logical pinnings and adaptive layouts, you can scale the components to any width or height without worrying about inconsistencies in spacing or padding. Over 100+ components following atomic based design approach were made. The system has one parent sketch file governing all the components and can't be modified once included in the following child sketch files.
+            </div>
+        </div>
+        <div class="icons" id="icons">
+        </div>
+    </div>
+    <section class="components-show" id="components-show">
+        <div class="heading-pair">
+            <div class="heading">
+                Components
+            </div>
+            <div class="subheading">
+                Sketch Design System maintained via versioning in Abstract. Our Design System has logical pinnings and adaptive layouts, you can scale the components to any width or height without worrying about inconsistencies in spacing or padding. Over 100+ components following atomic based design approach were made. The system has one parent sketch file governing all the components and can't be modified once included in the following child sketch files.
+            </div>
+        </div>
+        <div class="component-grid" id="component-grid">
+            <div class="col-1" data-rellax-percentage="0.2">
+            </div>
+            <div class="col-2" data-rellax-percentage="0.8">
 
+            </div>
+            <div class="col-3" data-rellax-percentage="0.1">
+
+            </div>
+            <div class="col-4" data-rellax-percentage="0.6">
+            </div>
+        </div>
     </section>
 </body>
 <script type="text/javascript" src="js/vanilla-tilt.js"></script>
-
+<script src="js/rellax.min.js"></script>
+<script src="js/index.js"></script>
 </html>

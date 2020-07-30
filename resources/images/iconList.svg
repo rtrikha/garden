@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1259px" height="322px" viewBox="0 0 1259 322" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>iconList</title>
+    <desc>Created with Sketch.</desc>
+    <g id="garden" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-357.000000, -170.000000)">
+            <g id="iconList" transform="translate(350.000000, 163.000000)">
+                <g id="Group-62" transform="translate(1230.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-64" x="0" y="0" width="42" height="42"></rect>
+                    <g id="bookmark" transform="translate(12.600000, 10.500000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M16.3333333,21 L8.16666667,15.1666667 L0,21 L0,2.33333333 C0,1.04466892 1.04466892,0 2.33333333,0 L14,0 C15.2886644,0 16.3333333,1.04466892 16.3333333,2.33333333 L16.3333333,21 Z" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-61" transform="translate(1148.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-63" x="0" y="0" width="42" height="42"></rect>
+                    <g id="edit" transform="translate(9.100000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M10.5,2.8 L2.33333333,2.8 C1.04466892,2.8 0,3.84466892 0,5.13333333 L0,21.4666667 C0,22.7553311 1.04466892,23.8 2.33333333,23.8 L18.6666667,23.8 C19.9553311,23.8 21,22.7553311 21,21.4666667 L21,13.3" id="Path" stroke="#2E2E2E"></path>
+                        <path d="M19.25,1.05 C20.2164983,0.0835017226 21.7835017,0.0835017391 22.75,1.05000004 C23.7164983,2.01649833 23.7164983,3.58350168 22.75,4.55 L11.6666667,15.6333333 L7,16.8 L8.16666667,12.1333333 L19.25,1.05 Z" id="Path" stroke="#7C7C7C"></path>
+                    </g>
+                </g>
+                <g id="Group-60" transform="translate(1066.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-62" x="0" y="0" width="42" height="42"></rect>
+                    <g id="archive" transform="translate(8.400000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" stroke="#2E2E2E" points="23.3333333 5.83333333 23.3333333 21 2.33333333 21 2.33333333 5.83333333"></polyline>
+                        <rect id="Rectangle" stroke="#2E2E2E" x="0" y="0" width="25.6666667" height="5.83333333"></rect>
+                        <line x1="10.5" y1="10.5" x2="15.1666667" y2="10.5" id="Path" stroke="#7C7C7C"></line>
+                    </g>
+                </g>
+                <g id="Group-59" transform="translate(984.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-61" x="0" y="0" width="42" height="42"></rect>
+                    <g id="briefcase" transform="translate(9.100000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M16.3333333,21 L16.3333333,2.33333333 C16.3333333,1.04466892 15.2886644,0 14,0 L9.33333333,0 C8.04466892,0 7,1.04466892 7,2.33333333 L7,21" id="Path" stroke="#7C7C7C"></path>
+                        <rect id="Rectangle" stroke="#2E2E2E" x="0" y="4.66666667" width="23.3333333" height="16.3333333" rx="2.33333333"></rect>
+                    </g>
+                </g>
+                <g id="Group-58" transform="translate(902.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-60" x="0" y="0" width="42" height="42"></rect>
+                    <g id="external-link" transform="translate(10.500000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M17.5,11.6666667 L17.5,18.6666667 C17.5,19.9553311 16.4553311,21 15.1666667,21 L2.33333333,21 C1.04466892,21 0,19.9553311 0,18.6666667 L0,5.83333333 C0,4.54466892 1.04466892,3.5 2.33333333,3.5 L9.33333333,3.5" id="Path" stroke="#2E2E2E"></path>
+                        <polyline id="Path" stroke="#7C7C7C" points="14 0 21 0 21 7"></polyline>
+                        <line x1="8.16666667" y1="12.8333333" x2="21" y2="0" id="Path" stroke="#7C7C7C"></line>
+                    </g>
+                </g>
+                <g id="Group-57" transform="translate(820.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-59" x="0" y="0" width="42" height="42"></rect>
+                    <g id="file-text" transform="translate(11.900000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M11.6666667,0 L2.33333333,0 C1.04466892,0 0,1.04466892 0,2.33333333 L0,21 C0,22.2886644 1.04466892,23.3333333 2.33333333,23.3333333 L16.3333333,23.3333333 C17.6219977,23.3333333 18.6666667,22.2886644 18.6666667,21 L18.6666667,7 L11.6666667,0 Z" id="Path" stroke="#2E2E2E"></path>
+                        <polyline id="Path" stroke="#2E2E2E" points="11.6666667 0 11.6666667 7 18.6666667 7"></polyline>
+                        <line x1="14" y1="12.8333333" x2="4.66666667" y2="12.8333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="14" y1="17.5" x2="4.66666667" y2="17.5" id="Path" stroke="#7C7C7C"></line>
+                        <polyline id="Path" stroke="#7C7C7C" points="7 8.16666667 5.83333333 8.16666667 4.66666667 8.16666667"></polyline>
+                    </g>
+                </g>
+                <g id="Group-56" transform="translate(738.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-58" x="0" y="0" width="42" height="42"></rect>
+                    <g id="credit-card" transform="translate(8.400000, 11.900000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <rect id="Rectangle" x="0" y="0" width="25.6666667" height="18.6666667" rx="2.33333333"></rect>
+                        <line x1="0" y1="7" x2="25.6666667" y2="7" id="Path"></line>
+                    </g>
+                </g>
+                <g id="Group-55" transform="translate(656.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-57" x="0" y="0" width="42" height="42"></rect>
+                    <g id="at-sign" transform="translate(9.100000, 9.100000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <circle id="Oval" cx="11.6666667" cy="11.6666667" r="4.66666667"></circle>
+                        <path d="M16.3333333,7 L16.3333333,12.8333333 C16.3333333,14.76633 17.9003367,16.3333333 19.8333333,16.3333333 C21.76633,16.3333333 23.3333333,14.76633 23.3333333,12.8333333 L23.3333333,11.6666667 C23.3329919,6.24505534 19.5978235,1.53815004 14.3180783,0.306013774 C9.03833303,-0.926122489 3.60556184,1.64125707 1.20546524,6.50267722 C-1.19463135,11.3640974 0.0705257456,17.2382627 4.25906623,20.6806453 C8.44760671,24.1230279 14.455582,24.2263397 18.76,20.93" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-54" transform="translate(574.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-56" x="0" y="0" width="42" height="42"></rect>
+                    <g id="calendar" transform="translate(10.500000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <rect id="Rectangle" stroke="#2E2E2E" x="0" y="2.33333333" width="21" height="21" rx="2.33333333"></rect>
+                        <line x1="15.1666667" y1="0" x2="15.1666667" y2="4.66666667" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="5.83333333" y1="0" x2="5.83333333" y2="4.66666667" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="0" y1="9.33333333" x2="21" y2="9.33333333" id="Path" stroke="#2E2E2E"></line>
+                    </g>
+                </g>
+                <g id="Group-53" transform="translate(492.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-55" x="0" y="0" width="42" height="42"></rect>
+                    <g id="filter" transform="translate(9.100000, 10.500000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polygon id="Path" points="23.3333333 0 0 0 9.33333333 11.0366667 9.33333333 18.6666667 14 21 14 11.0366667"></polygon>
+                    </g>
+                </g>
+                <g id="Group-52" transform="translate(410.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-54" x="0" y="0" width="42" height="42"></rect>
+                    <g id="mail" transform="translate(9.100000, 11.900000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" stroke="#7C7C7C" points="23.3333333 2.33333333 11.6666667 10.5 0 2.33333333"></polyline>
+                        <path d="M2.33333333,0 L21,0 C22.2833333,0 23.3333333,1.05 23.3333333,2.33333333 L23.3333333,16.3333333 C23.3333333,17.6166667 22.2833333,18.6666667 21,18.6666667 L2.33333333,18.6666667 C1.05,18.6666667 0,17.6166667 0,16.3333333 L0,2.33333333 C0,1.05 1.05,0 2.33333333,0 Z" id="Path" stroke="#2E2E2E"></path>
+                    </g>
+                </g>
+                <g id="Group-51" transform="translate(328.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-53" x="0" y="0" width="42" height="42"></rect>
+                    <g id="copy" transform="translate(9.100000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <rect id="Rectangle" stroke="#2E2E2E" x="8.16666667" y="8.16666667" width="15.1666667" height="15.1666667" rx="2.33333333"></rect>
+                        <path d="M3.5,15.1666667 L2.33333333,15.1666667 C1.04466892,15.1666667 0,14.1219977 0,12.8333333 L0,2.33333333 C0,1.04466892 1.04466892,0 2.33333333,0 L12.8333333,0 C14.1219977,0 15.1666667,1.04466892 15.1666667,2.33333333 L15.1666667,3.5" id="Path" stroke="#7C7C7C"></path>
+                    </g>
+                </g>
+                <g id="Group-64" transform="translate(246.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-52" x="0" y="0" width="42" height="42"></rect>
+                    <g id="message-square" transform="translate(10.500000, 10.500000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M21,14 C21,15.2886644 19.9553311,16.3333333 18.6666667,16.3333333 L4.66666667,16.3333333 L0,21 L0,2.33333333 C0,1.04466892 1.04466892,0 2.33333333,0 L18.6666667,0 C19.9553311,0 21,1.04466892 21,2.33333333 L21,14 Z" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-50" transform="translate(164.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-51" x="0" y="0" width="42" height="42"></rect>
+                    <g id="tag" transform="translate(9.800000, 9.800000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M21.6883333,13.3116667 L13.3233333,21.6766667 C12.8856741,22.1148131 12.2917882,22.3610022 11.6725,22.3610022 C11.0532118,22.3610022 10.4593259,22.1148131 10.0216667,21.6766667 L0,11.6666667 L0,0 L11.6666667,0 L21.6883333,10.0216667 C22.5930217,10.9317541 22.5930217,12.4015793 21.6883333,13.3116667 Z" id="Path"></path>
+                        <line x1="5.83333333" y1="5.83333333" x2="5.845" y2="5.83333333" id="Path"></line>
+                    </g>
+                </g>
+                <g id="Group-49" transform="translate(82.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-50" x="0" y="0" width="42" height="42"></rect>
+                    <g id="zap-(2)" transform="translate(10.500000, 9.100000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polygon id="Path" points="11.6666667 0 0 14 10.5 14 9.33333333 23.3333333 21 9.33333333 10.5 9.33333333"></polygon>
+                    </g>
+                </g>
+                <g id="Group-48" transform="translate(0.000000, 294.000000)">
+                    <rect id="Rectangle-Copy-49" x="0" y="0" width="42" height="42"></rect>
+                    <g id="share-2" transform="translate(10.500000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <circle id="Oval" stroke="#2E2E2E" cx="17.5" cy="3.5" r="3.5"></circle>
+                        <circle id="Oval" stroke="#2E2E2E" cx="17.5" cy="19.8333333" r="3.5"></circle>
+                        <line x1="6.52166667" y1="13.4283333" x2="14.49" y2="18.0716667" id="Path" stroke="#2E2E2E"></line>
+                        <line x1="14.4783333" y1="5.26166667" x2="6.52166667" y2="9.905" id="Path" stroke="#2E2E2E"></line>
+                        <circle id="Oval" stroke="#7C7C7C" cx="3.5" cy="11.6666667" r="3.5"></circle>
+                    </g>
+                </g>
+                <g id="Group-47" transform="translate(1230.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-48" x="0" y="0" width="42" height="42"></rect>
+                    <g id="truck" transform="translate(8.400000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polygon id="Path" stroke="#7C7C7C" points="17.5 5.83333333 22.1666667 5.83333333 25.6666667 9.33333333 25.6666667 15.1666667 17.5 15.1666667"></polygon>
+                        <rect id="Rectangle" stroke="#2E2E2E" x="0" y="0" width="17.5" height="15.1666667"></rect>
+                        <circle id="Oval" stroke="#2E2E2E" cx="5.25" cy="18.0833333" r="2.91666667"></circle>
+                        <circle id="Oval" stroke="#2E2E2E" cx="20.4166667" cy="18.0833333" r="2.91666667"></circle>
+                    </g>
+                </g>
+                <g id="Group-63" transform="translate(1148.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-47" x="0" y="0" width="42" height="42"></rect>
+                    <g id="save" transform="translate(10.500000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" stroke="#7C7C7C" points="16.3333333 21 16.3333333 11.6666667 4.66666667 11.6666667 4.66666667 21"></polyline>
+                        <polyline id="Path" stroke="#7C7C7C" points="4.66666667 0 4.66666667 5.83333333 14 5.83333333"></polyline>
+                        <path d="M18.6666667,21 L2.33333333,21 C1.04466892,21 0,19.9553311 0,18.6666667 L0,2.33333333 C0,1.04466892 1.04466892,0 2.33333333,0 L15.1666667,0 L21,5.83333333 L21,18.6666667 C21,19.9553311 19.9553311,21 18.6666667,21 Z" id="Path" stroke="#2E2E2E"></path>
+                    </g>
+                </g>
+                <g id="Group-46" transform="translate(1066.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-46" x="0" y="0" width="42" height="42"></rect>
+                    <g id="settings" transform="translate(8.400000, 8.400000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <circle id="Oval" stroke="#7C7C7C" cx="12.8333333" cy="12.8333333" r="3.5"></circle>
+                        <path d="M21.4666667,16.3333333 C21.1489291,17.0532717 21.3013898,17.8941155 21.8516667,18.4566667 L21.9216667,18.5266667 C22.3598131,18.9643259 22.6060022,19.5582118 22.6060022,20.1775 C22.6060022,20.7967882 22.3598131,21.3906741 21.9216667,21.8283333 C21.4840074,22.2664798 20.8901216,22.5126689 20.2708333,22.5126689 C19.6515451,22.5126689 19.0576593,22.2664798 18.62,21.8283333 L18.55,21.7583333 C17.9874488,21.2080565 17.1466051,21.0555958 16.4266667,21.3733333 C15.721451,21.6755797 15.2630601,22.3677499 15.26,23.135 L15.26,23.3333333 C15.26,24.6219977 14.2153311,25.6666667 12.9266667,25.6666667 C11.6380023,25.6666667 10.5933333,24.6219977 10.5933333,23.3333333 L10.5933333,23.2283333 C10.5748494,22.438116 10.0751837,21.7395094 9.33333333,21.4666667 C8.61339492,21.1489291 7.77255119,21.3013898 7.21,21.8516667 L7.14,21.9216667 C6.70234073,22.3598131 6.10845491,22.6060022 5.48916667,22.6060022 C4.86987842,22.6060022 4.2759926,22.3598131 3.83833333,21.9216667 C3.4001869,21.4840074 3.1539978,20.8901216 3.1539978,20.2708333 C3.1539978,19.6515451 3.4001869,19.0576593 3.83833333,18.62 L3.90833333,18.55 C4.45861019,17.9874488 4.61107087,17.1466051 4.29333333,16.4266667 C3.991087,15.721451 3.29891674,15.2630601 2.53166667,15.26 L2.33333333,15.26 C1.04466892,15.26 0,14.2153311 0,12.9266667 C0,11.6380023 1.04466892,10.5933333 2.33333333,10.5933333 L2.43833333,10.5933333 C3.22855071,10.5748494 3.9271573,10.0751837 4.2,9.33333333 C4.51773753,8.61339492 4.36527686,7.77255119 3.815,7.21 L3.745,7.14 C3.30685357,6.70234073 3.06066447,6.10845491 3.06066447,5.48916667 C3.06066447,4.86987842 3.30685357,4.2759926 3.745,3.83833333 C4.18265927,3.4001869 4.77654509,3.1539978 5.39583333,3.1539978 C6.01512158,3.1539978 6.6090074,3.4001869 7.04666667,3.83833333 L7.11666667,3.90833333 C7.67921786,4.45861019 8.52006159,4.61107087 9.24,4.29333333 L9.33333333,4.29333333 C10.038549,3.991087 10.4969399,3.29891674 10.5,2.53166667 L10.5,2.33333333 C10.5,1.04466892 11.5446689,0 12.8333333,0 C14.1219977,0 15.1666667,1.04466892 15.1666667,2.33333333 L15.1666667,2.43833333 C15.1697267,3.20558341 15.6281176,3.89775367 16.3333333,4.2 C17.0532717,4.51773753 17.8941155,4.36527686 18.4566667,3.815 L18.5266667,3.745 C18.9643259,3.30685357 19.5582118,3.06066447 20.1775,3.06066447 C20.7967882,3.06066447 21.3906741,3.30685357 21.8283333,3.745 C22.2664798,4.18265927 22.5126689,4.77654509 22.5126689,5.39583333 C22.5126689,6.01512158 22.2664798,6.6090074 21.8283333,7.04666667 L21.7583333,7.11666667 C21.2080565,7.67921786 21.0555958,8.52006159 21.3733333,9.24 L21.3733333,9.33333333 C21.6755797,10.038549 22.3677499,10.4969399 23.135,10.5 L23.3333333,10.5 C24.6219977,10.5 25.6666667,11.5446689 25.6666667,12.8333333 C25.6666667,14.1219977 24.6219977,15.1666667 23.3333333,15.1666667 L23.2283333,15.1666667 C22.4610833,15.1697267 21.768913,15.6281176 21.4666667,16.3333333 Z" id="Path" stroke="#2E2E2E"></path>
+                    </g>
+                </g>
+                <g id="Group-45" transform="translate(984.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-45" x="0" y="0" width="42" height="42"></rect>
+                    <g id="paperclip" transform="translate(9.800000, 9.100000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M22.68,11.725 L11.9583333,22.4466667 C9.22314311,25.1818569 4.78852356,25.1818569 2.05333333,22.4466667 C-0.68185689,19.7114764 -0.68185689,15.2768569 2.05333333,12.5416667 L12.775,1.82 C14.5984602,-0.00346010264 17.5548732,-0.00346008061 19.3783333,1.82000005 C21.2017934,3.64346018 21.2017934,6.59987318 19.3783333,8.42333333 L8.645,19.145 C7.73326993,20.0567301 6.25506341,20.0567301 5.34333333,19.145 C4.43160326,18.2332699 4.43160326,16.7550634 5.34333333,15.8433333 L15.2483333,5.95" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-44" transform="translate(902.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-44" x="0" y="0" width="42" height="42"></rect>
+                    <g id="map" transform="translate(8.400000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="8.16666667" y1="0" x2="8.16666667" y2="18.6666667" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="17.5" y1="4.66666667" x2="17.5" y2="23.3333333" id="Path" stroke="#7C7C7C"></line>
+                        <polygon id="Path" stroke="#2E2E2E" points="0 4.66666667 0 23.3333333 8.16666667 18.6666667 17.5 23.3333333 25.6666667 18.6666667 25.6666667 0 17.5 4.66666667 8.16666667 0"></polygon>
+                    </g>
+                </g>
+                <g id="Group-43" transform="translate(820.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-43" x="0" y="0" width="42" height="42"></rect>
+                    <g id="key" transform="translate(9.100000, 9.800000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" stroke="#7C7C7C" points="15.75 6.41666667 19.25 9.91666667 23.3333333 5.83333333 19.8333333 2.33333333"></polyline>
+                        <path d="M22.1666667,0 L19.8333333,2.33333333 M10.955,11.2116667 C12.5941259,12.8289734 13.2409644,15.2005823 12.6499516,17.4261426 C12.0589389,19.6517028 10.3207028,21.3899389 8.09514256,21.9809516 C5.86958227,22.5719644 3.49797337,21.9251259 1.88066667,20.286 C-0.551071678,17.7682355 -0.516294399,13.7661227 1.95883081,11.2909975 C4.43395601,8.81587227 8.43606881,8.78109499 10.9538333,11.2128333 L10.955,11.2116667 Z M10.955,11.2116667 L15.75,6.41666667 M15.75,6.41666667 L19.8333333,2.33333333" id="Shape" stroke="#2E2E2E"></path>
+                    </g>
+                </g>
+                <g id="Group-42" transform="translate(738.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-42" x="0" y="0" width="42" height="42"></rect>
+                    <g id="rotate-ccw" transform="translate(9.100000, 10.500000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" points="0 1.16666667 0 8.16666667 7 8.16666667"></polyline>
+                        <path d="M2.92833333,14 C4.4823408,18.4108365 8.76614573,21.2622637 13.4350011,20.9935486 C18.1038564,20.7248335 22.0322313,17.4007559 23.0699239,12.8407546 C24.1076165,8.28075328 22.004468,3.58411744 17.91164,1.32155775 C13.8188119,-0.941001945 8.72297099,-0.224045458 5.41333333,3.08 L0,8.16666667" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-41" transform="translate(656.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-41" x="0" y="0" width="42" height="42"></rect>
+                    <g id="minimize" transform="translate(10.500000, 10.500000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M5.83333333,0 L5.83333333,3.5 C5.83333333,4.78866442 4.78866442,5.83333333 3.5,5.83333333 L0,5.83333333 M21,5.83333333 L17.5,5.83333333 C16.2113356,5.83333333 15.1666667,4.78866442 15.1666667,3.5 L15.1666667,0 M15.1666667,21 L15.1666667,17.5 C15.1666667,16.2113356 16.2113356,15.1666667 17.5,15.1666667 L21,15.1666667 M0,15.1666667 L3.5,15.1666667 C4.78866442,15.1666667 5.83333333,16.2113356 5.83333333,17.5 L5.83333333,21" id="Shape"></path>
+                    </g>
+                </g>
+                <g id="Group-40" transform="translate(574.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-40" x="0" y="0" width="42" height="42"></rect>
+                    <g id="package" transform="translate(10.500000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="15.75" y1="8.63333333" x2="5.25" y2="2.57833333" id="Path" stroke="#7C7C7C"></line>
+                        <path d="M21,16.3333333 L21,7 C20.9991458,6.16723521 20.5545294,5.39804884 19.8333333,4.98166667 L11.6666667,0.315 C10.9447308,-0.101809855 10.0552692,-0.101809855 9.33333333,0.315 L1.16666667,4.98166667 C0.445470574,5.39804884 0.00085417353,6.16723521 0,7 L0,16.3333333 C0.00085417353,17.1660981 0.445470574,17.9352845 1.16666667,18.3516667 L9.33333333,23.0183333 C10.0552692,23.4351432 10.9447308,23.4351432 11.6666667,23.0183333 L19.8333333,18.3516667 C20.5545294,17.9352845 20.9991458,17.1660981 21,16.3333333 Z" id="Path" stroke="#2E2E2E"></path>
+                        <polyline id="Path" stroke="#2E2E2E" points="0.315 5.78666667 10.5 11.6783333 20.685 5.78666667"></polyline>
+                        <line x1="10.5" y1="23.4266667" x2="10.5" y2="11.6666667" id="Path" stroke="#2E2E2E"></line>
+                    </g>
+                </g>
+                <g id="Group-39" transform="translate(492.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-39" x="0" y="0" width="42" height="42"></rect>
+                    <g id="maximize" transform="translate(10.500000, 10.500000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M5.83333333,0 L2.33333333,0 C1.04466892,0 0,1.04466892 0,2.33333333 L0,5.83333333 M21,5.83333333 L21,2.33333333 C21,1.04466892 19.9553311,0 18.6666667,0 L15.1666667,0 M15.1666667,21 L18.6666667,21 C19.9553311,21 21,19.9553311 21,18.6666667 L21,15.1666667 M0,15.1666667 L0,18.6666667 C0,19.9553311 1.04466892,21 2.33333333,21 L5.83333333,21" id="Shape"></path>
+                    </g>
+                </g>
+                <g id="Group-38" transform="translate(410.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-38" x="0" y="0" width="42" height="42"></rect>
+                    <g id="shield" transform="translate(11.900000, 9.100000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M9.33333333,23.3333333 C9.33333333,23.3333333 18.6666667,18.6666667 18.6666667,11.6666667 L18.6666667,3.5 L9.33333333,0 L0,3.5 L0,11.6666667 C0,18.6666667 9.33333333,23.3333333 9.33333333,23.3333333 Z" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-37" transform="translate(328.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-37" x="0" y="0" width="42" height="42"></rect>
+                    <g id="phone-forwarded" transform="translate(9.100000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" stroke="#7C7C7C" points="19.8333333 0 24.5 4.66666667 19.8333333 9.33333333"></polyline>
+                        <line x1="15.1666667" y1="4.66666667" x2="24.5" y2="4.66666667" id="Path" stroke="#7C7C7C"></line>
+                        <path d="M23.3333333,18.5733333 L23.3333333,22.0733333 C23.3360001,22.730336 23.061556,23.3580181 22.5774242,23.8021757 C22.0932924,24.2463333 21.4443413,24.4658028 20.79,24.4066667 C17.1999728,24.0165809 13.751499,22.7898353 10.7216667,20.825 C7.90279947,19.0337745 5.51289217,16.6438672 3.72166667,13.825 C1.7499744,10.7814046 0.522950169,7.31616032 0.14,3.71 C0.0810520787,3.05768439 0.29898401,2.41062783 0.740560076,1.92689123 C1.18213614,1.44315464 1.80669328,1.16728347 2.46166667,1.16655196 L5.96166667,1.16655196 C7.1328414,1.15513982 8.13108432,2.01362873 8.295,3.17333333 C8.44272685,4.29341086 8.71669103,5.39318136 9.11166667,6.45166667 C9.43219084,7.3043542 9.22718425,8.26560731 8.58666667,8.91333333 L7.105,10.395 C8.76581472,13.3158035 11.1841965,15.7341853 14.105,17.395 L15.5866667,15.9133333 C16.2343927,15.2728157 17.1956458,15.0678092 18.0483333,15.3883333 C19.1068186,15.783309 20.2065891,16.0572731 21.3266667,16.205 C22.4998231,16.3705037 23.3627217,17.3889247 23.3333333,18.5733333 Z" id="Path" stroke="#2E2E2E"></path>
+                    </g>
+                </g>
+                <g id="Group-36" transform="translate(246.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-36" x="0" y="0" width="42" height="42"></rect>
+                    <g id="log-out" transform="translate(10.500000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M7,21 L2.33333333,21 C1.04466892,21 0,19.9553311 0,18.6666667 L0,2.33333333 C0,1.04466892 1.04466892,0 2.33333333,0 L7,0" id="Path" stroke="#2E2E2E"></path>
+                        <polyline id="Path" stroke="#7C7C7C" points="15.1666667 16.3333333 21 10.5 15.1666667 4.66666667"></polyline>
+                        <line x1="21" y1="10.5" x2="7" y2="10.5" id="Path" stroke="#7C7C7C"></line>
+                    </g>
+                </g>
+                <g id="Group-35" transform="translate(164.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-35" x="0" y="0" width="42" height="42"></rect>
+                    <g id="star" transform="translate(9.100000, 9.800000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polygon id="Path" points="11.6666667 0 15.2716667 7.30333333 23.3333333 8.48166667 17.5 14.1633333 18.8766667 22.19 11.6666667 18.3983333 4.45666667 22.19 5.83333333 14.1633333 0 8.48166667 8.06166667 7.30333333"></polygon>
+                    </g>
+                </g>
+                <g id="Group-34" transform="translate(82.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-34" x="0" y="0" width="42" height="42"></rect>
+                    <g id="info" transform="translate(9.100000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <circle id="Oval" stroke="#2E2E2E" cx="11.6666667" cy="11.6666667" r="11.6666667"></circle>
+                        <line x1="11.6666667" y1="16.3333333" x2="11.6666667" y2="11.6666667" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="11.6666667" y1="7" x2="11.6783333" y2="7" id="Path" stroke="#7C7C7C"></line>
+                    </g>
+                </g>
+                <g id="Group-33" transform="translate(0.000000, 196.000000)">
+                    <rect id="Rectangle-Copy-33" x="0" y="0" width="42" height="42"></rect>
+                    <g id="book" transform="translate(11.900000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M0,20.4166667 C0,18.8058361 1.30583615,17.5 2.91666667,17.5 L18.6666667,17.5" id="Path" stroke="#7C7C7C"></path>
+                        <path d="M2.91666667,0 L18.6666667,0 L18.6666667,23.3333333 L2.91666667,23.3333333 C1.30583615,23.3333333 0,22.0274972 0,20.4166667 L0,2.91666667 C0,1.30583615 1.30583615,0 2.91666667,0 Z" id="Path" stroke="#2E2E2E"></path>
+                    </g>
+                </g>
+                <g id="Group-31" transform="translate(1230.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-32" x="0" y="0" width="42" height="42"></rect>
+                    <g id="upload" transform="translate(10.500000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M21,14 L21,18.6666667 C21,19.9553311 19.9553311,21 18.6666667,21 L2.33333333,21 C1.04466892,21 0,19.9553311 0,18.6666667 L0,14" id="Path" stroke="#2E2E2E"></path>
+                        <polyline id="Path" stroke="#A2A2A2" points="16.3333333 5.83333333 10.5 0 4.66666667 5.83333333"></polyline>
+                        <line x1="10.5" y1="0" x2="10.5" y2="14" id="Path" stroke="#A2A2A2"></line>
+                    </g>
+                </g>
+                <g id="Group-30" transform="translate(1148.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-31" x="0" y="0" width="42" height="42"></rect>
+                    <g id="link-2" transform="translate(8.400000, 15.400000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M16.3333333,0 L19.8333333,0 C21.3804295,0 22.8641607,0.614581569 23.9581229,1.70854378 C25.0520851,2.80250598 25.6666667,4.28623714 25.6666667,5.83333333 C25.6666667,9.05499437 23.0549944,11.6666667 19.8333333,11.6666667 L16.3333333,11.6666667 M9.33333333,11.6666667 L5.83333333,11.6666667 C4.28623714,11.6666667 2.80250598,11.0520851 1.70854378,9.95812289 C0.614581569,8.86416068 0,7.38042952 0,5.83333333 C0,2.61167229 2.61167229,1.77635684e-15 5.83333333,1.77635684e-15 L9.33333333,1.77635684e-15" id="Shape" stroke="#2E2E2E"></path>
+                        <line x1="8.16666667" y1="5.83333333" x2="17.5" y2="5.83333333" id="Path" stroke="#A2A2A2"></line>
+                    </g>
+                </g>
+                <g id="Group-29" transform="translate(1066.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-30" x="0" y="0" width="42" height="42"></rect>
+                    <g id="alert-circle-(1)" transform="translate(9.100000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <circle id="Oval" stroke="#2E2E2E" cx="11.6666667" cy="11.6666667" r="11.6666667"></circle>
+                        <line x1="11.6666667" y1="7" x2="11.6666667" y2="11.6666667" id="Path" stroke="#A2A2A2"></line>
+                        <line x1="11.6666667" y1="16.3333333" x2="11.6783333" y2="16.3333333" id="Path" stroke="#A2A2A2"></line>
+                    </g>
+                </g>
+                <g id="Group-28" transform="translate(984.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-29" x="0" y="0" width="42" height="42"></rect>
+                    <g id="image" transform="translate(10.500000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <rect id="Rectangle" stroke="#2E2E2E" x="0" y="0" width="21" height="21" rx="2.33333333"></rect>
+                        <circle id="Oval" stroke="#A2A2A2" cx="6.41666667" cy="6.41666667" r="1.75"></circle>
+                        <polyline id="Path" stroke="#2E2E2E" points="21 14 15.1666667 8.16666667 2.33333333 21"></polyline>
+                    </g>
+                </g>
+                <g id="Group-27" transform="translate(902.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-28" x="0" y="0" width="42" height="42"></rect>
+                    <g id="coffee" transform="translate(9.100000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M18.6666667,8.16666667 L19.8333333,8.16666667 C22.4106622,8.16666667 24.5,10.2560045 24.5,12.8333333 C24.5,15.4106622 22.4106622,17.5 19.8333333,17.5 L18.6666667,17.5" id="Path" stroke="#2E2E2E"></path>
+                        <path d="M0,8.16666667 L18.6666667,8.16666667 L18.6666667,18.6666667 C18.6666667,21.2439955 16.5773288,23.3333333 14,23.3333333 L4.66666667,23.3333333 C2.08933783,23.3333333 0,21.2439955 0,18.6666667 L0,8.16666667 Z" id="Path" stroke="#2E2E2E"></path>
+                        <line x1="4.66666667" y1="0" x2="4.66666667" y2="3.5" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="9.33333333" y1="0" x2="9.33333333" y2="3.5" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="14" y1="0" x2="14" y2="3.5" id="Path" stroke="#7C7C7C"></line>
+                    </g>
+                </g>
+                <g id="Group-26" transform="translate(820.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-27" x="0" y="0" width="42" height="42"></rect>
+                    <g id="loader-(1)" transform="translate(9.100000, 9.100000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="11.6666667" y1="0" x2="11.6666667" y2="4.66666667" id="Path"></line>
+                        <line x1="11.6666667" y1="18.6666667" x2="11.6666667" y2="23.3333333" id="Path"></line>
+                        <line x1="3.41833333" y1="3.41833333" x2="6.72" y2="6.72" id="Path"></line>
+                        <line x1="16.6133333" y1="16.6133333" x2="19.915" y2="19.915" id="Path"></line>
+                        <line x1="0" y1="11.6666667" x2="4.66666667" y2="11.6666667" id="Path"></line>
+                        <line x1="18.6666667" y1="11.6666667" x2="23.3333333" y2="11.6666667" id="Path"></line>
+                        <line x1="3.41833333" y1="19.915" x2="6.72" y2="16.6133333" id="Path"></line>
+                        <line x1="16.6133333" y1="6.72" x2="19.915" y2="3.41833333" id="Path"></line>
+                    </g>
+                </g>
+                <g id="Group-25" transform="translate(738.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-26" x="0" y="0" width="42" height="42"></rect>
+                    <g id="check-circle" transform="translate(9.100000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M23.3333333,11.06 L23.3333333,12.1333333 C23.3303791,17.3001335 19.929343,21.8495818 14.9745778,23.3145511 C10.0198127,24.7795205 4.6916258,22.8110308 1.8794476,18.4765774 C-0.932730605,14.142124 -0.558992647,8.47424547 2.79798656,4.54658417 C6.15496577,0.618922863 11.6954981,-0.632887168 16.415,1.47" id="Path" stroke="#2E2E2E"></path>
+                        <polyline id="Path" stroke="#7C7C7C" points="23.3333333 2.8 11.6666667 14.4783333 8.16666667 10.9783333"></polyline>
+                    </g>
+                </g>
+                <g id="Group-24" transform="translate(656.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-25" x="0" y="0" width="42" height="42"></rect>
+                    <g id="eye-(1)" transform="translate(8.400000, 11.900000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M0,9.33333333 C0,9.33333333 4.66666667,0 12.8333333,0 C21,0 25.6666667,9.33333333 25.6666667,9.33333333 C25.6666667,9.33333333 21,18.6666667 12.8333333,18.6666667 C4.66666667,18.6666667 0,9.33333333 0,9.33333333 Z" id="Path" stroke="#2E2E2E"></path>
+                        <circle id="Oval" stroke="#7C7C7C" cx="12.8333333" cy="9.33333333" r="3.5"></circle>
+                    </g>
+                </g>
+                <g id="Group-23" transform="translate(574.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-24" x="0" y="0" width="42" height="42"></rect>
+                    <g id="home-(1)" transform="translate(10.500000, 9.100000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" stroke="#7C7C7C" points="7 23.3333333 7 11.6666667 14 11.6666667 14 23.3333333"></polyline>
+                        <path d="M0,8.16666667 L10.5,0 L21,8.16666667 L21,21 C21,22.2886644 19.9553311,23.3333333 18.6666667,23.3333333 L2.33333333,23.3333333 C1.04466892,23.3333333 0,22.2886644 0,21 L0,8.16666667 Z" id="Path" stroke="#2E2E2E"></path>
+                    </g>
+                </g>
+                <g id="Group-22" transform="translate(492.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-23" x="0" y="0" width="42" height="42"></rect>
+                    <g id="arrow-right" transform="translate(12.600000, 12.600000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="0" y1="8.16666667" x2="16.3333333" y2="8.16666667" id="Path"></line>
+                        <polyline id="Path" points="8.16666667 0 16.3333333 8.16666667 8.16666667 16.3333333"></polyline>
+                    </g>
+                </g>
+                <g id="Group-21" transform="translate(410.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-22" x="0" y="0" width="42" height="42"></rect>
+                    <g id="wind" transform="translate(9.100000, 11.900000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M18.3516667,4.35166667 C19.2855177,3.42017762 20.7282871,3.23134447 21.8704074,3.89112534 C23.0125278,4.55090622 23.5697121,5.895074 23.2293129,7.16938873 C22.8889137,8.44370347 21.7356603,9.33097342 20.4166667,9.33333333 L0,9.33333333" id="Shape" stroke="#2E2E2E"></path>
+                        <path d="M8.855,0.688333333 C9.60100568,-0.0621057161 10.7586102,-0.216591099 11.6753001,0.311956827 C12.5919899,0.840504752 13.0382465,1.91974938 12.7625258,2.94134683 C12.4868052,3.96294429 11.5581415,4.67110936 10.5,4.66668745 L0,4.66668745" id="Path" stroke="#7C7C7C"></path>
+                        <path d="M12.355,17.9783333 C13.1010057,18.7287724 14.2586102,18.8832578 15.1753001,18.3547098 C16.0919899,17.8261619 16.5382465,16.7469173 16.2625258,15.7253198 C15.9868052,14.7037224 15.0581415,13.9955573 14,13.9999792 L0,13.9999792" id="Path" stroke="#7C7C7C"></path>
+                    </g>
+                </g>
+                <g id="Group-20" transform="translate(328.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-21" x="0" y="0" width="42" height="42"></rect>
+                    <g id="moon" transform="translate(10.500000, 10.500000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M21,11.4216667 C20.4894092,16.9467765 15.7681073,21.1209076 10.2220725,20.9504963 C4.67603781,20.7800851 0.2199149,16.3239622 0.0495036623,10.7779275 C-0.120907575,5.23189272 4.05322353,0.510590759 9.57833333,-1.03620816e-15 C7.17542225,3.25086033 7.51246602,7.77052872 10.3709686,10.6290314 C13.2294713,13.487534 17.7491397,13.8245777 21,11.4216667 L21,11.4216667 Z" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-19" transform="translate(246.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-20" x="0" y="0" width="42" height="42"></rect>
+                    <g id="cloud-drizzle" transform="translate(7.700000, 8.400000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="8.63333333" y1="21" x2="8.63333333" y2="23.3333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="8.63333333" y1="14" x2="8.63333333" y2="16.3333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="17.9666667" y1="21" x2="17.9666667" y2="23.3333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="17.9666667" y1="14" x2="17.9666667" y2="16.3333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="13.3" y1="23.3333333" x2="13.3" y2="25.6666667" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="13.3" y1="16.3333333" x2="13.3" y2="18.6666667" id="Path" stroke="#7C7C7C"></line>
+                        <path d="M22.6333333,18.1766667 C25.1611466,17.0695717 26.5673209,14.3425945 26.0033587,11.641216 C25.4393966,8.93983747 23.0596175,7.0032472 20.3,7 L18.83,7 C17.8145267,3.06769525 14.3727416,0.243432044 10.3178592,0.0150996565 C6.26297685,-0.213232731 2.52588377,2.20678437 1.07536983,6.00023132 C-0.375144116,9.793672 0.79391813,14.0896749 3.96666667,16.625" id="Path" stroke="#2E2E2E"></path>
+                    </g>
+                </g>
+                <g id="Group-18" transform="translate(164.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-19" x="0" y="0" width="42" height="42"></rect>
+                    <g id="cloud-rain-(1)" transform="translate(7.700000, 8.400000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="17.9666667" y1="14" x2="17.9666667" y2="23.3333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="8.63333333" y1="14" x2="8.63333333" y2="23.3333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="13.3" y1="16.3333333" x2="13.3" y2="25.6666667" id="Path" stroke="#7C7C7C"></line>
+                        <path d="M22.6333333,18.1766667 C25.1611466,17.0695717 26.5673209,14.3425945 26.0033587,11.641216 C25.4393966,8.93983747 23.0596175,7.0032472 20.3,7 L18.83,7 C17.8145267,3.06769525 14.3727416,0.243432044 10.3178592,0.0150996565 C6.26297685,-0.213232731 2.52588377,2.20678437 1.07536983,6.00023132 C-0.375144116,9.793672 0.79391813,14.0896749 3.96666667,16.625" id="Path" stroke="#2E2E2E"></path>
+                    </g>
+                </g>
+                <g id="Group-17" transform="translate(82.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-18" x="0" y="0" width="42" height="42"></rect>
+                    <g id="cloud-lightning" transform="translate(7.700000, 8.400000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M21.4666667,18.55 C24.4036249,17.953633 26.4108468,15.2288098 26.1096628,12.2470879 C25.8084787,9.26536603 23.2968931,6.99698812 20.3,7 L18.83,7 C17.7657194,2.8795488 14.0489229,0.00079091943 9.79324302,0.00079091943 C5.53756313,0.00079091943 1.8207667,2.87954896 0.756486174,7.00000018 C-0.307794348,11.1204514 1.54997407,15.4390762 5.27333333,17.5" id="Path" stroke="#2E2E2E"></path>
+                        <polyline id="Path" stroke="#7C7C7C" points="14.4666667 11.6666667 9.8 18.6666667 16.8 18.6666667 12.1333333 25.6666667"></polyline>
+                    </g>
+                </g>
+                <g id="Group-32" transform="translate(0.000000, 98.000000)">
+                    <rect id="Rectangle-Copy-17" x="0" y="0" width="42" height="42"></rect>
+                    <g id="sun" transform="translate(8.400000, 8.400000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <circle id="Oval" stroke="#2E2E2E" cx="12.8333333" cy="12.8333333" r="5.83333333"></circle>
+                        <line x1="12.8333333" y1="0" x2="12.8333333" y2="2.33333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="12.8333333" y1="23.3333333" x2="12.8333333" y2="25.6666667" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="3.75666667" y1="3.75666667" x2="5.41333333" y2="5.41333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="20.2533333" y1="20.2533333" x2="21.91" y2="21.91" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="0" y1="12.8333333" x2="2.33333333" y2="12.8333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="23.3333333" y1="12.8333333" x2="25.6666667" y2="12.8333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="3.75666667" y1="21.91" x2="5.41333333" y2="20.2533333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="20.2533333" y1="5.41333333" x2="21.91" y2="3.75666667" id="Path" stroke="#7C7C7C"></line>
+                    </g>
+                </g>
+                <g id="Group-16" transform="translate(1230.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-16" x="0" y="0" width="42" height="42"></rect>
+                    <g id="chevron-right" transform="translate(17.500000, 14.700000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" points="0 14 7 7 0 0"></polyline>
+                    </g>
+                </g>
+                <g id="Group-15" transform="translate(1148.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-15" x="0" y="0" width="42" height="42"></rect>
+                    <g id="file" transform="translate(12.600000, 9.800000)">
+                        <path d="M10.5,0 L2.33333333,0 C1.04466892,0 0,1.04466892 0,2.33333333 L0,21 C0,22.2886644 1.04466892,23.3333333 2.33333333,23.3333333 L16.3333333,23.3333333 C17.6219977,23.3333333 18.6666667,22.2886644 18.6666667,21 L18.6666667,8.16666667 L10.5,0 Z" id="Path" stroke="#2E2E2E" stroke-width="2.33333333" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polyline id="Path" stroke="#7C7C7C" stroke-width="2.33333333" stroke-linecap="round" stroke-linejoin="round" points="10.5 0 10.5 8.16666667 18.6666667 8.16666667"></polyline>
+                        <line x1="10.5" y1="0" x2="18.9" y2="8.4" id="Path-2" stroke="#7C7C7C" stroke-width="2.331"></line>
+                    </g>
+                </g>
+                <g id="Group-14" transform="translate(1066.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-14" x="0" y="0" width="42" height="42"></rect>
+                    <g id="bell-(1)" transform="translate(10.500000, 9.800000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M17.5,7 C17.5,3.13400675 14.3659932,0 10.5,0 C6.63400675,0 3.5,3.13400675 3.5,7 C3.5,15.1666667 0,17.5 0,17.5 L21,17.5 C21,17.5 17.5,15.1666667 17.5,7" id="Path" stroke="#2E2E2E"></path>
+                        <path d="M12.5183333,22.1666667 C12.1009026,22.8862717 11.3319134,23.329199 10.5,23.329199 C9.66808663,23.329199 8.89909739,22.8862717 8.48166667,22.1666667" id="Path" stroke="#7C7C7C"></path>
+                    </g>
+                </g>
+                <g id="Group-13" transform="translate(984.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-13" x="0" y="0" width="42" height="42"></rect>
+                    <g id="menu" transform="translate(10.500000, 13.300000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="0" y1="8.16666667" x2="21" y2="8.16666667" id="Path"></line>
+                        <line x1="0" y1="1.16666667" x2="21" y2="1.16666667" id="Path"></line>
+                        <line x1="0" y1="15.1666667" x2="21" y2="15.1666667" id="Path"></line>
+                    </g>
+                </g>
+                <g id="Group-12" transform="translate(902.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-12" x="0" y="0" width="42" height="42"></rect>
+                    <g id="award" transform="translate(12.600000, 8.400000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" stroke="#7C7C7C" points="3.745 15.0383333 2.33333333 25.6666667 8.16666667 22.1666667 14 25.6666667 12.5883333 15.0266667"></polyline>
+                        <circle id="Oval" stroke="#2E2E2E" cx="8.16666667" cy="8.16666667" r="8.16666667"></circle>
+                    </g>
+                </g>
+                <g id="Group-11" transform="translate(820.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-11" x="0" y="0" width="42" height="42"></rect>
+                    <g id="cloud" transform="translate(7.700000, 11.900000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M20.3,7 L18.83,7 C17.6172085,2.30288434 13.008234,-0.68202199 8.22594302,0.132503377 C3.44365203,0.947028743 0.0826659399,5.28938803 0.493184244,10.1231478 C0.903702547,14.9569076 4.9488408,18.6702845 9.8,18.6666693 L20.3,18.6666693 C23.521661,18.6666693 26.1333333,16.0549944 26.1333333,12.8333333 C26.1333333,9.61167229 23.521661,7 20.3,7 L20.3,7 Z" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-10" transform="translate(738.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-10" x="0" y="0" width="42" height="42"></rect>
+                    <g id="zoom-out" transform="translate(10.500000, 11.200000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="21" y1="21" x2="15.925" y2="15.925" id="Path" stroke="#7C7C7C"></line>
+                        <circle id="Oval" stroke="#2E2E2E" cx="9.33333333" cy="9.33333333" r="9.33333333"></circle>
+                        <line x1="5.83333333" y1="9.33333333" x2="12.8333333" y2="9.33333333" id="Path" stroke="#7C7C7C"></line>
+                    </g>
+                </g>
+                <g id="Group-9" transform="translate(656.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-9" x="0" y="0" width="42" height="42"></rect>
+                    <g id="zoom-in" transform="translate(10.500000, 11.200000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="21" y1="21" x2="15.925" y2="15.925" id="Path" stroke="#7C7C7C"></line>
+                        <circle id="Oval" stroke="#2E2E2E" cx="9.33333333" cy="9.33333333" r="9.33333333"></circle>
+                        <line x1="9.33333333" y1="5.83333333" x2="9.33333333" y2="12.8333333" id="Path" stroke="#7C7C7C"></line>
+                        <line x1="5.83333333" y1="9.33333333" x2="12.8333333" y2="9.33333333" id="Path" stroke="#7C7C7C"></line>
+                    </g>
+                </g>
+                <g id="Group-8" transform="translate(574.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-8" x="0" y="0" width="42" height="42"></rect>
+                    <g id="refresh-cw-(1)" transform="translate(9.100000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" stroke="#2E2E2E" points="25.6666667 1.16666667 25.6666667 8.16666667 18.6666667 8.16666667"></polyline>
+                        <path d="M2.92833333,7 C4.13102858,3.60128026 6.99331169,1.05725462 10.5096678,0.261634643 C14.026024,-0.533985334 17.704681,0.530070022 20.2533333,3.08 L25.6666667,8.16666667" id="Shape" stroke="#2E2E2E"></path>
+                        <path d="M0,12.8333333 L5.41333333,17.92 C7.96198568,20.46993 11.6406427,21.5339853 15.1569988,20.7383654 C18.673355,19.9427454 21.5356381,17.3987197 22.7383333,14" id="Path" stroke="#7C7C7C"></path>
+                        <polyline id="Path" stroke="#7C7C7C" points="0 19.8333333 0 12.8333333 7 12.8333333"></polyline>
+                    </g>
+                </g>
+                <g id="Group-7" transform="translate(492.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-7" x="0" y="0" width="42" height="42"></rect>
+                    <g id="corner-down-right-(1)" transform="translate(11.900000, 11.200000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <polyline id="Path" points="12.8333333 7 18.6666667 12.8333333 12.8333333 18.6666667"></polyline>
+                        <path d="M0,0 L0,8.16666667 C0,10.7439955 2.08933783,12.8333333 4.66666667,12.8333333 L18.6666667,12.8333333" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-6" transform="translate(410.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-6" x="0" y="0" width="42" height="42"></rect>
+                    <g id="heart-(1)" transform="translate(8.400000, 10.500000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M23.1466667,1.87833333 C21.9432218,0.674323379 20.310661,-0.00212989139 18.6083333,-0.00212989139 C16.9060056,-0.00212989139 15.2734449,0.674323379 14.07,1.87833333 L12.8333333,3.115 L11.5966667,1.87833333 C9.09021437,-0.628118893 5.02645233,-0.628118862 2.52000007,1.8783334 C0.0135478044,4.38478566 0.0135477741,8.4485477 2.52,10.955 L3.75666667,12.1916667 L12.8333333,21.2683333 L21.91,12.1916667 L23.1466667,10.955 C24.3506766,9.7515551 25.0271299,8.11899437 25.0271299,6.41666667 C25.0271299,4.71433897 24.3506766,3.08177823 23.1466667,1.87833333 Z" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-5" transform="translate(328.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-5" x="0" y="0" width="42" height="42"></rect>
+                    <g id="arrow-left" transform="translate(12.600000, 12.600000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="16.3333333" y1="8.16666667" x2="0" y2="8.16666667" id="Path"></line>
+                        <polyline id="Path" points="8.16666667 16.3333333 0 8.16666667 8.16666667 0"></polyline>
+                    </g>
+                </g>
+                <g id="Group-4" transform="translate(246.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-4" x="0" y="0" width="42" height="42"></rect>
+                    <g id="folder" transform="translate(9.100000, 10.500000)" stroke="#2E2E2E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M23.3333333,18.6666667 C23.3333333,19.9553311 22.2886644,21 21,21 L2.33333333,21 C1.04466892,21 0,19.9553311 0,18.6666667 L0,2.33333333 C0,1.04466892 1.04466892,0 2.33333333,0 L8.16666667,0 L10.5,3.5 L21,3.5 C22.2886644,3.5 23.3333333,4.54466892 23.3333333,5.83333333 L23.3333333,18.6666667 Z" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-3" transform="translate(164.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-3" x="0" y="0" width="42" height="42"></rect>
+                    <g id="search-(1)" transform="translate(10.500000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <line x1="21" y1="21" x2="15.925" y2="15.925" id="Path" stroke="#7C7C7C"></line>
+                        <circle id="Oval" stroke="#2E2E2E" cx="9.33333333" cy="9.33333333" r="9.33333333"></circle>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(82.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-2" x="0" y="0" width="42" height="42"></rect>
+                    <g id="user-check" transform="translate(8.400000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M17.5,21 L17.5,18.6666667 C17.5,16.0893378 15.4106622,14 12.8333333,14 L4.66666667,14 C2.08933783,14 0,16.0893378 0,18.6666667 L0,21" id="Path" stroke="#2E2E2E"></path>
+                        <circle id="Oval" stroke="#7C7C7C" cx="8.75" cy="4.66666667" r="4.66666667"></circle>
+                        <polyline id="Path" stroke="#7C7C7C" points="18.6666667 9.33333333 21 11.6666667 25.6666667 7"></polyline>
+                    </g>
+                </g>
+                <g id="Group">
+                    <rect id="Rectangle-Copy" x="0" y="0" width="42" height="42"></rect>
+                    <g id="user-(1)" transform="translate(11.900000, 10.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.33333333">
+                        <path d="M18.6666667,21 L18.6666667,18.6666667 C18.6666667,16.0893378 16.5773288,14 14,14 L4.66666667,14 C2.08933783,14 0,16.0893378 0,18.6666667 L0,21" id="Path" stroke="#2E2E2E"></path>
+                        <circle id="Oval" stroke="#7C7C7C" cx="9.33333333" cy="4.66666667" r="4.66666667"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

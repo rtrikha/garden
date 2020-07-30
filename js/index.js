@@ -11,6 +11,7 @@ function darkMode() {
 		document.getElementById('darkModeToggle').innerHTML = 'Turn off';
 		//hero
 		invertModeOn('hero-heading-pair');
+		document.getElementById("hero").style.backgroundColor="black"
 		invertModeOn('bottom-nav');
 		invertModeOn('reach-card');
 		invertModeOn('review-card');
@@ -26,17 +27,20 @@ function darkMode() {
 
 		//problem
 		invertModeOn('problem-heading-pair');
+		document.getElementById("problem").style.backgroundColor="black"
+
 
 		//process
-		invertModeOn('process');
+
+		//components-show
 
 		//body
-		document.getElementsByTagName('body')[0].style.backgroundColor = 'black';
 	} else {
 		document.getElementById('darkModeToggle').innerHTML = 'Turn on';
 		//hero
 		invertModeOff('bottom-nav');
 		invertModeOff('hero-heading-pair');
+		document.getElementById("hero").style.backgroundColor="white"
 		invertModeOff('bottom-nav');
 		invertModeOff('reach-card');
 		invertModeOff('review-card');
@@ -52,11 +56,53 @@ function darkMode() {
 
 		//problem
 		invertModeOff('problem-heading-pair');
+		document.getElementById("problem").style.backgroundColor="white"
+
 
 		//process
 		invertModeOff('process');
 
+		//components-show
+		invertModeOff('iconography');
+
 		//body
-		document.getElementsByTagName('body')[0].style.backgroundColor = 'white';
 	}
 }
+
+function isInViewport(element) {
+	const rect = element.getBoundingClientRect();
+	return (
+		rect.top >= 0 &&
+		rect.left >= 0 &&
+		rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+		rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+	);
+}
+
+const process = document.querySelector('.anatomy');
+
+document.addEventListener(
+	'scroll',
+	function () {
+		if (isInViewport(process) == true) {
+			document.getElementById('stack2').style.animation = 'move-stack 0.6s ease 1.1s 1 forwards';
+			document.getElementById('stack1').style.animation = 'move-stack 0.6s ease 1s 1 forwards';
+		} else {
+		}
+	},
+	{
+		passive: true,
+	}
+);
+
+var rellax1 = new Rellax('.col-1');
+rellax1.options.speed=-2;
+var rellax2 = new Rellax('.col-2')
+rellax2.options.speed=2;
+var rellax3 = new Rellax('.col-3')
+rellax3.options.speed=-2;
+var rellax4 = new Rellax('.col-4')
+rellax4.options.speed=2;
+
+
+

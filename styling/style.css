@@ -45,21 +45,29 @@
 body {
   background-color: white;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16vh;
 }
 
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 10vw;
-  margin-right: 10vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100vh;
+  background-color: white;
 }
 
 .hero .heading-pair {
+  margin-left: 10vw;
   margin-top: 32vh;
   width: 32vw;
 }
@@ -92,6 +100,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 10vw;
   margin-top: 6vh;
   gap: 16px;
 }
@@ -182,6 +191,7 @@ body {
 
 .hero .components .col-1 .reach-card .content .heading-pair {
   margin-top: 0;
+  margin-left: 0;
 }
 
 .hero .components .col-1 .reach-card .content .heading-pair .heading {
@@ -810,12 +820,13 @@ body {
 }
 
 .problem {
-  margin-top: 10vh;
+  background-color: white;
+  margin-top: -16vh;
 }
 
 .problem .heading-pair {
+  margin-top: 16vh;
   margin-left: 10vw;
-  margin-right: 10vw;
   width: 32vw;
 }
 
@@ -823,51 +834,61 @@ body {
   font-family: aktiv;
   font-weight: 200;
   font-size: 24px;
-  color: #292929;
+  color: #090909;
 }
 
 .problem .heading-pair .subheading {
-  margin-top: 4vh;
   font-family: aktiv;
+  margin-top: 4vh;
   font-size: 13px;
   color: #696969;
   line-height: 22px;
 }
 
 .problem .platform {
-  margin-top: 3vh;
   margin-left: 10vw;
+  margin-top: 3vh;
+  margin-bottom: 16vh;
 }
 
 .principles {
-  margin-top: 10vh;
   background-color: #090909;
-  width: 100vw;
-  padding-top: 10vh;
   padding-bottom: 10vh;
+  margin-top: -16vh;
 }
 
 .principles .heading-pair {
   margin-left: 10vw;
   margin-right: 10vw;
+  width: 32vw;
+  margin-top: 16vh;
 }
 
 .principles .heading-pair .heading {
   font-family: aktiv;
   font-weight: 200;
   font-size: 24px;
+  color: #090909;
+}
+
+.principles .heading-pair .subheading {
+  font-family: aktiv;
+  margin-top: 4vh;
+  font-size: 13px;
+  color: #696969;
+  line-height: 22px;
+}
+
+.principles .heading-pair .heading {
   color: #fafafa;
 }
 
 .principles .heading-pair .subheading {
-  margin-top: 4vh;
-  font-family: aktiv;
-  font-size: 13px;
   color: #696969;
 }
 
 .principles .grid {
-  margin-top: 6vh;
+  margin-top: 8vh;
   margin-left: 10vw;
   margin-right: 10vw;
   display: -webkit-box;
@@ -908,10 +929,11 @@ body {
 }
 
 .process {
-  padding-bottom: 10vh;
-  padding-top: 10vh;
   margin-left: 10vw;
   margin-right: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .process .heading-pair {
@@ -926,15 +948,15 @@ body {
 }
 
 .process .heading-pair .subheading {
-  margin-top: 4vh;
   font-family: aktiv;
+  margin-top: 4vh;
   font-size: 13px;
   color: #696969;
   line-height: 22px;
 }
 
 .process .points {
-  margin-top: 6vh;
+  margin-top: 8vh;
   width: 32vw;
 }
 
@@ -960,5 +982,175 @@ body {
   color: #696969;
   margin-top: 1vh;
   line-height: 22px;
+}
+
+.process .right {
+  width: 68vw;
+}
+
+.process .right .anatomy {
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  left: 100vw;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+
+.process .right .anatomy .stack {
+  width: 68vw;
+  height: 200px;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  -webkit-transform: rotateY(50deg) rotateX(60deg);
+          transform: rotateY(50deg) rotateX(60deg);
+  border-radius: 8px;
+}
+
+.process .right .anatomy .stack:nth-child(1) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0px;
+  z-index: 3;
+}
+
+.process .right .anatomy .stack:nth-child(2) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 20px;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.process .right .anatomy .stack:nth-child(3) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 40px;
+  z-index: 1;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+@-webkit-keyframes move-stack {
+  from {
+  }
+  to {
+    top: 40px;
+  }
+}
+
+@keyframes move-stack {
+  from {
+  }
+  to {
+    top: 40px;
+  }
+}
+
+.iconography {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.iconography .heading-pair {
+  width: 32vw;
+}
+
+.iconography .heading-pair .heading {
+  font-family: aktiv;
+  font-weight: 200;
+  font-size: 24px;
+  color: #090909;
+}
+
+.iconography .heading-pair .subheading {
+  font-family: aktiv;
+  margin-top: 4vh;
+  font-size: 13px;
+  color: #696969;
+  line-height: 22px;
+}
+
+.iconography .icons {
+  margin-top: 8vh;
+  background-image: url(/resources/images/iconList.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 40vh;
+}
+
+.components-show {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  -webkit-perspective: 8px;
+          perspective: 8px;
+  -webkit-perspective-origin: 0%;
+          perspective-origin: 0%;
+}
+
+.components-show .heading-pair {
+  width: 32vw;
+}
+
+.components-show .heading-pair .heading {
+  font-family: aktiv;
+  font-weight: 200;
+  font-size: 24px;
+  color: #090909;
+}
+
+.components-show .heading-pair .subheading {
+  font-family: aktiv;
+  margin-top: 4vh;
+  font-size: 13px;
+  color: #696969;
+  line-height: 22px;
+}
+
+.components-show .component-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8vh;
+  gap: 1vw;
+}
+
+.components-show .component-grid .col-1 {
+  height: 120vh;
+  width: 25%;
+  margin-top: 4vh;
+  background-image: url(/resources/images/components/col1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.components-show .component-grid .col-2 {
+  height: 120vh;
+  width: 25%;
+  margin-top: 12vh;
+  background-image: url(/resources/images/components/col2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.components-show .component-grid .col-3 {
+  height: 120vh;
+  width: 25%;
+  background-image: url(/resources/images/components/col3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.components-show .component-grid .col-4 {
+  height: 120vh;
+  width: 25%;
+  margin-top: 8vh;
+  background-image: url(/resources/images/components/col4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 /*# sourceMappingURL=style.css.map */
