@@ -95,14 +95,14 @@ document.addEventListener(
 	}
 );
 
-var rellax1 = new Rellax('.col-1');
-rellax1.options.speed=-2;
-var rellax2 = new Rellax('.col-2')
-rellax2.options.speed=2;
-var rellax3 = new Rellax('.col-3')
-rellax3.options.speed=-2;
-var rellax4 = new Rellax('.col-4')
-rellax4.options.speed=2;
+var rellax1 = new Rellax('.co-col-1');
+rellax1.options.speed=-10;
+var rellax2 = new Rellax('.co-col-2')
+rellax2.options.speed=50;
+var rellax3 = new Rellax('.co-col-3')
+rellax3.options.speed=-50;
+var rellax4 = new Rellax('.co-col-4')
+rellax4.options.speed=50;
 
 
 

@@ -555,7 +555,6 @@ body {
 .hero {
 	display: flex;
 	justify-content: space-between;
-	height: 100vh;
 	background-color: white;
 	.heading-pair {
 		margin-left: 10vw;
@@ -623,32 +622,28 @@ body {
 
 .problem {
 	background-color: white;
-	margin-top: -16vh;
+	@include global-gutter;
 	.heading-pair {
-		margin-top: 16vh;
-		margin-left: 10vw;
 		@include heading-pair;
 	}
 	.platform {
-		margin-left: 10vw;
-		margin-top: 3vh;
-		margin-bottom: 16vh;
+		margin-top: 4vh;
 	}
 }
 
 .principles {
 	background-color: $gray-700;
-	padding-bottom: 10vh;
-	margin-top: -16vh;
 
 	.heading-pair {
-		@include global-gutter;
 		@include heading-pair;
+		@include global-gutter;
 		margin-top: 16vh;
+
 		.heading {
 			color: $gray-100;
 		}
 		.subheading {
+			
 			color: $gray-300;
 		}
 	}
@@ -681,6 +676,7 @@ body {
 
 	.grid {
 		margin-top: 8vh;
+		margin-bottom: 16vh;
 		@include global-gutter;
 		display: flex;
 		width: 50%;
@@ -793,7 +789,7 @@ body {
 		margin-top: 8vh;
 		gap: 1vw;
 
-		.col-1 {
+		.co-col-1 {
 			height: 120vh;
 			width: 25%;
 			margin-top: 4vh;
@@ -801,7 +797,7 @@ body {
 			background-repeat: no-repeat;
 			background-size: contain;
 		}
-		.col-2 {
+		.co-col-2 {
 			height: 120vh;
 			width: 25%;
 			margin-top: 12vh;
@@ -809,14 +805,14 @@ body {
 			background-repeat: no-repeat;
 			background-size: contain;
 		}
-		.col-3 {
+		.co-col-3 {
 			height: 120vh;
 			width: 25%;
 			background-image: url(/resources/images/components/col3.svg);
 			background-repeat: no-repeat;
 			background-size: contain;
 		}
-		.col-4 {
+		.co-col-4 {
 			height: 120vh;
 			width: 25%;
 			margin-top: 8vh;
