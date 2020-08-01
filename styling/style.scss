@@ -47,7 +47,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	display: flex;
 	flex-direction: column;
-	gap: 24vh;
+	gap: 20vh;
 	overflow-x: hidden;
 }
 
@@ -841,6 +841,9 @@ body {
 }
 
 @media (max-width: 1200px) {
+	.hero {
+		display: none;
+	}
 	.heading-pair-second {
 		.heading {
 			font-size: 12px !important;
@@ -931,6 +934,13 @@ body {
 }
 
 @media (max-width: 800px) {
+
+	.iconography {
+		.icons {
+			background-size: cover;
+			height: 30vh;
+		}
+	}
 	.problem {
 		.platform {
 			img {
@@ -963,6 +973,12 @@ body {
 }
 
 @media (max-width: 620px) {
+	.heading-pair-second{
+		width: 60vw !important;
+	}
+	.heading-pair{
+		width: 80vw !important;
+	}
 	.problem {
 		.platform {
 			img {
@@ -971,11 +987,11 @@ body {
 		}
 	}
 
-	.principles{
-		.grid{
+	.principles {
+		.grid {
 			flex-wrap: wrap;
 
-			.grid-card{
+			.grid-card {
 				width: 100%;
 			}
 		}
@@ -983,7 +999,6 @@ body {
 
 	.components-show {
 		.component-grid {
-
 			.co-col-1 {
 				width: 39vw;
 			}
@@ -995,6 +1010,50 @@ body {
 			}
 			.co-col-4 {
 				width: 39vw;
+			}
+		}
+	}
+}
+
+@media (max-width: 480px){
+	.problem {
+		.platform {
+			img {
+				width: 72vw !important;
+			}
+		}
+	}
+	.process {
+		.left {
+			.points {
+				.list-item {
+					width: 72vw !important;
+				}
+			}
+		}
+	}
+
+	.problem {
+		.platform {
+			img {
+				width: 60vw;
+			}
+		}
+	}
+
+	.components-show {
+		.component-grid {
+			.co-col-1 {
+				width: 80vw;
+			}
+			.co-col-2 {
+				width: 80vw;
+			}
+			.co-col-3 {
+				width: 80vw;
+			}
+			.co-col-4 {
+				width: 80vw;
 			}
 		}
 	}
