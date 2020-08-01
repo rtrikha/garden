@@ -47,7 +47,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	display: flex;
 	flex-direction: column;
-	gap: 20vh;
+	// gap: 20vh;
 	overflow-x: hidden;
 }
 
@@ -565,10 +565,14 @@ body {
 		line-height: 22px;
 	}
 }
+@mixin global-bottom {
+	margin-bottom: 16vh;
+}
 .hero {
 	display: flex;
 	justify-content: space-between;
 	background-color: white;
+	height: 100vh;
 	.heading-pair {
 		margin-left: 10vw;
 		margin-top: 32vh;
@@ -636,6 +640,7 @@ body {
 .problem {
 	background-color: white;
 	@include global-gutter;
+	@include global-bottom;
 	.heading-pair {
 		@include heading-pair;
 	}
@@ -646,6 +651,7 @@ body {
 
 .principles {
 	background-color: $gray-700;
+	@include global-bottom;
 
 	.heading-pair {
 		@include heading-pair;
@@ -698,6 +704,7 @@ body {
 
 .process {
 	@include global-gutter;
+	@include global-bottom;
 	display: flex;
 	.heading-pair {
 		@include heading-pair;
@@ -779,6 +786,7 @@ body {
 
 .iconography {
 	@include global-gutter;
+	@include global-bottom;
 	.heading-pair {
 		@include heading-pair;
 	}
@@ -842,7 +850,6 @@ body {
 
 @media (max-width: 1200px) {
 	.hero {
-		display: none;
 	}
 	.heading-pair-second {
 		.heading {
@@ -934,7 +941,9 @@ body {
 }
 
 @media (max-width: 800px) {
-
+	.hero {
+		display: none;
+	}
 	.iconography {
 		.icons {
 			background-size: cover;
@@ -959,7 +968,6 @@ body {
 	.process {
 		.left {
 			.points {
-
 				.list-item {
 					width: 48vw;
 				}
@@ -972,10 +980,20 @@ body {
 }
 
 @media (max-width: 620px) {
-	.heading-pair-second{
+	.heading-pair-second {
 		width: 60vw !important;
 	}
-	.heading-pair{
+	.process {
+		.left {
+			.points {
+				.list-item {
+					gap: 0;
+					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
+	.heading-pair {
 		width: 80vw !important;
 	}
 	.problem {
@@ -989,9 +1007,9 @@ body {
 	.principles {
 		.grid {
 			flex-wrap: wrap;
-			gap: 4vh;
 			.grid-card {
 				width: 100%;
+				margin-bottom: 2vh;
 			}
 		}
 	}
@@ -1014,7 +1032,7 @@ body {
 	}
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
 	.problem {
 		.platform {
 			img {
@@ -1054,6 +1072,14 @@ body {
 			.co-col-4 {
 				width: 80vw;
 			}
+		}
+	}
+}
+
+@media (max-width: 380px) {
+	.iconography {
+		.icons {
+			height: 17rem;
 		}
 	}
 }

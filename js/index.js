@@ -26,8 +26,6 @@ function darkMode() {
 		invertModeOn('footer');
 
 		//problem
-		invertModeOn('problem-heading-pair');
-		document.getElementById("problem").style.backgroundColor="black"
 
 
 		//process
@@ -55,8 +53,6 @@ function darkMode() {
 		invertModeOff('footer');
 
 		//problem
-		invertModeOff('problem-heading-pair');
-		document.getElementById("problem").style.backgroundColor="white"
 
 
 		//process

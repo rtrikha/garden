@@ -52,7 +52,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 20vh;
   overflow-x: hidden;
 }
 
@@ -64,6 +63,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: white;
+  height: 100vh;
 }
 
 .hero .heading-pair {
@@ -823,6 +823,7 @@ body {
   background-color: white;
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-bottom: 16vh;
 }
 
 .problem .heading-pair {
@@ -850,6 +851,7 @@ body {
 
 .principles {
   background-color: #090909;
+  margin-bottom: 16vh;
 }
 
 .principles .heading-pair {
@@ -933,6 +935,7 @@ body {
 .process {
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-bottom: 16vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1075,6 +1078,7 @@ body {
 .iconography {
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-bottom: 16vh;
 }
 
 .iconography .heading-pair {
@@ -1187,9 +1191,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .hero {
-    display: none;
-  }
   .heading-pair-second .heading {
     font-size: 12px !important;
   }
@@ -1252,6 +1253,9 @@ body {
 }
 
 @media (max-width: 800px) {
+  .hero {
+    display: none;
+  }
   .iconography .icons {
     background-size: cover;
     height: 30vh;
@@ -1277,6 +1281,10 @@ body {
   .heading-pair-second {
     width: 60vw !important;
   }
+  .process .left .points .list-item {
+    gap: 0;
+    margin-bottom: 1rem;
+  }
   .heading-pair {
     width: 80vw !important;
   }
@@ -1286,10 +1294,10 @@ body {
   .principles .grid {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 4vh;
   }
   .principles .grid .grid-card {
     width: 100%;
+    margin-bottom: 2vh;
   }
   .components-show .component-grid .co-col-1 {
     width: 39vw;
@@ -1326,6 +1334,12 @@ body {
   }
   .components-show .component-grid .co-col-4 {
     width: 80vw;
+  }
+}
+
+@media (max-width: 380px) {
+  .iconography .icons {
+    height: 17rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
