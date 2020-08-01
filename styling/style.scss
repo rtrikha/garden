@@ -661,7 +661,6 @@ body {
 	}
 
 	@mixin grid-card {
-		margin-right: 1vw;
 		background-color: $gray-600;
 		border-radius: 4px;
 		transform-style: preserve-3d;
@@ -689,6 +688,7 @@ body {
 		margin-bottom: 16vh;
 		@include global-gutter;
 		display: flex;
+		gap: 1vw;
 		width: 60%;
 		.grid-card {
 			@include grid-card;
@@ -788,7 +788,7 @@ body {
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 100%;
-		height: 20rem;
+		height: min-content;
 	}
 }
 
@@ -807,7 +807,7 @@ body {
 		gap: 1vw;
 
 		.co-col-1 {
-			height: 46rem;
+			height: min-content;
 			width: 22vw;
 			margin-top: 4vh;
 			background-image: url(/resources/images/components/col1.svg);
@@ -815,7 +815,7 @@ body {
 			background-size: contain;
 		}
 		.co-col-2 {
-			height: 42rem;
+			height: min-content;
 			width: 22vw;
 			margin-top: 12vh;
 			background-image: url(/resources/images/components/col2.svg);
@@ -823,14 +823,14 @@ body {
 			background-size: contain;
 		}
 		.co-col-3 {
-			height: 46rem;
+			height: min-content;
 			width: 22vw;
 			background-image: url(/resources/images/components/col3.svg);
 			background-repeat: no-repeat;
 			background-size: contain;
 		}
 		.co-col-4 {
-			height: 42rem;
+			height: min-content;
 			width: 22vw;
 			margin-top: 8vh;
 			background-image: url(/resources/images/components/col4.svg);
@@ -888,6 +888,29 @@ body {
 		}
 	}
 
+	.components-show {
+		.component-grid {
+			flex-wrap: wrap;
+
+			.co-col-1 {
+				margin-top: 0;
+				width: 28vw;
+			}
+			.co-col-2 {
+				margin-top: 0;
+				width: 28vw;
+			}
+			.co-col-3 {
+				margin-top: 0;
+				width: 28vw;
+			}
+			.co-col-4 {
+				margin-top: 0;
+				width: 28vw;
+			}
+		}
+	}
+
 	.problem {
 		.platform {
 			img {
@@ -908,6 +931,13 @@ body {
 }
 
 @media (max-width: 800px) {
+	.problem {
+		.platform {
+			img {
+				width: 38vw;
+			}
+		}
+	}
 	.principles {
 		.grid {
 			width: 80%;
@@ -916,16 +946,56 @@ body {
 	.heading-pair {
 		width: 72vw !important;
 	}
-	.process{
-		.left{
-			.points{
-				.list-item{
+	.process {
+		.left {
+			.points {
+				gap: 4vh;
+
+				.list-item {
 					width: 48vw;
 				}
 			}
 		}
-		.right{
+		.right {
 			display: none;
+		}
+	}
+}
+
+@media (max-width: 620px) {
+	.problem {
+		.platform {
+			img {
+				width: 48vw;
+			}
+		}
+	}
+
+	.principles{
+		.grid{
+			flex-wrap: wrap;
+
+			.grid-card{
+				width: 100%;
+			}
+		}
+	}
+
+	.components-show {
+		.component-grid {
+
+			.co-col-1 {
+				width: 39vw;
+			}
+			.co-col-2 {
+				width: 39vw;
+			}
+			.co-col-3 {
+				width: 39vw;
+			}
+			.co-col-4 {
+				width: 39vw;
+			}
 		}
 	}
 }

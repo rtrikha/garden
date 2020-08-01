@@ -890,11 +890,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 1vw;
   width: 60%;
 }
 
 .principles .grid .grid-card {
-  margin-right: 1vw;
   background-color: #141414;
   border-radius: 4px;
   -webkit-transform-style: preserve-3d;
@@ -1102,7 +1102,9 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  height: 20rem;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 
 .components-show {
@@ -1142,7 +1144,9 @@ body {
 }
 
 .components-show .component-grid .co-col-1 {
-  height: 46rem;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   width: 22vw;
   margin-top: 4vh;
   background-image: url(/resources/images/components/col1.svg);
@@ -1151,7 +1155,9 @@ body {
 }
 
 .components-show .component-grid .co-col-2 {
-  height: 42rem;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   width: 22vw;
   margin-top: 12vh;
   background-image: url(/resources/images/components/col2.svg);
@@ -1160,7 +1166,9 @@ body {
 }
 
 .components-show .component-grid .co-col-3 {
-  height: 46rem;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   width: 22vw;
   background-image: url(/resources/images/components/col3.svg);
   background-repeat: no-repeat;
@@ -1168,7 +1176,9 @@ body {
 }
 
 .components-show .component-grid .co-col-4 {
-  height: 42rem;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   width: 22vw;
   margin-top: 8vh;
   background-image: url(/resources/images/components/col4.svg);
@@ -1209,6 +1219,26 @@ body {
   .principles .grid {
     width: 72%;
   }
+  .components-show .component-grid {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .components-show .component-grid .co-col-1 {
+    margin-top: 0;
+    width: 28vw;
+  }
+  .components-show .component-grid .co-col-2 {
+    margin-top: 0;
+    width: 28vw;
+  }
+  .components-show .component-grid .co-col-3 {
+    margin-top: 0;
+    width: 28vw;
+  }
+  .components-show .component-grid .co-col-4 {
+    margin-top: 0;
+    width: 28vw;
+  }
   .problem .platform img {
     width: 32vw;
   }
@@ -1219,17 +1249,48 @@ body {
 }
 
 @media (max-width: 800px) {
+  .problem .platform img {
+    width: 38vw;
+  }
   .principles .grid {
     width: 80%;
   }
   .heading-pair {
     width: 72vw !important;
   }
+  .process .left .points {
+    gap: 4vh;
+  }
   .process .left .points .list-item {
     width: 48vw;
   }
   .process .right {
     display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .problem .platform img {
+    width: 48vw;
+  }
+  .principles .grid {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .principles .grid .grid-card {
+    width: 100%;
+  }
+  .components-show .component-grid .co-col-1 {
+    width: 39vw;
+  }
+  .components-show .component-grid .co-col-2 {
+    width: 39vw;
+  }
+  .components-show .component-grid .co-col-3 {
+    width: 39vw;
+  }
+  .components-show .component-grid .co-col-4 {
+    width: 39vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
