@@ -706,7 +706,7 @@ body {
 		margin-top: 10vh;
 		display: flex;
 		flex-direction: column;
-		gap: 6vh;
+		gap: 2rem;
 		.list-item {
 			@include heading-pair-second;
 			width: 32vw;
@@ -959,7 +959,6 @@ body {
 	.process {
 		.left {
 			.points {
-				gap: 4vh;
 
 				.list-item {
 					width: 48vw;
@@ -990,7 +989,7 @@ body {
 	.principles {
 		.grid {
 			flex-wrap: wrap;
-
+			gap: 4vh;
 			.grid-card {
 				width: 100%;
 			}
@@ -1019,7 +1018,7 @@ body {
 	.problem {
 		.platform {
 			img {
-				width: 72vw !important;
+				width: 60vw !important;
 			}
 		}
 	}

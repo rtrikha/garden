@@ -966,7 +966,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 6vh;
+  gap: 2rem;
 }
 
 .process .points .list-item {
@@ -1265,9 +1265,6 @@ body {
   .heading-pair {
     width: 72vw !important;
   }
-  .process .left .points {
-    gap: 4vh;
-  }
   .process .left .points .list-item {
     width: 48vw;
   }
@@ -1289,6 +1286,7 @@ body {
   .principles .grid {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    gap: 4vh;
   }
   .principles .grid .grid-card {
     width: 100%;
@@ -1309,7 +1307,7 @@ body {
 
 @media (max-width: 480px) {
   .problem .platform img {
-    width: 72vw !important;
+    width: 60vw !important;
   }
   .process .left .points .list-item {
     width: 72vw !important;
