@@ -85,8 +85,8 @@ document.addEventListener(
 	'scroll',
 	function () {
 		if (isInViewport(process) == true) {
-			document.getElementById('stack2').style.animation = 'move-stack 0.6s ease 1.1s 1 forwards';
-			document.getElementById('stack1').style.animation = 'move-stack 0.6s ease 1s 1 forwards';
+			document.getElementById('stack1').style.animation = 'move-stack 0.4s ease 1s 1 forwards';
+			document.getElementById('stack2').style.animation = 'move-stack 0.4s ease 1s 1 forwards';
 		} else {
 		}
 	},
@@ -95,14 +95,14 @@ document.addEventListener(
 	}
 );
 
-var rellax1 = new Rellax('.co-col-1');
-rellax1.options.speed=-10;
-var rellax2 = new Rellax('.co-col-2')
-rellax2.options.speed=50;
-var rellax3 = new Rellax('.co-col-3')
-rellax3.options.speed=-50;
-var rellax4 = new Rellax('.co-col-4')
-rellax4.options.speed=50;
+// var rellax1 = new Rellax('.co-col-1');
+// rellax1.options.speed=-10;
+// var rellax2 = new Rellax('.co-col-2')
+// rellax2.options.speed=50;
+// var rellax3 = new Rellax('.co-col-3')
+// rellax3.options.speed=-50;
+// var rellax4 = new Rellax('.co-col-4')
+// rellax4.options.speed=50;
 
 
 

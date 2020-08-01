@@ -52,7 +52,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 16vh;
+  gap: 24vh;
+  overflow-x: hidden;
 }
 
 .hero {
@@ -889,7 +890,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 60%;
 }
 
 .principles .grid .grid-card {
@@ -902,18 +903,24 @@ body {
           transform: perspective(1000px);
 }
 
-.principles .grid .grid-card .heading {
-  margin-top: 2vh;
+.principles .grid .grid-card .heading-pair-second .heading {
   font-family: aktiv;
-  font-size: 14px;
+  font-size: 13px;
+}
+
+.principles .grid .grid-card .heading-pair-second .subheading {
+  font-family: aktiv;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.principles .grid .grid-card .heading-pair-second .heading {
+  margin-top: 4vh;
   color: #ffffff;
 }
 
-.principles .grid .grid-card .subheading {
+.principles .grid .grid-card .heading-pair-second .subheading {
   margin-top: 1vh;
-  font-family: aktiv;
-  font-size: 12px;
-  line-height: 18px;
   color: #cccccc;
 }
 
@@ -951,32 +958,42 @@ body {
 }
 
 .process .points {
-  margin-top: 8vh;
-  width: 32vw;
-}
-
-.process .points .list-item {
-  margin-bottom: 4vh;
-}
-
-.process .points .list-item .heading {
+  margin-top: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 6vh;
+}
+
+.process .points .list-item {
+  width: 32vw;
+}
+
+.process .points .list-item .heading {
   font-family: aktiv;
   font-size: 13px;
-  color: #141414;
 }
 
 .process .points .list-item .subheading {
   font-family: aktiv;
   font-size: 13px;
+  line-height: 22px;
+}
+
+.process .points .list-item .heading {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #141414;
+}
+
+.process .points .list-item .subheading {
   color: #696969;
   margin-top: 1vh;
-  line-height: 22px;
 }
 
 .process .right {
@@ -984,22 +1001,23 @@ body {
 }
 
 .process .right .anatomy {
-  -webkit-perspective: 800px;
-          perspective: 800px;
-  left: 100vw;
-  margin-left: 15%;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
   margin-top: 20%;
+  position: relative;
 }
 
 .process .right .anatomy .stack {
-  width: 68vw;
-  height: 200px;
+  width: 31.25rem;
+  height: 5rem;
   position: absolute;
   display: -ms-grid;
   display: grid;
-  -webkit-transform: rotateY(50deg) rotateX(60deg);
-          transform: rotateY(50deg) rotateX(60deg);
+  -webkit-transform: rotateY(-30deg) rotateX(50deg);
+          transform: rotateY(-30deg) rotateX(50deg);
   border-radius: 8px;
+  margin-left: 15%;
+  cursor: pointer;
 }
 
 .process .right .anatomy .stack:nth-child(1) {
@@ -1007,7 +1025,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
   top: 0px;
+  left: -20px;
   z-index: 3;
+  background-image: url(/resources/images/icons.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .process .right .anatomy .stack:nth-child(2) {
@@ -1015,8 +1037,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   top: 20px;
+  left: -10px;
   z-index: 2;
   opacity: 0.5;
+  background-image: url(/resources/images/icons-container.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .process .right .anatomy .stack:nth-child(3) {
@@ -1025,8 +1051,7 @@ body {
           align-items: center;
   top: 40px;
   z-index: 1;
-  -webkit-transition: opacity 2s;
-  transition: opacity 2s;
+  background-color: #fafafa;
 }
 
 @-webkit-keyframes move-stack {
@@ -1034,6 +1059,7 @@ body {
   }
   to {
     top: 40px;
+    left: 0px;
   }
 }
 
@@ -1042,6 +1068,7 @@ body {
   }
   to {
     top: 40px;
+    left: 0px;
   }
 }
 
@@ -1075,7 +1102,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  height: 40vh;
+  height: 20rem;
 }
 
 .components-show {
@@ -1115,8 +1142,8 @@ body {
 }
 
 .components-show .component-grid .co-col-1 {
-  height: 120vh;
-  width: 25%;
+  height: 46rem;
+  width: 22vw;
   margin-top: 4vh;
   background-image: url(/resources/images/components/col1.svg);
   background-repeat: no-repeat;
@@ -1124,8 +1151,8 @@ body {
 }
 
 .components-show .component-grid .co-col-2 {
-  height: 120vh;
-  width: 25%;
+  height: 42rem;
+  width: 22vw;
   margin-top: 12vh;
   background-image: url(/resources/images/components/col2.svg);
   background-repeat: no-repeat;
@@ -1133,19 +1160,76 @@ body {
 }
 
 .components-show .component-grid .co-col-3 {
-  height: 120vh;
-  width: 25%;
+  height: 46rem;
+  width: 22vw;
   background-image: url(/resources/images/components/col3.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .components-show .component-grid .co-col-4 {
-  height: 120vh;
-  width: 25%;
+  height: 42rem;
+  width: 22vw;
   margin-top: 8vh;
   background-image: url(/resources/images/components/col4.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media (max-width: 1200px) {
+  .heading-pair-second .heading {
+    font-size: 12px !important;
+  }
+  .heading-pair-second .subheading {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+  .heading-pair {
+    width: 48vw !important;
+  }
+  .heading-pair .heading {
+    font-size: 22px !important;
+  }
+  .heading-pair .subheading {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+  .principles .grid {
+    width: 60%;
+  }
+  .process .right .anatomy .stack {
+    width: 25rem;
+    height: 4rem;
+    margin-left: 0%;
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .principles .grid {
+    width: 72%;
+  }
+  .problem .platform img {
+    width: 32vw;
+  }
+  .process .right .anatomy .stack {
+    margin-left: -10%;
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 800px) {
+  .principles .grid {
+    width: 80%;
+  }
+  .heading-pair {
+    width: 72vw !important;
+  }
+  .process .left .points .list-item {
+    width: 48vw;
+  }
+  .process .right {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
