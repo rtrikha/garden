@@ -63,7 +63,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: white;
-  height: 100vh;
+  margin-bottom: 16vh;
 }
 
 .hero .heading-pair {
@@ -102,721 +102,48 @@ body {
   display: flex;
   margin-right: 10vw;
   margin-top: 6vh;
-  gap: 16px;
 }
 
 .hero .components .col-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 16px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  margin-right: 0.7rem;
 }
 
-.hero .components .col-1 .bottom-nav {
-  background-color: #fafafa;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  border-radius: 8px;
-  width: 20vw;
-  min-width: -webkit-max-content;
-  min-width: -moz-max-content;
-  min-width: max-content;
-}
-
-.hero .components .col-1 .bottom-nav .icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.hero .components .col-1 .bottom-nav .icons .tab {
-  cursor: pointer;
-}
-
-.hero .components .col-1 .bottom-nav .icons .tab img {
-  -webkit-filter: opacity(0.3);
-          filter: opacity(0.3);
-}
-
-.hero .components .col-1 .bottom-nav .icons .tab [type='radio'] {
-  position: absolute;
-  z-index: 999;
-  opacity: 0;
-  cursor: pointer;
-  width: 1.4vw;
-  height: 1.4vw;
-}
-
-.hero .components .col-1 .bottom-nav .icons .tab [type='radio']:checked ~ img {
-  opacity: 1;
-  -webkit-filter: opacity(1);
-          filter: opacity(1);
-}
-
-.hero .components .col-1 .reach-card {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  width: 20vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.hero .components .col-1 .reach-card img {
-  margin-right: 1vw;
-}
-
-.hero .components .col-1 .reach-card .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #fafafa;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.hero .components .col-1 .reach-card .content .heading-pair {
-  margin-top: 0;
-  margin-left: 0;
-}
-
-.hero .components .col-1 .reach-card .content .heading-pair .heading {
-  font-size: 12px;
-  font-family: metro;
-}
-
-.hero .components .col-1 .reach-card .content .heading-pair .subheading {
-  margin-top: 0.6vh;
-  font-size: 10px;
-  font-family: metro;
-  color: #696969;
-  line-height: 14px;
-}
-
-.hero .components .col-1 .reach-card .card1 {
-  z-index: 999;
-  -webkit-animation: moveCard1 0.6s ease-in-out infinite;
-          animation: moveCard1 0.6s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes moveCard1 {
-  25% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  50% {
-    -webkit-transform: translateY(-10px) scale(0.9);
-            transform: translateY(-10px) scale(0.9);
-  }
-  75% {
-    -webkit-transform: translateY(0px) scale(0.9);
-            transform: translateY(0px) scale(0.9);
-  }
-  100% {
-    -webkit-transform: translateY(10px) scale(0.9);
-            transform: translateY(10px) scale(0.9);
-    opacity: 0.6;
-  }
-}
-
-@keyframes moveCard1 {
-  25% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  50% {
-    -webkit-transform: translateY(-10px) scale(0.9);
-            transform: translateY(-10px) scale(0.9);
-  }
-  75% {
-    -webkit-transform: translateY(0px) scale(0.9);
-            transform: translateY(0px) scale(0.9);
-  }
-  100% {
-    -webkit-transform: translateY(10px) scale(0.9);
-            transform: translateY(10px) scale(0.9);
-    opacity: 0.6;
-  }
-}
-
-.hero .components .col-1 .reach-card .card2 {
-  opacity: 0.6;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-  margin-top: -78px;
-  -webkit-animation: moveCard2 0.6s ease-in-out 4.2s 1 forwards;
-          animation: moveCard2 0.6s ease-in-out 4.2s 1 forwards;
-}
-
-@-webkit-keyframes moveCard2 {
-  25% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  50% {
-    -webkit-transform: translateY(-6px) scale(1);
-            transform: translateY(-6px) scale(1);
-    opacity: 1;
-    z-index: 9999;
-  }
-  75% {
-    -webkit-transform: translateY(-6px) scale(1);
-            transform: translateY(-6px) scale(1);
-    opacity: 1;
-    z-index: 9999;
-  }
-  100% {
-    -webkit-transform: translateY(-6px) scale(1);
-            transform: translateY(-6px) scale(1);
-    opacity: 1;
-    z-index: 9999;
-  }
-}
-
-@keyframes moveCard2 {
-  25% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  50% {
-    -webkit-transform: translateY(-6px) scale(1);
-            transform: translateY(-6px) scale(1);
-    opacity: 1;
-    z-index: 9999;
-  }
-  75% {
-    -webkit-transform: translateY(-6px) scale(1);
-            transform: translateY(-6px) scale(1);
-    opacity: 1;
-    z-index: 9999;
-  }
-  100% {
-    -webkit-transform: translateY(-6px) scale(1);
-            transform: translateY(-6px) scale(1);
-    opacity: 1;
-    z-index: 9999;
-  }
-}
-
-.hero .components .col-1 .night-mode-card {
-  background-color: #090909;
-  border-radius: 8px;
-  text-align: center;
-  width: 20vw;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
-.hero .components .col-1 .night-mode-card .content {
-  padding: 40px;
-  text-align: center;
-}
-
-.hero .components .col-1 .night-mode-card .content .moon-icon {
-  margin: 0 auto;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.hero .components .col-1 .night-mode-card .content .moon-icon .stars {
-  margin-right: 4px;
-}
-
-.hero .components .col-1 .night-mode-card .content .moon-icon .stars #big {
-  -webkit-animation: rotateStar 16s linear forwards;
-          animation: rotateStar 16s linear forwards;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes rotateStar {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes rotateStar {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-.hero .components .col-1 .night-mode-card .content .moon-icon .stars #small {
-  -webkit-animation: rotateStar 10s linear forwards;
-          animation: rotateStar 10s linear forwards;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-@keyframes rotateStar {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-.hero .components .col-1 .night-mode-card .content button {
-  background-color: #00ba8c;
-  font-size: 12px;
-  font-family: metro;
-  font-weight: 800;
-  color: white;
-  padding: 10px 24px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  margin-top: 2vh;
-}
-
-.hero .components .col-1 .night-mode-card .content button:hover {
-  background-color: #008363;
-}
-
-.hero .components .col-1 .night-mode-card .content button:focus {
-  outline: none;
-}
-
-.hero .components .col-1 .night-mode-card .content .heading-pair {
-  margin: 0 auto;
-  margin-top: 4vh;
-  width: auto;
-  text-align: center;
-}
-
-.hero .components .col-1 .night-mode-card .content .heading-pair .heading {
-  font-family: metro;
-  font-size: 14px;
-  color: white;
-}
-
-.hero .components .col-1 .night-mode-card .content .heading-pair .subheading {
-  margin-top: 0;
-  font-family: metro;
-  font-size: 11px;
-  color: #cccccc;
-  margin-top: 0.8vh;
-  opacity: 0.8;
-  line-height: 16px;
-}
-
-.hero .components .col-1 .review-card {
-  width: 20vw;
-  background-color: #fafafa;
-  border-radius: 8px;
-}
-
-.hero .components .col-1 .review-card .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.hero .components .col-1 .review-card .header .left {
-  padding-bottom: 0;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 8px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 20vw;
-}
-
-.hero .components .col-1 .review-card .header .left .heading {
-  font-family: metro;
-  font-size: 12px;
-  font-weight: 600;
-  color: #141414;
-}
-
-.hero .components .col-1 .review-card .header .left .subheading {
-  font-family: metro;
-  font-size: 9px;
-  font-weight: 600;
-  color: #696969;
-  opacity: 0.8;
-  margin-top: 0.6vh;
-}
-
-.hero .components .col-1 .review-card .header .right {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
-.hero .components .col-1 .review-card .body {
-  padding: 20px;
-  padding-top: 0px;
-  font-family: metro;
-  font-size: 11px;
-  line-height: 17px;
-  letter-spacing: -0.3px;
-  color: #141414;
-  width: auto;
-}
-
-.hero .components .col-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 16px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.hero .components .col-2 .about-card {
-  width: 20vw;
-  background-color: #fafafa;
-  border-radius: 8px;
-  padding-right: 0;
-}
-
-.hero .components .col-2 .about-card .header {
-  padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.hero .components .col-2 .about-card .header .left .heading {
-  font-family: metro;
-  font-size: 14px;
-  font-weight: 600;
-  color: #141414;
-}
-
-.hero .components .col-2 .about-card .header .left .subheading {
-  font-family: metro;
-  font-size: 9px;
-  font-weight: 600;
-  color: #696969;
-  opacity: 0.8;
-  margin-top: 0.6vh;
-}
-
-.hero .components .col-2 .about-card .header .right {
-  -webkit-transform: scale(0.3);
-          transform: scale(0.3);
+.hero .components .col-1 .card {
   height: auto;
-  padding-left: 5vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 0.6rem;
 }
 
-.hero .components .col-2 .about-card .header .right .cloud2 {
-  color: #fafafa;
-  background: #fafafa;
-  position: absolute;
-  width: 3.4875em;
-  height: 3.4875em;
-  border-radius: 50%;
-  -webkit-box-shadow: 2.0625em 0.9375em 0 -0.9375em, 0 0 0 0.375em black, 2.0625em 0.9375em 0 -0.5625em black;
-          box-shadow: 2.0625em 0.9375em 0 -0.9375em, 0 0 0 0.375em black, 2.0625em 0.9375em 0 -0.5625em black;
+.hero .components .col-1 .card:nth-child(1) {
+  background-image: url(/resources/images/heroGrid/navigation.svg);
 }
 
-.hero .components .col-2 .about-card .header .right .rain {
-  -webkit-transform: translate(1.3em, 2.2em);
-          transform: translate(1.3em, 2.2em);
-  width: 2.8em;
-  height: 2.5em;
-  background: #fafafa;
-  position: absolute;
+.hero .components .col-1 .card:nth-child(2) {
+  background-image: url(/resources/images/heroGrid/planecard.svg);
 }
 
-.hero .components .col-2 .about-card .header .right .rain:after {
-  content: '';
-  position: absolute;
-  display: block;
-  z-index: 2;
-  color: black;
-  background: black;
-  width: 0.3em;
-  height: 1em;
-  border-radius: 0.15em;
-  -webkit-transform: translate(0.4em, 0.2em) rotate(20deg);
-          transform: translate(0.4em, 0.2em) rotate(20deg);
-  -webkit-animation: rain 2s infinite ease-in-out;
-          animation: rain 2s infinite ease-in-out;
-  -webkit-box-shadow: 0.6em 0.6em, 1.2em -0.2em, 1.2em 1.2em, 1.8em 0.2em;
-          box-shadow: 0.6em 0.6em, 1.2em -0.2em, 1.2em 1.2em, 1.8em 0.2em;
+.hero .components .col-1 .card:nth-child(3) {
+  background-image: url(/resources/images/heroGrid/DarkMode.svg);
 }
 
-@-webkit-keyframes rain {
-  0% {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-  }
-  30% {
-    background-color: black;
-    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em black, 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em black, 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-  }
-  50% {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0.6em 0.6em black, 1.2em -0.2em 0 rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em black;
-            box-shadow: 0.6em 0.6em black, 1.2em -0.2em 0 rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em black;
-  }
-  80% {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em black, 1.8em 0.2em rgba(0, 0, 0, 0.2);
-            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em black, 1.8em 0.2em rgba(0, 0, 0, 0.2);
-  }
-  100% {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-  }
+.hero .components .col-1 .card:nth-child(4) {
+  background-image: url(/resources/images/heroGrid/Rating.svg);
 }
 
-@keyframes rain {
-  0% {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-  }
-  30% {
-    background-color: black;
-    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em black, 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em black, 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-  }
-  50% {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0.6em 0.6em black, 1.2em -0.2em 0 rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em black;
-            box-shadow: 0.6em 0.6em black, 1.2em -0.2em 0 rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em black;
-  }
-  80% {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em black, 1.8em 0.2em rgba(0, 0, 0, 0.2);
-            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em black, 1.8em 0.2em rgba(0, 0, 0, 0.2);
-  }
-  100% {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-            box-shadow: 0.6em 0.6em rgba(0, 0, 0, 0.2), 1.2em -0.2em rgba(0, 0, 0, 0.2), 1.2em 1.2em rgba(0, 0, 0, 0.2), 1.8em 0.2em rgba(0, 0, 0, 0.2);
-  }
-}
-
-.hero .components .col-2 .about-card .body {
-  font-family: metro;
-  font-size: 11px;
-  padding: 20px;
-  padding-top: 0px;
-  line-height: 17px;
-  letter-spacing: -0.3px;
-  color: #141414;
-  width: auto;
-}
-
-.hero .components .col-2 .calendar-card {
-  width: 20vw;
+.hero .components .col-2 .card {
   height: auto;
-  background-color: #fafafa;
-  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 0.6rem;
 }
 
-.hero .components .col-2 .calendar-card .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.hero .components .col-2 .card:nth-child(1) {
+  background-image: url(/resources/images/heroGrid/aboutcar.svg);
 }
 
-.hero .components .col-2 .calendar-card .header .left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 0.2vw;
-  color: #141414;
-  font-size: 13px;
-  font-family: metro;
-}
-
-.hero .components .col-2 .calendar-card .header .right {
-  color: #141414;
-  font-size: 10px;
-  font-weight: 800;
-  font-family: metro;
-  color: #00ba8c;
-}
-
-.hero .components .col-2 .calendar-card .dates {
-  padding: 20px;
-  padding-top: 0;
-}
-
-.hero .components .col-2 .calendar-card .dates .days {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: metro;
-}
-
-.hero .components .col-2 .calendar-card .dates .days table {
-  width: 100%;
-  font-size: 10px;
-}
-
-.hero .components .col-2 .calendar-card .dates .days table td {
-  height: 4vh;
-  width: 14.2%;
-  text-align: center;
-  color: #696969;
-  vertical-align: middle;
-}
-
-.hero .components .col-2 .calendar-card .dates .month {
-  font-family: metro;
-  width: auto;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  text-transform: uppercase;
-  color: #292929;
-}
-
-.hero .components .col-2 .calendar-card .dates .dates-table {
-  font-family: metro;
-}
-
-.hero .components .col-2 .calendar-card .dates .dates-table table {
-  width: 100%;
-}
-
-.hero .components .col-2 .calendar-card .dates .dates-table table td {
-  cursor: pointer;
-  height: 6vh;
-  width: 14.2%;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.hero .components .col-2 .calendar-card .dates .dates-table table td .date {
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.hero .components .col-2 .calendar-card .dates .dates-table table td .price {
-  font-size: 8px;
-  margin-top: 0.5vh;
-  font-weight: 800;
-  color: #696969;
-}
-
-.hero .components .col-2 .calendar-card .footer {
-  padding: 12px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #00ba8c;
-  border-radius: 0px 0px 8px 8px;
-}
-
-.hero .components .col-2 .calendar-card .footer .left {
-  font-family: metro;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.hero .components .col-2 .calendar-card .footer .left .heading {
-  font-size: 14px;
-  color: #ffffff;
-  font-weight: 800;
-}
-
-.hero .components .col-2 .calendar-card .footer .left .subheading {
-  margin-top: 0.7vh;
-  font-size: 10px;
-  color: #ffffff;
-  font-weight: 800;
-  opacity: 0.6;
-}
-
-.hero .components .col-2 .calendar-card .footer .right button {
-  background-color: white;
-  font-size: 12px;
-  font-family: metro;
-  font-weight: 800;
-  color: #141414;
-  padding: 14px 32px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-}
-
-.hero .components .col-2 .calendar-card .footer .right button:hover {
-  background-color: #ededed;
-}
-
-.hero .components .col-2 .calendar-card .footer .right button:focus {
-  outline: none;
+.hero .components .col-2 .card:nth-child(2) {
+  background-image: url(/resources/images/heroGrid/withRange.svg);
 }
 
 .problem {
@@ -1191,6 +518,12 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .hero .components {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    margin-top: 0;
+    margin-right: 0;
+  }
   .heading-pair-second .heading {
     font-size: 12px !important;
   }
@@ -1220,6 +553,11 @@ body {
 }
 
 @media (max-width: 1000px) {
+  .hero .components {
+    -webkit-transform: scale(0.78);
+            transform: scale(0.78);
+    margin-top: 0;
+  }
   .principles .grid {
     width: 72%;
   }
@@ -1254,7 +592,10 @@ body {
 
 @media (max-width: 800px) {
   .hero {
-    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .iconography .icons {
     background-size: cover;

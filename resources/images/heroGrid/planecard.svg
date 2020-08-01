@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="93px" viewBox="0 0 300 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>plane card</title>
+    <desc>Created with Sketch.</desc>
+    <g id="garden" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-582.000000, -406.000000)">
+            <g id="hero" transform="translate(582.000000, 333.000000)">
+                <g id="col1">
+                    <g id="plane-card" transform="translate(0.000000, 73.600000)">
+                        <rect id="Rectangle-Copy" fill="#EFEFEF" x="14" y="4" width="274" height="88" rx="6.4"></rect>
+                        <rect id="Rectangle" fill="#FAFAFA" x="0" y="0" width="300" height="88" rx="6.4"></rect>
+                        <g id="Group" transform="translate(19.200000, 19.200000)">
+                            <g id="Flight" transform="translate(35.200000, 0.000000)" font-family="Metropolis-Medium, Metropolis" font-weight="400">
+                                <g id="Mobile/Label-Pair/Body1Caption/Medium">
+                                    <g id="Group">
+                                        <text id="IGI,-Delhi-Airport-i" font-size="9.6" line-spacing="14.4" letter-spacing="-0.320000005" fill="#5E5E5E">
+                                            <tspan x="0" y="30.8">IGI, Delhi Airport is around 14.8 km from the villa. </tspan>
+                                            <tspan x="0" y="45.2">Easily accessible by cab</tspan>
+                                        </text>
+                                        <text id="By-Flight" font-size="12.8" line-spacing="19.2" letter-spacing="-0.423999977" fill="#0D0D0D">
+                                            <tspan x="0" y="13">By Flight</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="icons8-airplane_take_off" transform="translate(0.000000, 8.000000)" fill="#2E2E2E" fill-rule="nonzero">
+                                <path d="M6.81187483,0.126874942 L4.78406245,0.739374931 L9.26187456,8.55312513 L3.55687488,10.0581251 L1.53124997,8.35625042 L0,8.81343777 L2.86999995,13.7112503 L21.0065617,8.93593777 C21.008751,8.93521278 21.0109387,8.93448329 21.0131249,8.93374929 C21.8152066,8.79162253 22.3997665,8.09457649 22.3999996,7.27999988 C22.3999996,6.35216151 21.647838,5.5999999 20.7199996,5.5999999 C20.5737645,5.60002679 20.4281588,5.6191467 20.2868744,5.65687485 L14.4287492,7.19687482 L6.81187483,0.126874942 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

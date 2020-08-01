@@ -572,7 +572,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	background-color: white;
-	height: 100vh;
+	@include global-bottom;
 	.heading-pair {
 		margin-left: 10vw;
 		margin-top: 32vh;
@@ -605,33 +605,39 @@ body {
 		display: flex;
 		margin-right: 10vw;
 		margin-top: 6vh;
-		gap: 16px;
 		.col-1 {
-			display: flex;
-			gap: 16px;
-			flex-direction: column;
-			.bottom-nav {
-				@include bottom-nav;
-			}
-			.reach-card {
-				@include reach-card;
-			}
-			.night-mode-card {
-				@include night-mode-card;
-			}
-			.review-card {
-				@include review-card;
+			margin-right: 0.7rem;
+			.card {
+				height: auto;
+				background-repeat: no-repeat;
+				background-size: contain;
+				margin-bottom: 0.6rem;
+				&:nth-child(1) {
+					background-image: url(/resources/images/heroGrid/navigation.svg);
+				}
+				&:nth-child(2) {
+					background-image: url(/resources/images/heroGrid/planecard.svg);
+				}
+				&:nth-child(3) {
+					background-image: url(/resources/images/heroGrid/DarkMode.svg);
+				}
+				&:nth-child(4) {
+					background-image: url(/resources/images/heroGrid/Rating.svg);
+				}
 			}
 		}
 		.col-2 {
-			display: flex;
-			gap: 16px;
-			flex-direction: column;
-			.about-card {
-				@include about-card;
-			}
-			.calendar-card {
-				@include calendar-card;
+			.card {
+				height: auto;
+				background-repeat: no-repeat;
+				background-size: contain;
+				margin-bottom: 0.6rem;
+				&:nth-child(1) {
+					background-image: url(/resources/images/heroGrid/aboutcar.svg);
+				}
+				&:nth-child(2) {
+					background-image: url(/resources/images/heroGrid/withRange.svg);
+				}
 			}
 		}
 	}
@@ -849,7 +855,12 @@ body {
 }
 
 @media (max-width: 1200px) {
-	.hero {
+	.hero{
+		.components{
+			transform: scale(0.85);
+			margin-top: 0;
+			margin-right: 0;
+		}
 	}
 	.heading-pair-second {
 		.heading {
@@ -892,6 +903,12 @@ body {
 }
 
 @media (max-width: 1000px) {
+	.hero{
+		.components{
+			transform: scale(0.78);
+			margin-top: 0;
+		}
+	}
 	.principles {
 		.grid {
 			width: 72%;
@@ -941,8 +958,10 @@ body {
 }
 
 @media (max-width: 800px) {
-	.hero {
-		display: none;
+	.hero{
+		flex-direction: column;
+		.components{
+		}
 	}
 	.iconography {
 		.icons {
