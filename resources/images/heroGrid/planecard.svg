@@ -8,7 +8,7 @@
             <g id="hero" transform="translate(582.000000, 333.000000)">
                 <g id="col1">
                     <g id="plane-card" transform="translate(0.000000, 73.600000)">
-                        <rect id="Rectangle-Copy" fill="#EFEFEF" x="14" y="4" width="274" height="88" rx="6.4"></rect>
+                        <rect id="Rectangle-Copy" fill="#EFEFEF" opacity="0.699999988" x="14" y="4" width="274" height="88" rx="6.4"></rect>
                         <rect id="Rectangle" fill="#FAFAFA" x="0" y="0" width="300" height="88" rx="6.4"></rect>
                         <g id="Group" transform="translate(19.200000, 19.200000)">
                             <g id="Flight" transform="translate(35.200000, 0.000000)" font-family="Metropolis-Medium, Metropolis" font-weight="400">

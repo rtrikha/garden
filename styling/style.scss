@@ -566,7 +566,7 @@ body {
 	}
 }
 @mixin global-bottom {
-	margin-bottom: 16vh;
+	margin-bottom: 20vh;
 }
 .hero {
 	display: flex;
@@ -960,7 +960,10 @@ body {
 @media (max-width: 800px) {
 	.hero{
 		flex-direction: column;
+		margin-bottom: 14vh;
 		.components{
+			transform: scale(0.9);
+			margin-left: 5vw;
 		}
 	}
 	.iconography {
@@ -999,6 +1002,14 @@ body {
 }
 
 @media (max-width: 620px) {
+	.hero{
+		flex-direction: column;
+		margin-bottom: 10vh;
+		.components{
+			transform: scale(0.85);
+			margin-left: 2vw;
+		}
+	}
 	.heading-pair-second {
 		width: 60vw !important;
 	}
@@ -1052,6 +1063,27 @@ body {
 }
 
 @media (max-width: 480px) {
+	.hero{
+		flex-direction: column;
+		margin-bottom: 18vh;
+		.heading-pair{
+			margin-top: 20vh;
+		}
+		.components{
+			flex-direction: column;
+			transform: scale(1);
+			margin-left: 10vw;
+			margin-top: 8vh;
+			.col-1{
+				.card{
+					width: 80vw;
+				}
+			}
+			.col-2{
+				display: none;
+			}
+		}
+	}
 	.problem {
 		.platform {
 			img {

@@ -63,7 +63,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: white;
-  margin-bottom: 16vh;
+  margin-bottom: 20vh;
 }
 
 .hero .heading-pair {
@@ -150,7 +150,7 @@ body {
   background-color: white;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 16vh;
+  margin-bottom: 20vh;
 }
 
 .problem .heading-pair {
@@ -178,7 +178,7 @@ body {
 
 .principles {
   background-color: #090909;
-  margin-bottom: 16vh;
+  margin-bottom: 20vh;
 }
 
 .principles .heading-pair {
@@ -262,7 +262,7 @@ body {
 .process {
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 16vh;
+  margin-bottom: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -405,7 +405,7 @@ body {
 .iconography {
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 16vh;
+  margin-bottom: 20vh;
 }
 
 .iconography .heading-pair {
@@ -596,6 +596,12 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 14vh;
+  }
+  .hero .components {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    margin-left: 5vw;
   }
   .iconography .icons {
     background-size: cover;
@@ -619,6 +625,18 @@ body {
 }
 
 @media (max-width: 620px) {
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 10vh;
+  }
+  .hero .components {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    margin-left: 2vw;
+  }
   .heading-pair-second {
     width: 60vw !important;
   }
@@ -655,6 +673,32 @@ body {
 }
 
 @media (max-width: 480px) {
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 18vh;
+  }
+  .hero .heading-pair {
+    margin-top: 20vh;
+  }
+  .hero .components {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    margin-left: 10vw;
+    margin-top: 8vh;
+  }
+  .hero .components .col-1 .card {
+    width: 80vw;
+  }
+  .hero .components .col-2 {
+    display: none;
+  }
   .problem .platform img {
     width: 60vw !important;
   }
