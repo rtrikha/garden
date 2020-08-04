@@ -1015,6 +1015,11 @@ body {
 			display: none;
 		}
 	}
+	.typography{
+		.type{
+			width: 18vw;
+		}
+	}
 }
 
 @media (max-width: 620px) {
@@ -1141,12 +1146,22 @@ body {
 			}
 		}
 	}
+	.typography{
+		.type{
+			width: 28vw;
+		}
+	}
 }
 
 @media (max-width: 380px) {
 	.iconography {
 		.icons {
 			height: 17rem;
+		}
+	}
+	.typography{
+		.type{
+			width: 32vw;
 		}
 	}
 }

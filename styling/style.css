@@ -658,6 +658,9 @@ body {
   .process .right {
     display: none;
   }
+  .typography .type {
+    width: 18vw;
+  }
 }
 
 @media (max-width: 620px) {
@@ -756,11 +759,17 @@ body {
   .components-show .component-grid .co-col-4 {
     width: 80vw;
   }
+  .typography .type {
+    width: 28vw;
+  }
 }
 
 @media (max-width: 380px) {
   .iconography .icons {
     height: 17rem;
+  }
+  .typography .type {
+    width: 32vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
