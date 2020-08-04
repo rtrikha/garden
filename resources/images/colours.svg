@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="944px" height="221px" viewBox="0 0 944 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>colours</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-60.0%" y="-114.3%" width="220.0%" height="328.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="24" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M15.3833112,-6.21504185e-16 L144.616689,6.21504185e-16 C149.965801,-3.61111829e-16 151.905519,0.556953667 153.861074,1.60279622 C155.81663,2.64863878 157.351361,4.18337022 158.397204,6.13892578 C159.443046,8.09448133 160,10.0341988 160,15.3833112 L160,144.616689 C160,149.965801 159.443046,151.905519 158.397204,153.861074 C157.351361,155.81663 155.81663,157.351361 153.861074,158.397204 C151.905519,159.443046 149.965801,160 144.616689,160 L15.3833112,160 C10.0341988,160 8.09448133,159.443046 6.13892578,158.397204 C4.18337022,157.351361 2.64863878,155.81663 1.60279622,153.861074 C0.556953667,151.905519 2.4074122e-16,149.965801 -4.14336123e-16,144.616689 L4.14336123e-16,15.3833112 C-2.4074122e-16,10.0341988 0.556953667,8.09448133 1.60279622,6.13892578 C2.64863878,4.18337022 4.18337022,2.64863878 6.13892578,1.60279622 C8.09448133,0.556953667 10.0341988,3.61111829e-16 15.3833112,-6.21504185e-16 Z" id="path-2"></path>
+        <filter x="-60.0%" y="-114.3%" width="220.0%" height="328.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="24" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M15.3833112,-6.21504185e-16 L144.616689,6.21504185e-16 C149.965801,-3.61111829e-16 151.905519,0.556953667 153.861074,1.60279622 C155.81663,2.64863878 157.351361,4.18337022 158.397204,6.13892578 C159.443046,8.09448133 160,10.0341988 160,15.3833112 L160,144.616689 C160,149.965801 159.443046,151.905519 158.397204,153.861074 C157.351361,155.81663 155.81663,157.351361 153.861074,158.397204 C151.905519,159.443046 149.965801,160 144.616689,160 L15.3833112,160 C10.0341988,160 8.09448133,159.443046 6.13892578,158.397204 C4.18337022,157.351361 2.64863878,155.81663 1.60279622,153.861074 C0.556953667,151.905519 2.4074122e-16,149.965801 -4.14336123e-16,144.616689 L4.14336123e-16,15.3833112 C-2.4074122e-16,10.0341988 0.556953667,8.09448133 1.60279622,6.13892578 C2.64863878,4.18337022 4.18337022,2.64863878 6.13892578,1.60279622 C8.09448133,0.556953667 10.0341988,3.61111829e-16 15.3833112,-6.21504185e-16 Z" id="path-5"></path>
+        <filter x="-60.0%" y="-114.3%" width="220.0%" height="328.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="24" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M15.3833112,-6.21504185e-16 L144.616689,6.21504185e-16 C149.965801,-3.61111829e-16 151.905519,0.556953667 153.861074,1.60279622 C155.81663,2.64863878 157.351361,4.18337022 158.397204,6.13892578 C159.443046,8.09448133 160,10.0341988 160,15.3833112 L160,144.616689 C160,149.965801 159.443046,151.905519 158.397204,153.861074 C157.351361,155.81663 155.81663,157.351361 153.861074,158.397204 C151.905519,159.443046 149.965801,160 144.616689,160 L15.3833112,160 C10.0341988,160 8.09448133,159.443046 6.13892578,158.397204 C4.18337022,157.351361 2.64863878,155.81663 1.60279622,153.861074 C0.556953667,151.905519 2.4074122e-16,149.965801 -4.14336123e-16,144.616689 L4.14336123e-16,15.3833112 C-2.4074122e-16,10.0341988 0.556953667,8.09448133 1.60279622,6.13892578 C2.64863878,4.18337022 4.18337022,2.64863878 6.13892578,1.60279622 C8.09448133,0.556953667 10.0341988,3.61111829e-16 15.3833112,-6.21504185e-16 Z" id="path-8"></path>
+        <filter x="-60.0%" y="-114.3%" width="220.0%" height="328.6%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="24" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M15.3833112,-6.21504185e-16 L144.616689,6.21504185e-16 C149.965801,-3.61111829e-16 151.905519,0.556953667 153.861074,1.60279622 C155.81663,2.64863878 157.351361,4.18337022 158.397204,6.13892578 C159.443046,8.09448133 160,10.0341988 160,15.3833112 L160,144.616689 C160,149.965801 159.443046,151.905519 158.397204,153.861074 C157.351361,155.81663 155.81663,157.351361 153.861074,158.397204 C151.905519,159.443046 149.965801,160 144.616689,160 L15.3833112,160 C10.0341988,160 8.09448133,159.443046 6.13892578,158.397204 C4.18337022,157.351361 2.64863878,155.81663 1.60279622,153.861074 C0.556953667,151.905519 2.4074122e-16,149.965801 -4.14336123e-16,144.616689 L4.14336123e-16,15.3833112 C-2.4074122e-16,10.0341988 0.556953667,8.09448133 1.60279622,6.13892578 C2.64863878,4.18337022 4.18337022,2.64863878 6.13892578,1.60279622 C8.09448133,0.556953667 10.0341988,3.61111829e-16 15.3833112,-6.21504185e-16 Z" id="path-11"></path>
+        <filter x="-60.0%" y="-114.3%" width="220.0%" height="328.6%" filterUnits="objectBoundingBox" id="filter-13">
+            <feGaussianBlur stdDeviation="24" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M15.3833112,-6.21504185e-16 L144.616689,6.21504185e-16 C149.965801,-3.61111829e-16 151.905519,0.556953667 153.861074,1.60279622 C155.81663,2.64863878 157.351361,4.18337022 158.397204,6.13892578 C159.443046,8.09448133 160,10.0341988 160,15.3833112 L160,144.616689 C160,149.965801 159.443046,151.905519 158.397204,153.861074 C157.351361,155.81663 155.81663,157.351361 153.861074,158.397204 C151.905519,159.443046 149.965801,160 144.616689,160 L15.3833112,160 C10.0341988,160 8.09448133,159.443046 6.13892578,158.397204 C4.18337022,157.351361 2.64863878,155.81663 1.60279622,153.861074 C0.556953667,151.905519 2.4074122e-16,149.965801 -4.14336123e-16,144.616689 L4.14336123e-16,15.3833112 C-2.4074122e-16,10.0341988 0.556953667,8.09448133 1.60279622,6.13892578 C2.64863878,4.18337022 4.18337022,2.64863878 6.13892578,1.60279622 C8.09448133,0.556953667 10.0341988,3.61111829e-16 15.3833112,-6.21504185e-16 Z" id="path-14"></path>
+    </defs>
+    <g id="garden" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-644.000000, -153.000000)">
+            <g id="colours" transform="translate(684.000000, 153.000000)">
+                <g id="Group-77">
+                    <polygon id="Mask-Copy" fill="#00BA8C" filter="url(#filter-1)" points="20 97 140 97 140 160 20 160"></polygon>
+                    <g id="Group-76">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="#00BA8C" xlink:href="#path-2"></use>
+                        <rect id="Rectangle-Copy-65" fill="#1FFFC7" mask="url(#mask-3)" x="80" y="0" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-66" fill="#00EBB0" mask="url(#mask-3)" x="80" y="40" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-67" fill="#008563" mask="url(#mask-3)" x="80" y="80" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-68" fill="#00523D" mask="url(#mask-3)" x="80" y="120" width="80" height="40"></rect>
+                    </g>
+                </g>
+                <g id="Group-77-Copy" transform="translate(176.000000, 0.000000)">
+                    <polygon id="Mask-Copy" fill="#01579B" filter="url(#filter-4)" points="20 97 140 97 140 160 20 160"></polygon>
+                    <g id="Group-76">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Mask" fill="#01579B" xlink:href="#path-5"></use>
+                        <rect id="Rectangle-Copy-65" fill="#0693FE" mask="url(#mask-6)" x="80" y="0" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-66" fill="#0176D0" mask="url(#mask-6)" x="80" y="40" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-67" fill="#013D6B" mask="url(#mask-6)" x="80" y="80" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-68" fill="#002038" mask="url(#mask-6)" x="80" y="120" width="80" height="40"></rect>
+                    </g>
+                </g>
+                <g id="Group-77-Copy-2" transform="translate(352.000000, 0.000000)">
+                    <polygon id="Mask-Copy" fill="#FFAA00" filter="url(#filter-7)" points="20 97 140 97 140 160 20 160"></polygon>
+                    <g id="Group-76">
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFAA00" xlink:href="#path-8"></use>
+                        <rect id="Rectangle-Copy-65" fill="#FFCC66" mask="url(#mask-9)" x="80" y="0" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-66" fill="#FFBB33" mask="url(#mask-9)" x="80" y="40" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-67" fill="#CC8800" mask="url(#mask-9)" x="80" y="80" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-68" fill="#996600" mask="url(#mask-9)" x="80" y="120" width="80" height="40"></rect>
+                    </g>
+                </g>
+                <g id="Group-77-Copy-3" transform="translate(528.000000, 0.000000)">
+                    <polygon id="Mask-Copy" fill="#D32F2F" filter="url(#filter-10)" points="20 97 140 97 140 160 20 160"></polygon>
+                    <g id="Group-76">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <use id="Mask" fill="#D32F2F" xlink:href="#path-11"></use>
+                        <rect id="Rectangle-Copy-65" fill="#E58585" mask="url(#mask-12)" x="80" y="0" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-66" fill="#DC5B5B" mask="url(#mask-12)" x="80" y="40" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-67" fill="#AD2525" mask="url(#mask-12)" x="80" y="80" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-68" fill="#821C1C" mask="url(#mask-12)" x="80" y="120" width="80" height="40"></rect>
+                    </g>
+                </g>
+                <g id="Group-77-Copy-4" transform="translate(704.000000, 0.000000)">
+                    <polygon id="Mask-Copy" fill="#A6A6A6" filter="url(#filter-13)" points="20 97 140 97 140 160 20 160"></polygon>
+                    <g id="Group-76">
+                        <mask id="mask-15" fill="white">
+                            <use xlink:href="#path-14"></use>
+                        </mask>
+                        <use id="Mask" fill="#DFDFDF" xlink:href="#path-14"></use>
+                        <rect id="Rectangle-Copy-65" fill="#FAFAFA" mask="url(#mask-15)" x="80" y="0" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-66" fill="#EDEDED" mask="url(#mask-15)" x="80" y="40" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-67" fill="#A6A6A6" mask="url(#mask-15)" x="80" y="80" width="80" height="40"></rect>
+                        <rect id="Rectangle-Copy-68" fill="#5E5E5E" mask="url(#mask-15)" x="80" y="120" width="80" height="40"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

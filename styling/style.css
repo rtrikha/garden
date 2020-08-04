@@ -402,6 +402,42 @@ body {
   }
 }
 
+.colours {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 24vh;
+}
+
+.colours .heading-pair {
+  width: 32vw;
+}
+
+.colours .heading-pair .heading {
+  font-family: aktiv;
+  font-weight: 200;
+  font-size: 24px;
+  color: #090909;
+}
+
+.colours .heading-pair .subheading {
+  font-family: aktiv;
+  margin-top: 4vh;
+  font-size: 13px;
+  color: #696969;
+  line-height: 22px;
+}
+
+.colours .shades {
+  margin-top: 8vh;
+  background-image: url(/resources/images/colours.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30vw;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
 .iconography {
   margin-left: 10vw;
   margin-right: 10vw;
@@ -661,6 +697,9 @@ body {
   .typography .type {
     width: 18vw;
   }
+  .colours .shades {
+    width: 38vw;
+  }
 }
 
 @media (max-width: 620px) {
@@ -708,6 +747,9 @@ body {
   }
   .components-show .component-grid .co-col-4 {
     width: 39vw;
+  }
+  .colours .shades {
+    width: 42vw;
   }
 }
 
@@ -762,6 +804,9 @@ body {
   .typography .type {
     width: 28vw;
   }
+  .colours .shades {
+    width: 52vw;
+  }
 }
 
 @media (max-width: 380px) {
@@ -770,6 +815,9 @@ body {
   }
   .typography .type {
     width: 32vw;
+  }
+  .colours .shades {
+    width: 60vw;
   }
 }
 /*# sourceMappingURL=style.css.map */

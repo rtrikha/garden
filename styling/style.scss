@@ -791,6 +791,22 @@ body {
 	}
 }
 
+.colours {
+	@include global-gutter;
+	@include global-bottom;
+	.heading-pair {
+		@include heading-pair;
+	}
+	.shades {
+		margin-top: 8vh;
+		background-image: url(/resources/images/colours.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 30vw;
+		height: min-content;
+	}
+}
+
 .iconography {
 	@include global-gutter;
 	@include global-bottom;
@@ -807,13 +823,13 @@ body {
 	}
 }
 
-.typography{
+.typography {
 	@include global-gutter;
 	@include global-bottom;
-	.heading-pair{
+	.heading-pair {
 		@include heading-pair;
 	}
-	.type{
+	.type {
 		margin-top: 8vh;
 		background-image: url(/resources/images/formula.svg);
 		background-repeat: no-repeat;
@@ -872,8 +888,8 @@ body {
 }
 
 @media (max-width: 1200px) {
-	.hero{
-		.components{
+	.hero {
+		.components {
 			transform: scale(0.85);
 			margin-top: 0;
 			margin-right: 0;
@@ -920,8 +936,8 @@ body {
 }
 
 @media (max-width: 1000px) {
-	.hero{
-		.components{
+	.hero {
+		.components {
 			transform: scale(0.78);
 			margin-top: 0;
 		}
@@ -975,10 +991,10 @@ body {
 }
 
 @media (max-width: 800px) {
-	.hero{
+	.hero {
 		flex-direction: column;
 		margin-bottom: 14vh;
-		.components{
+		.components {
 			transform: scale(0.9);
 			margin-left: 5vw;
 		}
@@ -1016,18 +1032,23 @@ body {
 			display: none;
 		}
 	}
-	.typography{
-		.type{
+	.typography {
+		.type {
 			width: 18vw;
+		}
+	}
+	.colours {
+		.shades {
+			width: 38vw;
 		}
 	}
 }
 
 @media (max-width: 620px) {
-	.hero{
+	.hero {
 		flex-direction: column;
 		margin-bottom: 10vh;
-		.components{
+		.components {
 			transform: scale(0.85);
 			margin-left: 2vw;
 		}
@@ -1082,26 +1103,32 @@ body {
 			}
 		}
 	}
+
+	.colours {
+		.shades {
+			width: 42vw;
+		}
+	}
 }
 
 @media (max-width: 480px) {
-	.hero{
+	.hero {
 		flex-direction: column;
 		margin-bottom: 18vh;
-		.heading-pair{
+		.heading-pair {
 			margin-top: 20vh;
 		}
-		.components{
+		.components {
 			flex-direction: column;
 			transform: scale(1);
 			margin-left: 10vw;
 			margin-top: 8vh;
-			.col-1{
-				.card{
+			.col-1 {
+				.card {
 					width: 80vw;
 				}
 			}
-			.col-2{
+			.col-2 {
 				display: none;
 			}
 		}
@@ -1147,9 +1174,15 @@ body {
 			}
 		}
 	}
-	.typography{
-		.type{
+	.typography {
+		.type {
 			width: 28vw;
+		}
+	}
+
+	.colours {
+		.shades {
+			width: 52vw;
 		}
 	}
 }
@@ -1160,9 +1193,15 @@ body {
 			height: 17rem;
 		}
 	}
-	.typography{
-		.type{
+	.typography {
+		.type {
 			width: 32vw;
+		}
+	}
+
+	.colours {
+		.shades {
+			width: 60vw;
 		}
 	}
 }
