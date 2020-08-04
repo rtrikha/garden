@@ -806,6 +806,22 @@ body {
 	}
 }
 
+.typography{
+	@include global-gutter;
+	@include global-bottom;
+	.heading-pair{
+		@include heading-pair;
+	}
+	.type{
+		margin-top: 8vh;
+		background-image: url(/resources/images/formula.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 16vw;
+		height: min-content;
+	}
+}
+
 .components-show {
 	@include global-gutter;
 	perspective: 8px;

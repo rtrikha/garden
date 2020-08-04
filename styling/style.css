@@ -438,6 +438,42 @@ body {
   height: min-content;
 }
 
+.typography {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 20vh;
+}
+
+.typography .heading-pair {
+  width: 32vw;
+}
+
+.typography .heading-pair .heading {
+  font-family: aktiv;
+  font-weight: 200;
+  font-size: 24px;
+  color: #090909;
+}
+
+.typography .heading-pair .subheading {
+  font-family: aktiv;
+  margin-top: 4vh;
+  font-size: 13px;
+  color: #696969;
+  line-height: 22px;
+}
+
+.typography .type {
+  margin-top: 8vh;
+  background-image: url(/resources/images/formula.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 16vw;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
 .components-show {
   margin-left: 10vw;
   margin-right: 10vw;
