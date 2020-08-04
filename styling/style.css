@@ -63,7 +63,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: white;
-  margin-bottom: 20vh;
+  margin-bottom: 24vh;
 }
 
 .hero .heading-pair {
@@ -150,7 +150,7 @@ body {
   background-color: white;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 20vh;
+  margin-bottom: 24vh;
 }
 
 .problem .heading-pair {
@@ -178,7 +178,7 @@ body {
 
 .principles {
   background-color: #090909;
-  margin-bottom: 20vh;
+  margin-bottom: 24vh;
 }
 
 .principles .heading-pair {
@@ -262,7 +262,7 @@ body {
 .process {
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 20vh;
+  margin-bottom: 24vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -405,7 +405,7 @@ body {
 .iconography {
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 20vh;
+  margin-bottom: 24vh;
 }
 
 .iconography .heading-pair {
@@ -441,7 +441,7 @@ body {
 .typography {
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 20vh;
+  margin-bottom: 24vh;
 }
 
 .typography .heading-pair {
