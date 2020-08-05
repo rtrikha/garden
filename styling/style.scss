@@ -841,8 +841,7 @@ body {
 
 .components-show {
 	@include global-gutter;
-	perspective: 8px;
-	perspective-origin: 0%;
+	@include global-bottom;
 
 	.heading-pair {
 		@include heading-pair;
@@ -883,6 +882,47 @@ body {
 			background-image: url(/resources/images/components/col4.svg);
 			background-repeat: no-repeat;
 			background-size: contain;
+		}
+	}
+}
+
+.screens {
+	@include global-gutter;
+	@include global-bottom;
+	.heading-pair {
+		@include heading-pair;
+	}
+	.property-preview {
+		display: flex;
+		margin-top: 8vh;
+		height: min-content;
+		width: 80vw;
+		.screen-1 {
+			background-image: url(/resources/images/screens/property-preview/1.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+		}
+		.screen-2 {
+			background-image: url(/resources/images/screens/property-preview/2.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+		}
+		.screen-3 {
+			background-image: url(/resources/images/screens/property-preview/3.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+		}
+		.screen-4 {
+			background-image: url(/resources/images/screens/property-preview/4.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
 		}
 	}
 }

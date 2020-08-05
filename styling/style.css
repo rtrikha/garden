@@ -513,10 +513,7 @@ body {
 .components-show {
   margin-left: 10vw;
   margin-right: 10vw;
-  -webkit-perspective: 8px;
-          perspective: 8px;
-  -webkit-perspective-origin: 0%;
-          perspective-origin: 0%;
+  margin-bottom: 24vh;
 }
 
 .components-show .heading-pair {
@@ -587,6 +584,73 @@ body {
   background-image: url(/resources/images/components/col4.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.screens {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 24vh;
+}
+
+.screens .heading-pair {
+  width: 32vw;
+}
+
+.screens .heading-pair .heading {
+  font-family: aktiv;
+  font-weight: 200;
+  font-size: 24px;
+  color: #090909;
+}
+
+.screens .heading-pair .subheading {
+  font-family: aktiv;
+  margin-top: 4vh;
+  font-size: 13px;
+  color: #696969;
+  line-height: 22px;
+}
+
+.screens .property-preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8vh;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 80vw;
+}
+
+.screens .property-preview .screen-1 {
+  background-image: url(/resources/images/screens/property-preview/1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 18vw;
+  margin-right: 2vw;
+}
+
+.screens .property-preview .screen-2 {
+  background-image: url(/resources/images/screens/property-preview/2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 18vw;
+  margin-right: 2vw;
+}
+
+.screens .property-preview .screen-3 {
+  background-image: url(/resources/images/screens/property-preview/3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 18vw;
+  margin-right: 2vw;
+}
+
+.screens .property-preview .screen-4 {
+  background-image: url(/resources/images/screens/property-preview/4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 18vw;
 }
 
 @media (max-width: 1200px) {
