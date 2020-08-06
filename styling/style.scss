@@ -903,6 +903,7 @@ body {
 			background-repeat: no-repeat;
 			background-size: contain;
 			width: 18vw;
+			margin-top: 2vh;
 			margin-right: 2vw;
 		}
 		.screen-2 {
@@ -910,6 +911,7 @@ body {
 			background-repeat: no-repeat;
 			background-size: contain;
 			width: 18vw;
+			margin-top: 2vh;
 			margin-right: 2vw;
 		}
 		.screen-3 {
@@ -917,6 +919,7 @@ body {
 			background-repeat: no-repeat;
 			background-size: contain;
 			width: 18vw;
+			margin-top: 2vh;
 			margin-right: 2vw;
 		}
 		.screen-4 {
@@ -924,6 +927,7 @@ body {
 			background-repeat: no-repeat;
 			background-size: contain;
 			width: 18vw;
+			margin-top: 2vh;
 			margin-right: 2vw;
 		}
 		.screen-5 {
@@ -976,6 +980,14 @@ body {
 		}
 		.screen-11 {
 			background-image: url(/resources/images/screens/property-preview/11.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+			margin-top: 2vh;
+		}
+		.screen-12 {
+			background-image: url(/resources/images/screens/property-preview/12.svg);
 			background-repeat: no-repeat;
 			background-size: contain;
 			width: 18vw;
@@ -1144,19 +1156,52 @@ body {
 		.property-preview{
 			flex-wrap: wrap;
 			.screen-1{
-				width: 24vw !important;
+				width: 22vw !important;
+				margin-bottom: 2vh;
 			}
 			.screen-2{
-				width: 24vw !important;
-				margin-right: 20vw;
+				width: 22vw !important;
+				margin-bottom: 2vh;
 			}
 			.screen-3{
-				width: 24vw !important;
-				margin-top: 2vh;
+				width: 22vw !important;
+				margin-bottom: 2vh;
 			}
 			.screen-4{
-				width: 24vw !important;
-				margin-top: 2vh;
+				width: 22vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-5{
+				width: 22vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-6{
+				width: 22vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-7{
+				width: 22vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-8{
+				width: 22vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-9{
+				width: 22vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-10{
+				width: 22vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-11{
+				width: 22vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-12{
+				width: 22vw !important;
+				margin-bottom: 2vh;
 			}
 		}
 	}
@@ -1225,6 +1270,59 @@ body {
 	.colours {
 		.shades {
 			width: 42vw;
+		}
+	}
+	.screens{
+		.property-preview{
+			flex-wrap: wrap;
+			.screen-1{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-2{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-3{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-4{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-5{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-6{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-7{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-8{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-9{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-10{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-11{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-12{
+				width: 30vw !important;
+				margin-bottom: 2vh;
+			}
 		}
 	}
 }
@@ -1301,6 +1399,60 @@ body {
 	.colours {
 		.shades {
 			width: 70vw;
+		}
+	}
+
+	.screens{
+		.property-preview{
+			flex-wrap: wrap;
+			.screen-1{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-2{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-3{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-4{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-5{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-6{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-7{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-8{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-9{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-10{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-11{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
+			.screen-12{
+				width: 48vw !important;
+				margin-bottom: 2vh;
+			}
 		}
 	}
 }
