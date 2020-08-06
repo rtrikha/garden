@@ -897,6 +897,7 @@ body {
 		margin-top: 8vh;
 		height: min-content;
 		width: 80vw;
+		flex-wrap: wrap;
 		.screen-1 {
 			background-image: url(/resources/images/screens/property-preview/1.svg);
 			background-repeat: no-repeat;
@@ -923,6 +924,63 @@ body {
 			background-repeat: no-repeat;
 			background-size: contain;
 			width: 18vw;
+			margin-right: 2vw;
+		}
+		.screen-5 {
+			background-image: url(/resources/images/screens/property-preview/5.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			margin-right: 2vw;
+			width: 18vw;
+			margin-top: 2vh;
+		}
+		.screen-6 {
+			background-image: url(/resources/images/screens/property-preview/6.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+			margin-top: 2vh;
+		}
+		.screen-7 {
+			background-image: url(/resources/images/screens/property-preview/7.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+			margin-top: 2vh;
+		}
+		.screen-8 {
+			background-image: url(/resources/images/screens/property-preview/8.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+			margin-top: 2vh;
+		}
+		.screen-9 {
+			background-image: url(/resources/images/screens/property-preview/9.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+			margin-top: 2vh;
+		}
+		.screen-10 {
+			background-image: url(/resources/images/screens/property-preview/10.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+			margin-top: 2vh;
+		}
+		.screen-11 {
+			background-image: url(/resources/images/screens/property-preview/11.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 18vw;
+			margin-right: 2vw;
+			margin-top: 2vh;
 		}
 	}
 }
@@ -1080,6 +1138,26 @@ body {
 	.colours {
 		.shades {
 			width: 38vw;
+		}
+	}
+	.screens{
+		.property-preview{
+			flex-wrap: wrap;
+			.screen-1{
+				width: 24vw !important;
+			}
+			.screen-2{
+				width: 24vw !important;
+				margin-right: 20vw;
+			}
+			.screen-3{
+				width: 24vw !important;
+				margin-top: 2vh;
+			}
+			.screen-4{
+				width: 24vw !important;
+				margin-top: 2vh;
+			}
 		}
 	}
 }
